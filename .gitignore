@@ -1,5 +1,4 @@
-# 1. Create a proper root .gitignore (replace the current one)
-cat > .gitignore << 'EOF'
+@"
 # Android / Gradle
 .gradle/
 build/
@@ -11,13 +10,12 @@ captures/
 .externalNativeBuild/
 .cxx/
 
-# Python Backend
+# Python Backend - BLOCK LARGE LOGS
 backend/__pycache__/
 backend/venv/
 backend/env/
 backend/.venv/
 backend/*.pyc
-backend/*.pyo
 backend/*.log
 backend/logs/
 AISmartTransportBackend/logs/
@@ -26,23 +24,4 @@ AISmartTransportBackend/logs/
 # General
 .DS_Store
 Thumbs.db
-*.bak
-*.log
-EOF
-
-# 2. Remove the large file from Git history completely
-git filter-branch --force --index-filter \
-'git rm --cached --ignore-unmatch "AISmartTransportBackend/logs/app_2026-03-10.log"' \
---prune-empty --tag-name-filter cat -- --all
-
-# 3. Clean up old references
-rm -rf .git/refs/original/
-git reflog expire --expire=now --all
-git gc --prune=now --aggressive
-
-# 4. Add and commit the new .gitignore
-git add .gitignore
-git commit -m "Fix .gitignore and remove large log file from history"
-
-# 5. Force push the cleaned repository
-git push -u origin main --force
+"@ | Out-File -FilePath .gitignore -Encoding utf8 -Force

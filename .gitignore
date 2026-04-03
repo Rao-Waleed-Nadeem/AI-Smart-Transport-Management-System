@@ -19,8 +19,12 @@ backend/.venv/
 backend/*.pyc
 backend/*.log
 backend/logs/
-AISmartTransportBackend/logs/
 *.log
+
+# Logs
+backend/logs/
+*.log
+logs/
 
 # General
 .DS_Store

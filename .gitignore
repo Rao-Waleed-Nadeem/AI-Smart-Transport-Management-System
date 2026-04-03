@@ -1,4 +1,6 @@
-﻿# Android / Gradle
+﻿# Overwrite .gitignore with clean version
+@"
+# Android / Gradle
 .gradle/
 build/
 *.iml
@@ -8,7 +10,8 @@ app/build/
 captures/
 .externalNativeBuild/
 .cxx/
-# Python Backend - BLOCK LARGE LOGS FOREVER
+
+# Python Backend
 backend/__pycache__/
 backend/venv/
 backend/env/
@@ -18,6 +21,14 @@ backend/*.log
 backend/logs/
 AISmartTransportBackend/logs/
 *.log
+
 # General
 .DS_Store
 Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8 -Force
+
+git add .gitignore
+git commit -m "Final .gitignore + project cleanup" --allow-empty
+
+# Force push the clean version
+git push -u origin main --force

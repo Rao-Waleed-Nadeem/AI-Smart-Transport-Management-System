@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ai_smarttransportsystem"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+    <!-- Android 13+ notification permission -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:name=".MyApplication"
+        android:theme="@style/Theme.AISmartTransportSystem">
+
+        <!-- Foreground GPS tracking service -->
+        <service
+            android:name=".service.LocationTrackingService"
+            android:foregroundServiceType="location"
+            android:exported="false" />
+        <activity
+            android:name=".MapStopSelectionActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${googleMapsApiKey}" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name=".ui.student.StudentSeatRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.student.StudentFeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.student.StudentAttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.student.StudentRegistrationSuccessfulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.student.StudentChallanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.student.StudentHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.supervisor.SupervisorDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.supervisor.SupervisorAttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.supervisor.SupervisorRouteDetails"
+            android:exported="false" />
+        <!-- Supervisor tracking control screen -->
+        <activity
+            android:name=".ui.supervisor.SupervisorTrackingActivity"
+            android:exported="false" />
+        <!-- Student/Admin real-time bus map -->
+        <activity
+            android:name=".ui.student.StudentLiveTrackingActivity"
+            android:exported="false" />
+
+        <!-- Admin all-routes map (if not already added) -->
+        <activity
+            android:name=".ui.admin.AdminAllRoutesMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAddBusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAssignBusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminFeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminTrackingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAttendanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminManageRoutesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminViewRouteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminViewStopDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminAssignSupervisorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.admin.AdminViewStopStudentsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.shared.RouteMapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

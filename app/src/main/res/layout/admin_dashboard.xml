@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#F5F5F5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#ff9800"
+        android:elevation="10dp"
+        android:paddingTop="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Left Bus Icon -->
+        <ImageView
+            android:id="@+id/busIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_directions_bus_24"
+            app:tint="@android:color/white" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Dashboard"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Profile Icon (Right Side) -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_person_24"
+            app:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@id/admin_bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:id="@+id/first_card"
+                android:orientation="horizontal">
+
+                <!-- Total Buses Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_attendance"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    app:strokeWidth="0dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#297fd4"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="6dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <!-- Icon positioned at top-right -->
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:contentDescription="Bus icon"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/baseline_directions_bus_24"
+                            app:tint="@android:color/white" />
+
+                        <!-- Content at bottom -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.8"
+                                android:text="TOTAL BUSES"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_total_buses_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="--"
+                                android:textColor="@android:color/white"
+                                android:textSize="36sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_active_buses_label"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:alpha="0.8"
+                                android:textStyle="bold"
+                                android:text="--"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Total Students Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_fee_due"
+                    android:layout_width="0dp"
+                    app:strokeWidth="0dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#5cb660"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="6dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <!-- Icon positioned at top-right -->
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:contentDescription="Wallet icon"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/people"
+                            app:tint="@android:color/white" />
+
+                        <!-- Content at bottom -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.8"
+                                android:text="TOTAL STUDENTS"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_total_students_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="--"
+                                android:textColor="@android:color/white"
+                                android:textSize="36sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:alpha="0.8"
+                                android:textStyle="bold"
+                                android:text="Registered"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <!-- Active Routes, Supervisors -->
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:gravity="center"
+
+                android:orientation="horizontal">
+
+                <!-- Active Routes Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_absent"
+                    android:layout_width="0dp"
+                    app:strokeWidth="0dp"
+                    android:layout_height="140dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#a337b5"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="6dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <!-- Icon positioned at top-right -->
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:contentDescription="Attendance icon"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/route"
+                            app:tint="@android:color/white" />
+
+                        <!-- Content at bottom -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.8"
+                                android:text="ACTIVE ROUTES"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_active_routes_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="--"
+                                android:textColor="@android:color/white"
+                                android:textSize="36sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:alpha="0.8"
+                                android:text="Operational"
+                                android:textStyle="bold"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Supervisors Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_available_seats"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_marginStart="8dp"
+                    app:strokeWidth="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="#FF9800"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="6dp">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <!-- Icon positioned at top-right -->
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:contentDescription="People icon"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/people"
+                            app:tint="@android:color/white" />
+
+                        <!-- Content at bottom -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:alpha="0.8"
+                                android:text="SUPERVISORS"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/tv_supervisors_count"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="--"
+                                android:textColor="@android:color/white"
+                                android:textSize="36sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:alpha="0.8"
+                                android:text="On Duty"
+                                android:textStyle="bold"
+                                android:textColor="@android:color/white"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <com.google.android.material.card.MaterialCardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/manage_routes"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="10dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="#ffffff"
+                app:strokeWidth="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <!-- Left Circle Icon -->
+                    <LinearLayout
+                        android:id="@+id/iconContainer"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/icon_circle_blue"
+                        android:gravity="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/route"
+                            app:tint="@android:color/white"/>
+                    </LinearLayout>
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/titleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Manage Routes"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#1F1F1F"
+
+                        app:layout_constraintStart_toEndOf="@id/iconContainer"
+                        app:layout_constraintTop_toTopOf="@id/iconContainer"
+                        app:layout_constraintEnd_toStartOf="@id/secondviewIcon"
+                        android:layout_marginStart="12dp"/>
+
+                    <!-- Subtitle -->
+                    <TextView
+                        android:id="@+id/subtitleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="View and manage all bus routes"
+                        android:textSize="13sp"
+                        android:textColor="#6E6E6E"
+                        app:layout_constraintStart_toStartOf="@id/titleText"
+                        app:layout_constraintTop_toBottomOf="@id/titleText"
+                        app:layout_constraintEnd_toStartOf="@id/secondviewIcon"/>
+
+                    <!-- Eye Icon -->
+                    <ImageView
+                        android:id="@+id/secondviewIcon"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/eye"
+                        app:tint="#6E6E6E"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/add_new_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp"
+                app:cardBackgroundColor="#ffffff"
+                app:strokeColor="#E0E0E0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <!-- Left Circle Icon -->
+                    <LinearLayout
+                        android:id="@+id/secondiconContainer"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/icon_circle_green"
+                        android:gravity="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/route"
+                            app:tint="@android:color/white"/>
+                    </LinearLayout>
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/firsttitleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Add New Buses"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#1F1F1F"
+
+                        app:layout_constraintStart_toEndOf="@id/secondiconContainer"
+                        app:layout_constraintTop_toTopOf="@id/secondiconContainer"
+                        app:layout_constraintEnd_toStartOf="@id/viewIcon"
+                        android:layout_marginStart="12dp"/>
+
+                    <!-- Subtitle -->
+                    <TextView
+                        android:id="@+id/firstsubtitleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="View and manage all bus routes"
+                        android:textSize="13sp"
+                        android:textColor="#6E6E6E"
+                        app:layout_constraintStart_toStartOf="@id/firsttitleText"
+                        app:layout_constraintTop_toBottomOf="@id/firsttitleText"
+                        app:layout_constraintEnd_toStartOf="@id/viewIcon"/>
+
+                    <!-- Eye Icon -->
+                    <ImageView
+                        android:id="@+id/viewIcon"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/eye"
+                        app:tint="#6E6E6E"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/assign_supervisor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp"
+                app:cardBackgroundColor="#ffffff"
+                app:strokeColor="#E0E0E0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <!-- Left Circle Icon -->
+                    <LinearLayout
+                        android:id="@+id/supervisor_iconContainer"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/icon_circle_purple"
+                        android:gravity="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/baseline_person_24"
+                            app:tint="@android:color/white"/>
+                    </LinearLayout>
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/assign_supervisor_titleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Assign Supervisor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#1F1F1F"
+
+                        app:layout_constraintStart_toEndOf="@id/supervisor_iconContainer"
+                        app:layout_constraintTop_toTopOf="@id/supervisor_iconContainer"
+                        app:layout_constraintEnd_toStartOf="@id/supervisor_viewIcon"
+                        android:layout_marginStart="12dp"/>
+
+                    <!-- Subtitle -->
+                    <TextView
+                        android:id="@+id/assign_supervisor_subtitleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="View all assigned buses "
+                        android:textSize="13sp"
+                        android:textColor="#6E6E6E"
+                        app:layout_constraintStart_toStartOf="@id/assign_supervisor_titleText"
+                        app:layout_constraintTop_toBottomOf="@id/assign_supervisor_titleText"
+                        app:layout_constraintEnd_toStartOf="@id/supervisor_viewIcon"/>
+
+                    <!-- Eye Icon -->
+                    <ImageView
+                        android:id="@+id/supervisor_viewIcon"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/eye"
+                        app:tint="#6E6E6E"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/optimize_routes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="16dp"
+                android:layout_marginHorizontal="16dp"
+                app:cardElevation="4dp"
+                app:strokeWidth="0dp"
+                app:cardBackgroundColor="#ffffff"
+                app:strokeColor="#E0E0E0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                    <!-- Left Circle Icon -->
+                    <LinearLayout
+                        android:id="@+id/thirdiconContainer"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:background="@drawable/icon_circle_orange"
+                        android:gravity="center"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/route"
+                            app:tint="@android:color/white"/>
+                    </LinearLayout>
+
+                    <!-- Title -->
+                    <TextView
+                        android:id="@+id/thirdtitleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Optimize Routes"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#1F1F1F"
+
+                        app:layout_constraintStart_toEndOf="@id/thirdiconContainer"
+                        app:layout_constraintTop_toTopOf="@id/thirdiconContainer"
+                        app:layout_constraintEnd_toStartOf="@id/thirdviewIcon"
+                        android:layout_marginStart="12dp"/>
+
+                    <!-- Subtitle -->
+                    <TextView
+                        android:id="@+id/thirdsubtitleText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Optimze the stops to best routes"
+                        android:textSize="13sp"
+                        android:textColor="#6E6E6E"
+                        app:layout_constraintStart_toStartOf="@id/thirdtitleText"
+                        app:layout_constraintTop_toBottomOf="@id/thirdtitleText"
+                        app:layout_constraintEnd_toStartOf="@id/thirdviewIcon"/>
+
+                    <!-- Eye Icon -->
+                    <ImageView
+                        android:id="@+id/thirdviewIcon"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/eye"
+                        app:tint="#6E6E6E"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/admin_bottom_nav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        app:menu="@menu/admin_nav_bar"
+        app:itemGravity="center"
+        app:itemIconGravity="top"
+        app:itemIconSize="24dp"
+        app:itemIconTint="@color/bottom_nav_selector"
+        app:itemTextColor="@color/bottom_nav_selector"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:itemActiveIndicatorStyle="@null"/>
+
+    <!-- Full-screen loading overlay — covers EVERYTHING including header and bottom nav -->
+    <FrameLayout
+        android:id="@+id/loading_overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#CC000000"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="100dp">   <!-- High elevation to stay on top -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#FFFFFFFF"
+            android:padding="28dp"
+            android:elevation="24dp">
+
+            <ProgressBar
+                android:id="@+id/progress_optimize"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:indeterminateTint="#ff9800" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Optimizing Routes…"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#1F1F1F" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="This may take 1–2 minutes"
+                android:textSize="13sp"
+                android:textColor="#6E6E6E" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

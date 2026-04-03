@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:background="#F5F5F5"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#1976D2"
+        android:elevation="10dp"
+        android:paddingTop="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Left Bus Icon -->
+        <ImageView
+            android:id="@+id/busIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_directions_bus_24"
+            app:tint="@android:color/white" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Student Dashboard"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Profile Icon (Right Side) -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_person_24"
+            app:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        app:strokeWidth="0dp"
+        android:layout_height="300dp"
+        app:cardBackgroundColor="#0b56b3"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        android:id="@+id/card"
+        android:layout_margin="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:padding="15dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|start"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_fee_status_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+                    android:textColor="#c8defa"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tv_fee_amount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="$120"
+                    android:textColor="#c8defa"
+                    android:textSize="50sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|end"
+                app:srcCompat="@drawable/baseline_event_seat_24"
+                app:tint="#c8defa" />
+
+            <TextView
+                android:id="@+id/tv_due_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+               android:paddingVertical="5dp"
+                android:paddingHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/due_date_bg"
+                android:text="Due: Mar 19, 2026" />
+
+            <Button
+                android:id="@+id/btn_pay_now"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:backgroundTint="#ffff"
+                android:textColor="#0b56b3"
+                android:text="Pay Now" />
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+   <com.google.android.material.card.MaterialCardView
+       android:id="@+id/history_card"
+       android:layout_width="0dp"
+       app:strokeWidth="0dp"
+       android:layout_height="0dp"
+       android:layout_margin="16dp"
+       app:cardCornerRadius="20dp"
+       app:cardElevation="6dp"
+       app:cardBackgroundColor="#FFFFFF"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/card"
+       app:layout_constraintBottom_toTopOf="@id/bottom_nav">
+
+       <androidx.constraintlayout.widget.ConstraintLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="8dp">
+
+           <!-- HEADER: Payment History + Export -->
+           <TextView
+               android:id="@+id/tvPaymentHistory"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Payment History"
+               android:textSize="18sp"
+               android:textStyle="bold"
+               android:layout_marginStart="8dp"
+               android:layout_marginTop="8dp"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintTop_toTopOf="parent" />
+
+           <com.google.android.material.button.MaterialButton
+               android:id="@+id/btnExport"
+               style="@style/Widget.Material3.Button.OutlinedButton"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Export"
+               android:layout_marginEnd="8dp"
+               app:icon="@drawable/outline_arrow_downward_24"
+               app:iconPadding="5dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintTop_toTopOf="@id/tvPaymentHistory"
+               app:layout_constraintBottom_toBottomOf="@id/tvPaymentHistory"/>
+
+           <!-- Empty State -->
+           <TextView
+               android:id="@+id/tv_empty_history"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="No payment history"
+               android:textColor="#888888"
+               android:visibility="gone"
+               app:layout_constraintTop_toBottomOf="@id/tvPaymentHistory"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent" />
+
+           <!-- VERTICAL SCROLL -->
+           <ScrollView
+               android:id="@+id/verticalScroll"
+               android:layout_width="0dp"
+               android:layout_height="0dp"
+               android:layout_marginTop="12dp"
+               app:layout_constraintTop_toBottomOf="@id/tvPaymentHistory"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent">
+
+               <!-- HORIZONTAL SCROLL -->
+               <HorizontalScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:scrollbars="horizontal">
+
+                   <LinearLayout
+                       android:id="@+id/container_history_rows"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:orientation="vertical"
+                       android:padding="8dp">
+
+                       <!-- TABLE HEADER -->
+                       <LinearLayout
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal"
+                           android:paddingBottom="8dp">
+
+                           <TextView
+                               android:layout_width="140dp"
+                               android:layout_height="wrap_content"
+                               android:text="Month"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:layout_width="100dp"
+                               android:layout_height="wrap_content"
+                               android:text="Amount"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:layout_width="140dp"
+                               android:layout_height="wrap_content"
+                               android:text="Paid On"
+                               android:textStyle="bold" />
+
+                           <TextView
+                               android:layout_width="140dp"
+                               android:layout_height="wrap_content"
+                               android:text="Receipt"
+                               android:textStyle="bold" />
+                       </LinearLayout>
+
+                       <!-- Dynamic Rows will be added here -->
+
+                   </LinearLayout>
+               </HorizontalScrollView>
+           </ScrollView>
+       </androidx.constraintlayout.widget.ConstraintLayout>
+   </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemGravity="center"
+        app:itemIconGravity="top"
+        app:itemIconSize="24dp"
+        app:itemIconTint="@color/bottom_nav_selector"
+        app:itemTextColor="@color/bottom_nav_selector"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:itemActiveIndicatorStyle="@null"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

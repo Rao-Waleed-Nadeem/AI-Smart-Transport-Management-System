@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904268718891",
+    "project_id": "ai-smart-transport-system",
+    "storage_bucket": "ai-smart-transport-system.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904268718891:android:b162a67a45d45ddaa89b6e",
+        "android_client_info": {
+          "package_name": "com.example.ai_smarttransportsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEhJTuzOFVgGBOdDlMppSXYBrWk94KKdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="#ff9800"
+        android:elevation="10dp"
+        android:paddingTop="24dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Left Bus Icon -->
+        <ImageView
+            android:id="@+id/busIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_directions_bus_24"
+            app:tint="@android:color/white" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Attendance Information"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Profile Icon (Right Side) -->
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_person_24"
+            app:tint="@android:color/white" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:clipToPadding="false"
+        app:layout_constraintBottom_toTopOf="@id/admin_bottom_nav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/first_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <!-- Card 1 - Attendance -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_attendance"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    app:strokeWidth="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="#3083d5">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/people"
+                            app:tint="@android:color/white"
+                            android:contentDescription="Attendance icon" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TOTAL Students"
+                                android:textSize="11sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                            <TextView
+                                android:id="@+id/total_students"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="188"
+                                android:textSize="36sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="Registered"
+                                android:textSize="11sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Card 2 - Fee Due -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_fee_due"
+                    android:layout_width="0dp"
+                    app:strokeWidth="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="#5ab45e">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/baseline_check_circle_24"
+                            app:tint="@android:color/white"
+                            android:contentDescription="Fee icon" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PRESENT TODAY"
+                                android:textSize="11sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                            <TextView
+                                android:id="@+id/present_today"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="172"
+                                android:textSize="36sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="91%"
+                                android:textSize="11sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/third_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <!-- Card 1 - Attendance -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/profit_margin"
+                    android:layout_width="0dp"
+                    app:strokeWidth="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="#f34f43">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/cancel"
+                            app:tint="@android:color/white"
+                            android:contentDescription="Attendance icon" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="ABSENT TODAY"
+                                android:textSize="11sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                            <TextView
+                                android:id="@+id/absent_today"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="172"
+                                android:textSize="36sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="9%"
+                                android:textSize="11sp"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Card 2 - Fee Due -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/avg_fee"
+                    android:layout_width="0dp"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    app:strokeWidth="0dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="6dp"
+                    app:cardBackgroundColor="#fea017">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="16dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="top|end"
+                            android:alpha="0.3"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/trending_up"
+                            app:tint="@android:color/white"
+                            android:contentDescription="Fee icon" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TOTAL ROUTES"
+                                android:textSize="11sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                            <TextView
+                                android:id="@+id/total_routes"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="7"
+                                android:textSize="36sp"
+                                android:textStyle="bold"
+                                android:textColor="#FFFFFF" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="Optimized"
+                                android:textSize="11sp"
+                                android:textColor="#FFFFFF"
+                                android:alpha="0.8" />
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+
+           <com.google.android.material.card.MaterialCardView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="8dp"
+               app:cardCornerRadius="20dp"
+               app:strokeWidth="0dp"
+               android:layout_marginHorizontal="16dp"
+               android:layout_marginBottom="8dp"
+               android:background="#ffffff"
+               app:cardElevation="6dp">
+               <HorizontalScrollView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:scrollbars="horizontal"
+                   android:fadeScrollbars="true"
+                   android:elevation="6dp"
+                   android:background="#ffffff"
+                   android:scrollbarThumbHorizontal="@android:color/darker_gray">
+
+                   <ScrollView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content">
+
+                       <TableLayout
+                           android:id="@+id/attendance_table"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginBottom="16dp">
+
+                           <!-- Header Row -->
+                           <TableRow
+                               android:background="#E3F2FD"
+                               android:paddingTop="16dp"
+                               android:paddingBottom="8dp"
+                               android:paddingHorizontal="8dp">
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Route"
+                                   android:textStyle="bold"
+                                   android:textSize="15sp"
+                                   android:textColor="#0D47A1"
+                                   android:padding="12dp"
+                                   android:minWidth="110dp"
+                                   android:gravity="center" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Students"
+                                   android:textStyle="bold"
+                                   android:textSize="15sp"
+                                   android:textColor="#0D47A1"
+                                   android:padding="12dp"
+                                   android:minWidth="90dp"
+                                   android:gravity="center" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Avg Distance"
+                                   android:textStyle="bold"
+                                   android:textSize="15sp"
+                                   android:textColor="#0D47A1"
+                                   android:padding="12dp"
+                                   android:minWidth="110dp"
+                                   android:gravity="center" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Avg Fee"
+                                   android:textStyle="bold"
+                                   android:textSize="15sp"
+                                   android:textColor="#0D47A1"
+                                   android:padding="12dp"
+                                   android:minWidth="90dp"
+                                   android:gravity="center" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Total Revenue"
+                                   android:textStyle="bold"
+                                   android:textSize="15sp"
+                                   android:textColor="#0D47A1"
+                                   android:padding="12dp"
+                                   android:minWidth="120dp"
+                                   android:gravity="center" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Fuel Cost"
+                                   android:textStyle="bold"
+                                   android:textSize="15sp"
+                                   android:textColor="#0D47A1"
+                                   android:padding="12dp"
+                                   android:minWidth="100dp"
+                                   android:gravity="center" />
+
+                               <TextView
+                                   android:layout_width="wrap_content"
+                                   android:layout_height="wrap_content"
+                                   android:text="Profit"
+                                   android:textStyle="bold"
+                                   android:textSize="15sp"
+                                   android:textColor="#0D47A1"
+                                   android:padding="12dp"
+                                   android:minWidth="100dp"
+                                   android:gravity="center" />
+                           </TableRow>
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="#B3E5FC" />
+
+                           <TableRow android:background="#FAFAFA" android:paddingHorizontal="8dp">
+                               <TextView android:text="North Campus (R-01)"    android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="142"                    android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="18.4 km"                android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 65"                 android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 9,230"              android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 2,180"              android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 7,050" android:textColor="#2E7D32" android:padding="12dp" android:gravity="center" android:textSize="14sp" android:textStyle="bold"/>
+                           </TableRow>
+
+                           <TableRow android:background="#FFFFFF" android:paddingHorizontal="8dp">
+                               <TextView android:text="South Hostel (R-02)"    android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="98"                     android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="14.7 km"                android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 70"                 android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 6,860"              android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 1,650"              android:padding="12dp" android:gravity="center" android:textSize="14sp"/>
+                               <TextView android:text="PKR 5,210" android:textColor="#2E7D32" android:padding="12dp" android:gravity="center" android:textSize="14sp" android:textStyle="bold"/>
+                           </TableRow>
+
+                       </TableLayout>
+
+                   </ScrollView>
+               </HorizontalScrollView>
+           </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="8dp"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="0dp"
+                app:strokeColor="#E0E0E0"
+                app:cardBackgroundColor="#FFFFFF">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total Summary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#1A1A1A" />
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:columnCount="2"
+                        android:rowCount="2"
+                        android:alignmentMode="alignBounds">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:padding="16dp"
+                            android:background="@drawable/rounded_rect_light_blue">
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:src="@drawable/people"
+                                app:tint="#1976D2"
+                                android:contentDescription="Active routes" />
+
+                            <TextView
+                                android:id="@+id/total_students_summary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="188"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                android:textColor="#1976D2" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Total Students"
+                                android:textSize="14sp"
+                                android:textColor="#616161" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginStart="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:padding="16dp"
+                            android:background="@drawable/rounded_rect_light_green">
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:src="@drawable/trending_up"
+                                app:tint="#2E7D32"
+                                android:contentDescription="Profit margin" />
+
+                            <TextView
+                                android:id="@+id/profit_margin_summary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="62%"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                android:textColor="#2E7D32" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Profit Margin"
+                                android:textSize="14sp"
+                                android:textColor="#616161" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginTop="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:padding="16dp"
+                            android:background="@drawable/rounded_rect_light_red">
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:src="@drawable/fuel"
+                                app:tint="#D32F2F"
+                                android:contentDescription="Fuel per student" />
+
+                            <TextView
+                                android:id="@+id/fuel_per_student_summary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="$45"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                android:textColor="#D32F2F" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Fuel/Student"
+                                android:textSize="14sp"
+                                android:textColor="#616161" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="12dp"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:padding="16dp"
+                            android:background="@drawable/rounded_rect_light_purple">
+
+                            <ImageView
+                                android:layout_width="36dp"
+                                android:layout_height="36dp"
+                                android:src="@drawable/dollar"
+                                app:tint="#7B1FA2"
+                                android:contentDescription="Profit per student" />
+
+                            <TextView
+                                android:id="@+id/profit_per_student_summary"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="12dp"
+                                android:text="$73"
+                                android:textSize="32sp"
+                                android:textStyle="bold"
+                                android:textColor="#7B1FA2" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="Profit/Student"
+                                android:textSize="14sp"
+                                android:textColor="#616161" />
+
+                        </LinearLayout>
+
+                    </GridLayout>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/admin_bottom_nav"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:menu="@menu/admin_nav_bar"
+        app:itemGravity="center"
+        app:itemIconGravity="top"
+        app:itemIconSize="24dp"
+        app:itemIconTint="@color/bottom_nav_selector"
+        app:itemTextColor="@color/bottom_nav_selector"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:itemActiveIndicatorStyle="@null"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

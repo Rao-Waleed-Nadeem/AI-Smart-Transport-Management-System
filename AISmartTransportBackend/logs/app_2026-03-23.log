@@ -1,0 +1,737 @@
+2026-03-23 14:08:08.835 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-23 14:08:36.481 | INFO     | api.main:run_optimization:29 - Starting full route optimization pipeline
+2026-03-23 14:08:40.593 | INFO     | data_pipeline.student_loader:load_student_stops:42 - Loaded 30 student stops from Firestore
+2026-03-23 14:08:40.593 | DEBUG    | data_pipeline.student_loader:load_student_stops:43 - First 3 stops (sample): [{'student_id': '3CNKLBNknvMId9G9MJ1cVoQjkpw2', 'name': 'Test Student 12', 'roll_no': 'TEST-4382', 'lat': 31.369289, 'lng': 73.051406, 'student_count': 1, 'contact': '03597900028', 'semester': 'Spring 2026', 'fee_status': 'unpaid', 'registration_status': 'pending'}, {'student_id': '61fbjUraIhPuzNx8BY68aYewSG02', 'name': 'Test Student 28', 'roll_no': 'TEST-7403', 'lat': 31.380283, 'lng': 73.159195, 'student_count': 1, 'contact': '03344993000', 'semester': 'Spring 2026', 'fee_status': 'unpaid', 'registration_status': 'pending'}, {'student_id': '7DxKX1nW4ZdeWHKXM2Vf5OIfGvr1', 'name': 'Test Student 10', 'roll_no': 'TEST-9142', 'lat': 31.446304, 'lng': 73.140169, 'student_count': 1, 'contact': '03537549971', 'semester': 'Spring 2026', 'fee_status': 'unpaid', 'registration_status': 'pending'}]
+2026-03-23 14:08:40.594 | INFO     | osm.fetch_roads:fetch_or_load_road_graph:19 - Loading cached Faisalabad road graph...
+2026-03-23 14:08:46.601 | INFO     | osm.fetch_roads:fetch_or_load_road_graph:21 - Loaded graph with 50872 nodes and 144715 edges
+2026-03-23 14:08:46.834 | INFO     | osm.road_filter:filter_main_roads:38 - Filtered graph:
+2026-03-23 14:08:46.866 | INFO     | osm.road_filter:filter_main_roads:39 -   Original: 50872 nodes, 144715 edges
+2026-03-23 14:08:46.950 | INFO     | osm.road_filter:filter_main_roads:40 -   After filter (main roads only): 7460 nodes, 12863 edges
+2026-03-23 14:08:47.131 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.133 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.369289, 73.051406) → (31.3691526, 73.0514611) = 16.0 m
+2026-03-23 14:08:47.133 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.369289, 73.051406): (31.369153, 73.051461) — 16.0m
+2026-03-23 14:08:47.133 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.369289, 73.051406) → (31.3691526, 73.0514611) = 16.0 m
+2026-03-23 14:08:47.133 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 12 (TEST-4382): 16.0m
+2026-03-23 14:08:47.148 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.149 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.380283, 73.159195) → (31.3787188, 73.157798) = 218.7 m
+2026-03-23 14:08:47.149 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.380283, 73.159195): (31.378719, 73.157798) — 218.7m
+2026-03-23 14:08:47.150 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.380283, 73.159195) → (31.3787188, 73.157798) = 218.7 m
+2026-03-23 14:08:47.150 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 28 (TEST-7403): 218.7m
+2026-03-23 14:08:47.165 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.166 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.446304, 73.140169) → (31.4457694, 73.1408101) = 85.0 m
+2026-03-23 14:08:47.166 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.446304, 73.140169): (31.445769, 73.140810) — 85.0m
+2026-03-23 14:08:47.166 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.446304, 73.140169) → (31.4457694, 73.1408101) = 85.0 m
+2026-03-23 14:08:47.166 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 10 (TEST-9142): 85.0m
+2026-03-23 14:08:47.187 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.188 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.548998, 73.147656) → (31.5487412, 73.1501112) = 234.4 m
+2026-03-23 14:08:47.188 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.548998, 73.147656): (31.548741, 73.150111) — 234.4m
+2026-03-23 14:08:47.189 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.548998, 73.147656) → (31.5487412, 73.1501112) = 234.4 m
+2026-03-23 14:08:47.189 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 14 (TEST-9162): 234.4m
+2026-03-23 14:08:47.208 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.209 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.384254, 73.063765) → (31.3836456, 73.0640586) = 73.2 m
+2026-03-23 14:08:47.209 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.384254, 73.063765): (31.383646, 73.064059) — 73.2m
+2026-03-23 14:08:47.209 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.384254, 73.063765) → (31.3836456, 73.0640586) = 73.2 m
+2026-03-23 14:08:47.209 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 30 (TEST-6182): 73.2m
+2026-03-23 14:08:47.226 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.228 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.450094, 73.130742) → (31.4467219, 73.1271368) = 507.5 m
+2026-03-23 14:08:47.228 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.450094, 73.130742): (31.446722, 73.127137) — 507.5m
+2026-03-23 14:08:47.228 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.450094, 73.130742) → (31.4467219, 73.1271368) = 507.5 m
+2026-03-23 14:08:47.228 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 23 (TEST-9957): 507.5m
+2026-03-23 14:08:47.248 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.249 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.327595, 73.065724) → (31.330396, 73.0696448) = 485.5 m
+2026-03-23 14:08:47.249 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.327595, 73.065724): (31.330396, 73.069645) — 485.5m
+2026-03-23 14:08:47.249 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.327595, 73.065724) → (31.330396, 73.0696448) = 485.5 m
+2026-03-23 14:08:47.249 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 13 (TEST-5755): 485.5m
+2026-03-23 14:08:47.268 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.272 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.343859, 73.18566) → (31.3413852, 73.1852291) = 278.1 m
+2026-03-23 14:08:47.272 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.343859, 73.18566): (31.341385, 73.185229) — 278.1m
+2026-03-23 14:08:47.272 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.343859, 73.18566) → (31.3413852, 73.1852291) = 278.1 m
+2026-03-23 14:08:47.272 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 7 (TEST-9790): 278.1m
+2026-03-23 14:08:47.292 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.293 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.401088, 73.01135) → (31.4000755, 73.0126538) = 167.3 m
+2026-03-23 14:08:47.293 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.401088, 73.01135): (31.400075, 73.012654) — 167.3m
+2026-03-23 14:08:47.293 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.401088, 73.01135) → (31.4000755, 73.0126538) = 167.3 m
+2026-03-23 14:08:47.293 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 3 (TEST-2055): 167.3m
+2026-03-23 14:08:47.309 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.310 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.526254, 73.053671) → (31.527645, 73.0552285) = 213.8 m
+2026-03-23 14:08:47.310 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.526254, 73.053671): (31.527645, 73.055228) — 213.8m
+2026-03-23 14:08:47.311 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.526254, 73.053671) → (31.527645, 73.0552285) = 213.8 m
+2026-03-23 14:08:47.311 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 25 (TEST-4783): 213.8m
+2026-03-23 14:08:47.329 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.330 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.319581, 73.129629) → (31.3281703, 73.1302408) = 956.9 m
+2026-03-23 14:08:47.330 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.319581, 73.129629): (31.328170, 73.130241) — 956.9m
+2026-03-23 14:08:47.330 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.319581, 73.129629) → (31.3281703, 73.1302408) = 956.9 m
+2026-03-23 14:08:47.330 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 11 (TEST-6729): 956.9m
+2026-03-23 14:08:47.348 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.349 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.342673, 73.180091) → (31.3434454, 73.1825193) = 246.1 m
+2026-03-23 14:08:47.349 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.342673, 73.180091): (31.343445, 73.182519) — 246.1m
+2026-03-23 14:08:47.349 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.342673, 73.180091) → (31.3434454, 73.1825193) = 246.1 m
+2026-03-23 14:08:47.349 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 1 (TEST-1717): 246.1m
+2026-03-23 14:08:47.366 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.367 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.419161, 73.04138) → (31.4192659, 73.0416323) = 26.6 m
+2026-03-23 14:08:47.367 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.419161, 73.04138): (31.419266, 73.041632) — 26.6m
+2026-03-23 14:08:47.367 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.419161, 73.04138) → (31.4192659, 73.0416323) = 26.6 m
+2026-03-23 14:08:47.368 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 27 (TEST-3106): 26.6m
+2026-03-23 14:08:47.385 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.386 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.513945, 73.145) → (31.5101284, 73.1503952) = 664.6 m
+2026-03-23 14:08:47.386 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.513945, 73.145): (31.510128, 73.150395) — 664.6m
+2026-03-23 14:08:47.386 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.513945, 73.145) → (31.5101284, 73.1503952) = 664.6 m
+2026-03-23 14:08:47.386 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 20 (TEST-7495): 664.6m
+2026-03-23 14:08:47.405 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.406 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.462728, 73.168167) → (31.4641337, 73.1683411) = 157.2 m
+2026-03-23 14:08:47.406 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.462728, 73.168167): (31.464134, 73.168341) — 157.2m
+2026-03-23 14:08:47.407 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.462728, 73.168167) → (31.4641337, 73.1683411) = 157.2 m
+2026-03-23 14:08:47.407 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 15 (TEST-5668): 157.2m
+2026-03-23 14:08:47.426 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.428 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.346116, 73.056539) → (31.3446991, 73.0585627) = 248.5 m
+2026-03-23 14:08:47.428 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.346116, 73.056539): (31.344699, 73.058563) — 248.5m
+2026-03-23 14:08:47.428 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.346116, 73.056539) → (31.3446991, 73.0585627) = 248.5 m
+2026-03-23 14:08:47.428 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 9 (TEST-8987): 248.5m
+2026-03-23 14:08:47.446 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.447 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.544202, 73.128686) → (31.5431453, 73.1283131) = 122.7 m
+2026-03-23 14:08:47.447 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.544202, 73.128686): (31.543145, 73.128313) — 122.7m
+2026-03-23 14:08:47.447 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.544202, 73.128686) → (31.5431453, 73.1283131) = 122.7 m
+2026-03-23 14:08:47.447 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 4 (TEST-9428): 122.7m
+2026-03-23 14:08:47.464 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.465 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.393089, 73.028228) → (31.398463, 73.0263855) = 622.6 m
+2026-03-23 14:08:47.465 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.393089, 73.028228): (31.398463, 73.026386) — 622.6m
+2026-03-23 14:08:47.465 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.393089, 73.028228) → (31.398463, 73.0263855) = 622.6 m
+2026-03-23 14:08:47.465 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 5 (TEST-5892): 622.6m
+2026-03-23 14:08:47.486 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.488 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.318863, 73.183249) → (31.3190478, 73.1756414) = 723.0 m
+2026-03-23 14:08:47.488 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.318863, 73.183249): (31.319048, 73.175641) — 723.0m
+2026-03-23 14:08:47.488 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.318863, 73.183249) → (31.3190478, 73.1756414) = 723.0 m
+2026-03-23 14:08:47.488 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 29 (TEST-7084): 723.0m
+2026-03-23 14:08:47.502 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.504 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.354815, 73.143189) → (31.3557607, 73.1450675) = 207.1 m
+2026-03-23 14:08:47.505 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.354815, 73.143189): (31.355761, 73.145067) — 207.1m
+2026-03-23 14:08:47.505 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.354815, 73.143189) → (31.3557607, 73.1450675) = 207.1 m
+2026-03-23 14:08:47.505 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 17 (TEST-4072): 207.1m
+2026-03-23 14:08:47.525 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.526 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.459172, 73.066434) → (31.4601458, 73.0666137) = 109.6 m
+2026-03-23 14:08:47.527 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.459172, 73.066434): (31.460146, 73.066614) — 109.6m
+2026-03-23 14:08:47.527 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.459172, 73.066434) → (31.4601458, 73.0666137) = 109.6 m
+2026-03-23 14:08:47.527 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 18 (TEST-9353): 109.6m
+2026-03-23 14:08:47.546 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.547 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.537509, 73.124448) → (31.5426468, 73.1258022) = 585.5 m
+2026-03-23 14:08:47.547 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.537509, 73.124448): (31.542647, 73.125802) — 585.5m
+2026-03-23 14:08:47.547 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.537509, 73.124448) → (31.5426468, 73.1258022) = 585.5 m
+2026-03-23 14:08:47.547 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 6 (TEST-3775): 585.5m
+2026-03-23 14:08:47.565 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.566 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.473589, 73.112736) → (31.4743292, 73.1046958) = 766.9 m
+2026-03-23 14:08:47.566 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.473589, 73.112736): (31.474329, 73.104696) — 766.9m
+2026-03-23 14:08:47.566 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.473589, 73.112736) → (31.4743292, 73.1046958) = 766.9 m
+2026-03-23 14:08:47.567 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 22 (TEST-9109): 766.9m
+2026-03-23 14:08:47.584 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.585 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.468675, 73.160721) → (31.4693742, 73.1600766) = 98.9 m
+2026-03-23 14:08:47.585 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.468675, 73.160721): (31.469374, 73.160077) — 98.9m
+2026-03-23 14:08:47.585 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.468675, 73.160721) → (31.4693742, 73.1600766) = 98.9 m
+2026-03-23 14:08:47.586 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 19 (TEST-9533): 98.9m
+2026-03-23 14:08:47.607 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.609 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.405239, 73.112616) → (31.4060883, 73.1115478) = 138.5 m
+2026-03-23 14:08:47.609 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.405239, 73.112616): (31.406088, 73.111548) — 138.5m
+2026-03-23 14:08:47.610 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.405239, 73.112616) → (31.4060883, 73.1115478) = 138.5 m
+2026-03-23 14:08:47.610 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 26 (TEST-5354): 138.5m
+2026-03-23 14:08:47.631 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.633 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.470598, 73.008555) → (31.4773379, 73.0052033) = 814.1 m
+2026-03-23 14:08:47.633 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.470598, 73.008555): (31.477338, 73.005203) — 814.1m
+2026-03-23 14:08:47.633 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.470598, 73.008555) → (31.4773379, 73.0052033) = 814.1 m
+2026-03-23 14:08:47.633 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 24 (TEST-8754): 814.1m
+2026-03-23 14:08:47.655 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.656 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.480136, 73.16337) → (31.4766945, 73.1677037) = 561.5 m
+2026-03-23 14:08:47.656 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.480136, 73.16337): (31.476695, 73.167704) — 561.5m
+2026-03-23 14:08:47.656 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.480136, 73.16337) → (31.4766945, 73.1677037) = 561.5 m
+2026-03-23 14:08:47.656 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 21 (TEST-9356): 561.5m
+2026-03-23 14:08:47.679 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.680 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.503809, 73.163047) → (31.504101, 73.1583633) = 445.2 m
+2026-03-23 14:08:47.681 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.503809, 73.163047): (31.504101, 73.158363) — 445.2m
+2026-03-23 14:08:47.681 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.503809, 73.163047) → (31.504101, 73.1583633) = 445.2 m
+2026-03-23 14:08:47.681 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 2 (TEST-1842): 445.2m
+2026-03-23 14:08:47.701 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.703 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.388719, 73.18885) → (31.3907077, 73.1897443) = 236.9 m
+2026-03-23 14:08:47.703 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.388719, 73.18885): (31.390708, 73.189744) — 236.9m
+2026-03-23 14:08:47.703 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.388719, 73.18885) → (31.3907077, 73.1897443) = 236.9 m
+2026-03-23 14:08:47.704 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 16 (TEST-8203): 236.9m
+2026-03-23 14:08:47.752 | DEBUG    | utils.distance_utils:build_node_balltree:29 - Built BallTree with 7460 nodes
+2026-03-23 14:08:47.759 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.406549, 73.086759) → (31.4052045, 73.0873694) = 160.3 m
+2026-03-23 14:08:47.759 | DEBUG    | utils.distance_utils:find_nearest_road_point:56 - Nearest road node to (31.406549, 73.086759): (31.405204, 73.087369) — 160.3m
+2026-03-23 14:08:47.760 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.406549, 73.086759) → (31.4052045, 73.0873694) = 160.3 m
+2026-03-23 14:08:47.760 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:38 - Snapped Test Student 8 (TEST-8476): 160.3m
+2026-03-23 14:08:47.760 | INFO     | data_pipeline.stop_builder:snap_stops_to_roads:47 - Snapping complete:
+2026-03-23 14:08:47.763 | INFO     | data_pipeline.stop_builder:snap_stops_to_roads:48 -   Input stops: 30
+2026-03-23 14:08:47.764 | INFO     | data_pipeline.stop_builder:snap_stops_to_roads:49 -   Snapped successfully: 30
+2026-03-23 14:08:47.764 | INFO     | data_pipeline.stop_builder:snap_stops_to_roads:50 -   Skipped (too far): 0
+2026-03-23 14:08:47.765 | DEBUG    | data_pipeline.stop_builder:snap_stops_to_roads:53 - First snapped stop example: {'student_id': '3CNKLBNknvMId9G9MJ1cVoQjkpw2', 'name': 'Test Student 12', 'roll_no': 'TEST-4382', 'lat': 31.3691526, 'lng': 73.0514611, 'student_count': 1, 'contact': '03597900028', 'semester': 'Spring 2026', 'fee_status': 'unpaid', 'registration_status': 'pending', 'original_lat': 31.369289, 'original_lng': 73.051406, 'snap_distance_m': 16.04}
+2026-03-23 14:08:47.765 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3787188, 73.157798) → (31.3691526, 73.0514611) = 10151.2 m
+2026-03-23 14:08:47.765 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4457694, 73.1408101) → (31.3691526, 73.0514611) = 12020.1 m
+2026-03-23 14:08:47.765 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4457694, 73.1408101) → (31.3787188, 73.157798) = 7628.0 m
+2026-03-23 14:08:47.765 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5487412, 73.1501112) → (31.3691526, 73.0514611) = 22052.9 m
+2026-03-23 14:08:47.765 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5487412, 73.1501112) → (31.3787188, 73.157798) = 18919.7 m
+2026-03-23 14:08:47.765 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5487412, 73.1501112) → (31.4457694, 73.1408101) = 11483.9 m
+2026-03-23 14:08:47.765 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3836456, 73.0640586) → (31.3691526, 73.0514611) = 2006.8 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3836456, 73.0640586) → (31.3787188, 73.157798) = 8915.5 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3836456, 73.0640586) → (31.4457694, 73.1408101) = 10038.2 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3836456, 73.0640586) → (31.5487412, 73.1501112) = 20090.3 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4467219, 73.1271368) → (31.3691526, 73.0514611) = 11223.8 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4467219, 73.1271368) → (31.3787188, 73.157798) = 8102.1 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4467219, 73.1271368) → (31.4457694, 73.1408101) = 1301.4 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4467219, 73.1271368) → (31.5487412, 73.1501112) = 11551.3 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4467219, 73.1271368) → (31.3836456, 73.0640586) = 9220.8 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.330396, 73.0696448) → (31.3691526, 73.0514611) = 4642.6 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.330396, 73.0696448) → (31.3787188, 73.157798) = 9946.9 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.330396, 73.0696448) → (31.4457694, 73.1408101) = 14498.8 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.330396, 73.0696448) → (31.5487412, 73.1501112) = 25450.7 m
+2026-03-23 14:08:47.766 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.330396, 73.0696448) → (31.3836456, 73.0640586) = 5944.8 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.330396, 73.0696448) → (31.4467219, 73.1271368) = 14038.9 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3413852, 73.1852291) → (31.3691526, 73.0514611) = 13071.9 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3413852, 73.1852291) → (31.3787188, 73.157798) = 4900.7 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3413852, 73.1852291) → (31.4457694, 73.1408101) = 12349.0 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3413852, 73.1852291) → (31.5487412, 73.1501112) = 23296.4 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3413852, 73.1852291) → (31.3836456, 73.0640586) = 12427.6 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3413852, 73.1852291) → (31.4467219, 73.1271368) = 12945.9 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3413852, 73.1852291) → (31.330396, 73.0696448) = 11045.4 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.3691526, 73.0514611) = 5039.2 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.3787188, 73.157798) = 13980.4 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.4457694, 73.1408101) = 13179.2 m
+2026-03-23 14:08:47.767 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.5487412, 73.1501112) = 21052.4 m
+2026-03-23 14:08:47.768 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.3836456, 73.0640586) = 5210.1 m
+2026-03-23 14:08:47.768 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.4467219, 73.1271368) = 12037.7 m
+2026-03-23 14:08:47.768 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.330396, 73.0696448) = 9450.5 m
+2026-03-23 14:08:47.768 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4000755, 73.0126538) → (31.3413852, 73.1852291) = 17636.2 m
+2026-03-23 14:08:47.768 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.3691526, 73.0514611) = 17627.2 m
+2026-03-23 14:08:47.768 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.3787188, 73.157798) = 19206.5 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.4457694, 73.1408101) = 12195.9 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.5487412, 73.1501112) = 9293.0 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.3836456, 73.0640586) = 16033.9 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.4467219, 73.1271368) = 11289.8 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.330396, 73.0696448) = 21975.7 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.3413852, 73.1852291) = 24105.5 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.527645, 73.0552285) → (31.4000755, 73.0126538) = 14748.6 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.3691526, 73.0514611) = 8759.8 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.3787188, 73.157798) = 6200.0 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.4457694, 73.1408101) = 13114.9 m
+2026-03-23 14:08:47.769 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.5487412, 73.1501112) = 24598.7 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.3836456, 73.0640586) = 8805.9 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.4467219, 73.1271368) = 13185.6 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.330396, 73.0696448) = 5760.8 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.3413852, 73.1852291) = 5425.4 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.4000755, 73.0126538) = 13732.2 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3281703, 73.1302408) → (31.527645, 73.0552285) = 23294.5 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.3691526, 73.0514611) = 12768.7 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.3787188, 73.157798) = 4570.9 m
+2026-03-23 14:08:47.770 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.4457694, 73.1408101) = 12047.0 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.5487412, 73.1501112) = 23033.9 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.3836456, 73.0640586) = 12103.2 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.4467219, 73.1271368) = 12629.8 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.330396, 73.0696448) = 10817.9 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3434454, 73.1825193) → (31.3413852, 73.1852291) = 344.5 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.3691526, 73.0514611) = 5649.9 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.3787188, 73.157798) = 11911.7 m
+2026-03-23 14:08:47.771 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.4457694, 73.1408101) = 9860.5 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.5487412, 73.1501112) = 17694.3 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.3836456, 73.0640586) = 4496.5 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.4467219, 73.1271368) = 8667.9 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.330396, 73.0696448) = 10233.5 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.3413852, 73.1852291) = 16149.9 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.4000755, 73.0126538) = 3480.9 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.527645, 73.0552285) = 12120.0 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4192659, 73.0416323) → (31.3281703, 73.1302408) = 13167.0 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.3691526, 73.0514611) = 18270.9 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.3787188, 73.157798) = 14628.9 m
+2026-03-23 14:08:47.772 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.4457694, 73.1408101) = 7213.9 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.5487412, 73.1501112) = 4293.6 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.3836456, 73.0640586) = 16275.2 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.4467219, 73.1271368) = 7387.4 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.330396, 73.0696448) = 21403.9 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.3413852, 73.1852291) = 19052.3 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.4000755, 73.0126538) = 17901.3 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.527645, 73.0552285) = 9228.7 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.3281703, 73.1302408) = 20323.0 m
+2026-03-23 14:08:47.773 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5101284, 73.1503952) → (31.4192659, 73.0416323) = 14439.2 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.3691526, 73.0514611) = 15315.3 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.3787188, 73.157798) = 9550.2 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.4457694, 73.1408101) = 3315.0 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.5487412, 73.1501112) = 9565.3 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.3836456, 73.0640586) = 13342.1 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.4467219, 73.1271368) = 4361.7 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.330396, 73.0696448) = 17575.5 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.3413852, 73.1852291) = 13742.8 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.4000755, 73.0126538) = 16399.0 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.527645, 73.0552285) = 12841.0 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.3281703, 73.1302408) = 15544.9 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.4192659, 73.0416323) = 13014.9 m
+2026-03-23 14:08:47.774 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4641337, 73.1683411) → (31.5101284, 73.1503952) = 5390.0 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.3691526, 73.0514611) = 2801.5 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.3787188, 73.157798) = 10153.3 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.4457694, 73.1408101) = 13683.8 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.5487412, 73.1501112) = 24293.8 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.3836456, 73.0640586) = 4362.0 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.4467219, 73.1271368) = 13079.0 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.330396, 73.0696448) = 1907.2 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.3413852, 73.1852291) = 12034.9 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.4000755, 73.0126538) = 7544.0 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.527645, 73.0552285) = 20345.1 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.3281703, 73.1302408) = 7051.3 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.4192659, 73.0416323) = 8445.8 m
+2026-03-23 14:08:47.775 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.5101284, 73.1503952) = 20354.2 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3446991, 73.0585627) → (31.4641337, 73.1683411) = 16879.6 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.3691526, 73.0514611) = 20674.9 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.3787188, 73.157798) = 18496.0 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.4457694, 73.1408101) = 10892.3 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.5487412, 73.1501112) = 2157.3 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.3836456, 73.0640586) = 18753.4 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.4467219, 73.1271368) = 10722.4 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.330396, 73.0696448) = 24302.6 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.3413852, 73.1852291) = 23075.3 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.4000755, 73.0126538) = 19323.6 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.527645, 73.0552285) = 7137.7 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.3281703, 73.1302408) = 23904.8 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.4192659, 73.0416323) = 16040.9 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.5101284, 73.1503952) = 4226.0 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.4641337, 73.1683411) = 9570.2 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5431453, 73.1283131) → (31.3446991, 73.0585627) = 23037.0 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.3691526, 73.0514611) = 4035.9 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.3787188, 73.157798) = 12665.7 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.4457694, 73.1408101) = 12064.7 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.5487412, 73.1501112) = 20418.3 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.3836456, 73.0640586) = 3937.2 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.4467219, 73.1271368) = 10963.1 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.330396, 73.0696448) = 8611.4 m
+2026-03-23 14:08:47.776 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.3413852, 73.1852291) = 16361.9 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.4000755, 73.0126538) = 1315.6 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.527645, 73.0552285) = 14622.6 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.3281703, 73.1302408) = 12582.9 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.4192659, 73.0416323) = 2728.4 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.5101284, 73.1503952) = 17103.8 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.4641337, 73.1683411) = 15320.8 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.3446991, 73.0585627) = 6713.6 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.398463, 73.0263855) → (31.5431453, 73.1283131) = 18768.8 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.3691526, 73.0514611) = 13042.9 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.3787188, 73.157798) = 6848.1 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.4457694, 73.1408101) = 14473.5 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.5487412, 73.1501112) = 25655.3 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.3836456, 73.0640586) = 12801.1 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.4467219, 73.1271368) = 14924.7 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.330396, 73.0696448) = 10147.0 m
+2026-03-23 14:08:47.777 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.3413852, 73.1852291) = 2645.5 m
+2026-03-23 14:08:47.778 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.4000755, 73.0126538) = 17907.6 m
+2026-03-23 14:08:47.778 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.527645, 73.0552285) = 25856.3 m
+2026-03-23 14:08:47.778 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.3281703, 73.1302408) = 4430.2 m
+2026-03-23 14:08:47.778 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.4192659, 73.0416323) = 16913.3 m
+2026-03-23 14:08:47.778 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.5101284, 73.1503952) = 21381.8 m
+2026-03-23 14:08:47.778 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.4641337, 73.1683411) = 16147.7 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.3446991, 73.0585627) = 11480.0 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.5431453, 73.1283131) = 25319.9 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3190478, 73.1756414) → (31.398463, 73.0263855) = 16698.2 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.3691526, 73.0514611) = 9011.7 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.3787188, 73.157798) = 2824.5 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.4457694, 73.1408101) = 10016.7 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.5487412, 73.1501112) = 21463.8 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.3836456, 73.0640586) = 8292.6 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.4467219, 73.1271368) = 10256.6 m
+2026-03-23 14:08:47.779 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.330396, 73.0696448) = 7698.0 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.3413852, 73.1852291) = 4135.3 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.4000755, 73.0126538) = 13501.7 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.527645, 73.0552285) = 20926.9 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.3281703, 73.1302408) = 3375.6 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.4192659, 73.0416323) = 12094.0 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.5101284, 73.1503952) = 17172.3 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.4641337, 73.1683411) = 12251.3 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.3446991, 73.0585627) = 8306.1 m
+2026-03-23 14:08:47.780 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.5431453, 73.1283131) = 20896.7 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.398463, 73.0263855) = 12226.6 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3557607, 73.1450675) → (31.3190478, 73.1756414) = 5009.7 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3691526, 73.0514611) = 10219.6 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3787188, 73.157798) = 12523.8 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.4457694, 73.1408101) = 7217.3 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.5487412, 73.1501112) = 12637.7 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3836456, 73.0640586) = 8509.9 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.4467219, 73.1271368) = 5931.9 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.330396, 73.0696448) = 14430.4 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3413852, 73.1852291) = 17352.9 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.4000755, 73.0126538) = 8415.9 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.527645, 73.0552285) = 7582.8 m
+2026-03-23 14:08:47.781 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3281703, 73.1302408) = 15869.1 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.4192659, 73.0416323) = 5126.4 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.5101284, 73.1503952) = 9695.6 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.4641337, 73.1683411) = 9658.8 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3446991, 73.0585627) = 12859.8 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.5431453, 73.1283131) = 10926.8 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.398463, 73.0263855) = 7849.3 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3190478, 73.1756414) = 18795.2 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4601458, 73.0666137) → (31.3557607, 73.1450675) = 13789.8 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.3691526, 73.0514611) = 20540.0 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.3787188, 73.157798) = 18478.9 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.4457694, 73.1408101) = 10865.9 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.5487412, 73.1501112) = 2401.2 m
+2026-03-23 14:08:47.782 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.3836456, 73.0640586) = 18624.8 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.4467219, 73.1271368) = 10667.1 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.330396, 73.0696448) = 24195.1 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.3413852, 73.1852291) = 23078.5 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.4000755, 73.0126538) = 19143.5 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.527645, 73.0552285) = 6893.4 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.3281703, 73.1302408) = 23852.4 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.4192659, 73.0416323) = 15872.2 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.5101284, 73.1503952) = 4302.1 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.4641337, 73.1683411) = 9616.8 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.3446991, 73.0585627) = 22916.4 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.5426468, 73.1258022) → (31.5431453, 73.1283131) = 244.3 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3691526, 73.0514611) = 12739.4 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3787188, 73.157798) = 11764.9 m
+2026-03-23 14:08:47.783 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.4457694, 73.1408101) = 4671.0 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.5487412, 73.1501112) = 9327.3 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3836456, 73.0640586) = 10795.6 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.4467219, 73.1271368) = 3735.5 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.330396, 73.0696448) = 16346.7 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3413852, 73.1852291) = 16641.5 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.4000755, 73.0126538) = 12017.7 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.527645, 73.0552285) = 7559.2 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3281703, 73.1302408) = 16432.0 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.4192659, 73.0416323) = 8560.2 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.5101284, 73.1503952) = 5884.0 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.4641337, 73.1683411) = 6141.7 m
+2026-03-23 14:08:47.784 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3446991, 73.0585627) = 15064.4 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.5431453, 73.1283131) = 7972.8 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.398463, 73.0263855) = 11241.2 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3190478, 73.1756414) = 18533.1 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.3557607, 73.1450675) = 13729.6 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4743292, 73.1046958) → (31.4601458, 73.0666137) = 3941.1 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3691526, 73.0514611) = 15179.5 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3787188, 73.157798) = 10082.7 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.4457694, 73.1408101) = 3198.3 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.5487412, 73.1501112) = 8875.6 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3836456, 73.0640586) = 13186.1 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.4467219, 73.1271368) = 4013.3 m
+2026-03-23 14:08:47.785 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.330396, 73.0696448) = 17677.2 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3413852, 73.1852291) = 14430.5 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.4000755, 73.0126538) = 15969.0 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.527645, 73.0552285) = 11866.0 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3281703, 73.1302408) = 15954.5 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.4192659, 73.0416323) = 12541.9 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.5101284, 73.1503952) = 4623.7 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.4641337, 73.1683411) = 976.7 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3446991, 73.0585627) = 16882.0 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.5431453, 73.1283131) = 8738.2 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.398463, 73.0263855) = 14935.2 m
+2026-03-23 14:08:47.786 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3190478, 73.1756414) = 16780.7 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.3557607, 73.1450675) = 12713.3 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.4601458, 73.0666137) = 8923.7 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4693742, 73.1600766) → (31.4743292, 73.1046958) = 5281.0 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3691526, 73.0514611) = 7028.5 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3787188, 73.157798) = 5341.7 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4457694, 73.1408101) = 5213.2 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.5487412, 73.1501112) = 16278.4 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3836456, 73.0640586) = 5152.2 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4467219, 73.1271368) = 4754.2 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.330396, 73.0696448) = 9309.5 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3413852, 73.1852291) = 10034.7 m
+2026-03-23 14:08:47.787 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4000755, 73.0126538) = 9409.6 m
+2026-03-23 14:08:47.788 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.527645, 73.0552285) = 14533.6 m
+2026-03-23 14:08:47.788 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3281703, 73.1302408) = 8844.0 m
+2026-03-23 14:08:47.788 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4192659, 73.0416323) = 6794.7 m
+2026-03-23 14:08:47.788 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.5101284, 73.1503952) = 12141.4 m
+2026-03-23 14:08:47.788 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4641337, 73.1683411) = 8407.9 m
+2026-03-23 14:08:47.788 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3446991, 73.0585627) = 8479.3 m
+2026-03-23 14:08:47.788 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.5431453, 73.1283131) = 15322.8 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.398463, 73.0263855) = 8127.0 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3190478, 73.1756414) = 11432.7 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.3557607, 73.1450675) = 6437.6 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4601458, 73.0666137) = 7369.3 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4743292, 73.1046958) = 7615.8 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4060883, 73.1115478) → (31.4693742, 73.1600766) = 8409.4 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3691526, 73.0514611) = 12805.4 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3787188, 73.157798) = 18162.6 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4457694, 73.1408101) = 13332.5 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.5487412, 73.1501112) = 15866.2 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3836456, 73.0640586) = 11820.3 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4467219, 73.1271368) = 12055.8 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.330396, 73.0696448) = 17446.3 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3413852, 73.1852291) = 22812.6 m
+2026-03-23 14:08:47.789 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4000755, 73.0126538) = 8620.2 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.527645, 73.0552285) = 7333.8 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3281703, 73.1302408) = 20394.7 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4192659, 73.0416323) = 7323.9 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.5101284, 73.1503952) = 14241.1 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4641337, 73.1683411) = 15541.3 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3446991, 73.0585627) = 15593.8 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.5431453, 73.1283131) = 13775.0 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.398463, 73.0263855) = 8997.8 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3190478, 73.1756414) = 23905.7 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.3557607, 73.1450675) = 18944.9 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4601458, 73.0666137) = 6129.9 m
+2026-03-23 14:08:47.790 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4743292, 73.1046958) = 9441.2 m
+2026-03-23 14:08:47.791 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4693742, 73.1600766) = 14714.3 m
+2026-03-23 14:08:47.791 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4773379, 73.0052033) → (31.4060883, 73.1115478) = 12827.7 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3691526, 73.0514611) = 16268.3 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3787188, 73.157798) = 10934.9 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4457694, 73.1408101) = 4281.5 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.5487412, 73.1501112) = 8183.0 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3836456, 73.0640586) = 14274.3 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4467219, 73.1271368) = 5090.4 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.330396, 73.0696448) = 18741.6 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3413852, 73.1852291) = 15137.4 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4000755, 73.0126538) = 16998.9 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.527645, 73.0552285) = 12075.0 m
+2026-03-23 14:08:47.792 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3281703, 73.1302408) = 16893.5 m
+2026-03-23 14:08:47.793 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4192659, 73.0416323) = 13557.5 m
+2026-03-23 14:08:47.793 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.5101284, 73.1503952) = 4063.8 m
+2026-03-23 14:08:47.793 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4641337, 73.1683411) = 1398.0 m
+2026-03-23 14:08:47.793 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3446991, 73.0585627) = 17963.8 m
+2026-03-23 14:08:47.793 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.5431453, 73.1283131) = 8279.0 m
+2026-03-23 14:08:47.793 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.398463, 73.0263855) = 15982.0 m
+2026-03-23 14:08:47.793 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3190478, 73.1756414) = 17545.7 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.3557607, 73.1450675) = 13617.7 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4601458, 73.0666137) = 9762.5 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4743292, 73.1046958) = 5981.1 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4693742, 73.1600766) = 1088.9 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4060883, 73.1115478) = 9487.9 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4766945, 73.1677037) → (31.4773379, 73.0052033) = 15410.5 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3691526, 73.0514611) = 18111.6 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3787188, 73.157798) = 13942.0 m
+2026-03-23 14:08:47.794 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4457694, 73.1408101) = 6696.4 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.5487412, 73.1501112) = 5025.0 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3836456, 73.0640586) = 16107.0 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4467219, 73.1271368) = 7034.0 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.330396, 73.0696448) = 21070.1 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3413852, 73.1852291) = 18271.9 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4000755, 73.0126538) = 18023.2 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.527645, 73.0552285) = 10120.9 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3281703, 73.1302408) = 19743.8 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4192659, 73.0416323) = 14545.4 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.5101284, 73.1503952) = 1009.9 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4641337, 73.1683411) = 4543.8 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3446991, 73.0585627) = 20095.7 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.5431453, 73.1283131) = 5192.5 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.398463, 73.0263855) = 17167.1 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3190478, 73.1756414) = 20642.2 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.3557607, 73.1450675) = 16542.9 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4601458, 73.0666137) = 9979.2 m
+2026-03-23 14:08:47.795 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4743292, 73.1046958) = 6070.8 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4693742, 73.1600766) = 3864.9 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4060883, 73.1115478) = 11768.5 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4773379, 73.0052033) = 14824.2 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.504101, 73.1583633) → (31.4766945, 73.1677037) = 3173.5 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3691526, 73.0514611) = 13344.3 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3787188, 73.157798) = 3312.6 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4457694, 73.1408101) = 7684.3 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.5487412, 73.1501112) = 17970.0 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3836456, 73.0640586) = 11956.3 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4467219, 73.1271368) = 8607.5 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.330396, 73.0696448) = 13229.3 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3413852, 73.1852291) = 5501.1 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4000755, 73.0126538) = 16840.8 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.527645, 73.0552285) = 19865.6 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3281703, 73.1302408) = 8959.8 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4192659, 73.0416323) = 14410.9 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.5101284, 73.1503952) = 13793.6 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4641337, 73.1683411) = 8413.4 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3446991, 73.0585627) = 13464.6 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.5431453, 73.1283131) = 17923.7 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.398463, 73.0263855) = 15529.3 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3190478, 73.1756414) = 8080.0 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.3557607, 73.1450675) = 5752.5 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4601458, 73.0666137) = 14004.1 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4743292, 73.1046958) = 12311.4 m
+2026-03-23 14:08:47.796 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4693742, 73.1600766) = 9189.1 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4060883, 73.1115478) = 7616.3 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4773379, 73.0052033) = 19983.5 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.4766945, 73.1677037) = 9787.3 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.3907077, 73.1897443) → (31.504101, 73.1583633) = 12955.4 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3691526, 73.0514611) = 5262.0 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3787188, 73.157798) = 7305.0 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4457694, 73.1408101) = 6786.6 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.5487412, 73.1501112) = 17033.5 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3836456, 73.0640586) = 3262.2 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4467219, 73.1271368) = 5962.4 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.330396, 73.0696448) = 8486.8 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3413852, 73.1852291) = 11690.7 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4000755, 73.0126538) = 7114.0 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.527645, 73.0552285) = 13951.9 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3281703, 73.1302408) = 9483.7 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4192659, 73.0416323) = 4613.4 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.5101284, 73.1503952) = 13109.4 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4641337, 73.1683411) = 10097.2 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3446991, 73.0585627) = 7262.5 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.5431453, 73.1283131) = 15822.2 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.398463, 73.0263855) = 5836.2 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3190478, 73.1756414) = 12729.0 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3557607, 73.1450675) = 7760.6 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4601458, 73.0666137) = 6418.7 m
+2026-03-23 14:08:47.797 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4743292, 73.1046958) = 7860.1 m
+2026-03-23 14:08:47.798 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4693742, 73.1600766) = 9924.4 m
+2026-03-23 14:08:47.798 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4060883, 73.1115478) = 2296.7 m
+2026-03-23 14:08:47.798 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4773379, 73.0052033) = 11184.6 m
+2026-03-23 14:08:47.798 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.4766945, 73.1677037) = 11012.5 m
+2026-03-23 14:08:47.798 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.504101, 73.1583633) = 12894.9 m
+2026-03-23 14:08:47.798 | DEBUG    | utils.geo_utils:haversine_distance:20 - Haversine: (31.4052045, 73.0873694) → (31.3907077, 73.1897443) = 9849.5 m
+2026-03-23 14:08:47.798 | INFO     | data_pipeline.stop_builder:merge_nearby_stops:91 - Merged stops:
+2026-03-23 14:08:47.798 | INFO     | data_pipeline.stop_builder:merge_nearby_stops:92 -   Before merge: 30 stops
+2026-03-23 14:08:47.798 | INFO     | data_pipeline.stop_builder:merge_nearby_stops:93 -   After merge : 28 stops (merged 2 pairs/groups)
+2026-03-23 14:08:47.799 | DEBUG    | data_pipeline.stop_builder:merge_nearby_stops:95 - First few merged stops: [{'student_id': '3CNKLBNknvMId9G9MJ1cVoQjkpw2', 'name': 'Test Student 12', 'roll_no': 'TEST-4382', 'lat': 31.3691526, 'lng': 73.0514611, 'student_count': 1, 'contact': '03597900028', 'semester': 'Spring 2026', 'fee_status': 'unpaid', 'registration_status': 'pending', 'original_lat': 31.369289, 'original_lng': 73.051406, 'snap_distance_m': 16.04, 'merged_student_ids': ['3CNKLBNknvMId9G9MJ1cVoQjkpw2']}, {'student_id': '61fbjUraIhPuzNx8BY68aYewSG02', 'name': 'Test Student 28', 'roll_no': 'TEST-7403', 'lat': 31.3787188, 'lng': 73.157798, 'student_count': 1, 'contact': '03344993000', 'semester': 'Spring 2026', 'fee_status': 'unpaid', 'registration_status': 'pending', 'original_lat': 31.380283, 'original_lng': 73.159195, 'snap_distance_m': 218.72, 'merged_student_ids': ['61fbjUraIhPuzNx8BY68aYewSG02']}, {'student_id': '7DxKX1nW4ZdeWHKXM2Vf5OIfGvr1', 'name': 'Test Student 10', 'roll_no': 'TEST-9142', 'lat': 31.4457694, 'lng': 73.1408101, 'student_count': 1, 'contact': '03537549971', 'semester': 'Spring 2026', 'fee_status': 'unpaid', 'registration_status': 'pending', 'original_lat': 31.446304, 'original_lng': 73.140169, 'snap_distance_m': 85.04, 'merged_student_ids': ['7DxKX1nW4ZdeWHKXM2Vf5OIfGvr1']}]
+2026-03-23 14:08:49.915 | INFO     | clustering.stop_clustering:cluster_stops:45 - Clustered into 3 buses (capacity 10):
+2026-03-23 14:08:49.915 | INFO     | clustering.stop_clustering:cluster_stops:48 -   Bus 0: 6 stops, 7 students
+2026-03-23 14:08:49.916 | INFO     | clustering.stop_clustering:cluster_stops:48 -   Bus 1: 11 stops, 12 students
+2026-03-23 14:08:49.916 | INFO     | clustering.stop_clustering:cluster_stops:48 -   Bus 2: 11 stops, 11 students
+2026-03-23 14:08:51.195 | INFO     | optimization.tsp_solver:get_road_distance_matrix:38 - ORS matrix computed: 7x7
+2026-03-23 14:09:06.312 | INFO     | optimization.tsp_solver:solve_tsp:123 - TSP solved: 6 stops, distance 33064 m, objective 33064
+2026-03-23 14:09:06.312 | DEBUG    | optimization.tsp_solver:solve_tsp:124 - Order: ['unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown']
+2026-03-23 14:09:06.315 | DEBUG    | optimization.route_generator:generate_route_path:57 - Requesting ORS route with 7 waypoints
+2026-03-23 14:09:07.917 | INFO     | optimization.route_generator:generate_route_path:74 - ORS route generated successfully (bug-free)
+2026-03-23 14:09:07.918 | INFO     | optimization.route_generator:generate_route_path:75 -   Waypoints: 6 stops → University
+2026-03-23 14:09:07.923 | INFO     | optimization.route_generator:generate_route_path:76 -   Distance: 58.93 km
+2026-03-23 14:09:07.924 | INFO     | optimization.route_generator:generate_route_path:77 -   Duration: 1.20 h (72 min)
+2026-03-23 14:09:07.924 | DEBUG    | optimization.route_generator:generate_route_path:78 - Geometry sample (first 3 & last 3): [[73.157798, 31.378719], [73.16044, 31.376661], [73.161875, 31.375597]] ... [[73.03447, 31.602425], [73.034742, 31.602694], [73.034832, 31.602523]]
+2026-03-23 14:09:07.926 | INFO     | optimization.store_routes:compute_fee_per_student:32 - Fee calc: 40412 PKR/student | dist=58.9km | students=7
+2026-03-23 14:09:09.276 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3787, 73.1578) → 'Punjab Social Security Housing Colony'
+2026-03-23 14:09:11.448 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S1 to student 61fbjUraIhPuzNx8BY68aYewSG02
+2026-03-23 14:09:13.581 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R1_stop1 | name='Punjab Social Security Housing Colony' | route=R1
+2026-03-23 14:09:15.543 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3907, 73.1897) → 'Karar Wala'
+2026-03-23 14:09:16.094 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S2 to student vjz604g8oKerN5zBKZ7mU7mG2M03
+2026-03-23 14:09:18.367 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R1_stop2 | name='Karar Wala' | route=R1
+2026-03-23 14:09:20.749 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3414, 73.1852) → 'Khojewala'
+2026-03-23 14:09:21.297 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S3 to student KSn42uZ4dDaMueZxSsk9yyYYMbU2
+2026-03-23 14:09:23.527 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S4 to student SF9XoWomQLQm1mkqTnpp8bDSyxG3
+2026-03-23 14:09:24.094 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R1_stop3 | name='Khojewala' | route=R1
+2026-03-23 14:09:25.959 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3190, 73.1756) → 'Faialabad - chak 363 G.B Road'
+2026-03-23 14:09:26.502 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S5 to student XmlYR1ejNvTp0enFtavXMQRl9l62
+2026-03-23 14:09:27.027 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R1_stop4 | name='Faialabad - chak 363 G.B Road' | route=R1
+2026-03-23 14:09:28.899 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3282, 73.1302) → 'Faisalabad ByPass'
+2026-03-23 14:09:29.424 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S6 to student Os55fn9jigeXpNaUlGTOSD1kzUH3
+2026-03-23 14:09:29.957 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R1_stop5 | name='Faisalabad ByPass' | route=R1
+2026-03-23 14:09:32.308 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3558, 73.1451) → 'Awan Wala'
+2026-03-23 14:09:32.860 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S7 to student XuCFaAxIj3RH4cDaJKu6xmWSwfi1
+2026-03-23 14:09:33.988 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R1_stop6 | name='Awan Wala' | route=R1
+2026-03-23 14:09:35.928 | INFO     | optimization.store_routes:store_optimized_routes:320 - Stored route route_0 (R1): 6 stops, 58.93 km
+2026-03-23 14:09:37.260 | INFO     | optimization.tsp_solver:get_road_distance_matrix:38 - ORS matrix computed: 12x12
+2026-03-23 14:09:52.264 | INFO     | optimization.tsp_solver:solve_tsp:123 - TSP solved: 11 stops, distance 60287 m, objective 60287
+2026-03-23 14:09:52.265 | DEBUG    | optimization.tsp_solver:solve_tsp:124 - Order: ['unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown']
+2026-03-23 14:09:52.265 | DEBUG    | optimization.route_generator:generate_route_path:57 - Requesting ORS route with 12 waypoints
+2026-03-23 14:09:53.398 | INFO     | optimization.route_generator:generate_route_path:74 - ORS route generated successfully (bug-free)
+2026-03-23 14:09:53.398 | INFO     | optimization.route_generator:generate_route_path:75 -   Waypoints: 11 stops → University
+2026-03-23 14:09:53.398 | INFO     | optimization.route_generator:generate_route_path:76 -   Distance: 81.84 km
+2026-03-23 14:09:53.399 | INFO     | optimization.route_generator:generate_route_path:77 -   Duration: 1.68 h (101 min)
+2026-03-23 14:09:53.399 | DEBUG    | optimization.route_generator:generate_route_path:78 - Geometry sample (first 3 & last 3): [[73.14081, 31.445769], [73.14365, 31.447906], [73.145117, 31.448895]] ... [[73.03447, 31.602425], [73.034742, 31.602694], [73.034832, 31.602523]]
+2026-03-23 14:09:53.400 | INFO     | optimization.store_routes:compute_fee_per_student:32 - Fee calc: 32738 PKR/student | dist=81.8km | students=12
+2026-03-23 14:09:54.678 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4458, 73.1408) → 'West Canal Expressway, Faisalabad City Tehsil'
+2026-03-23 14:09:55.228 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S1 to student 7DxKX1nW4ZdeWHKXM2Vf5OIfGvr1
+2026-03-23 14:09:57.496 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop1 | name='West Canal Expressway, Faisalabad City Tehsil' | route=R2
+2026-03-23 14:09:59.294 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4641, 73.1683) → 'Faisalabad - Sheikhupura - Lahore Road, Faisalabad City Tehsil'
+2026-03-23 14:09:59.848 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S2 to student UpNOyWoNcXaW1O5jadyyddeniWj2
+2026-03-23 14:10:01.321 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop2 | name='Faisalabad - Sheikhupura - Lahore Road, Faisalabad City Tehsil' | route=R2
+2026-03-23 14:10:03.468 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4694, 73.1601) → 'Faisalabad District, Faisalabad City Tehsil'
+2026-03-23 14:10:03.983 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S3 to student qwxNS37KPQSeME1Rb86ZDMnXjYX2
+2026-03-23 14:10:04.528 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop3 | name='Faisalabad District, Faisalabad City Tehsil' | route=R2
+2026-03-23 14:10:06.983 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4767, 73.1677) → 'Bagewal Road, Sabina Town'
+2026-03-23 14:10:07.519 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S4 to student unEE7hJDp7cMFEu2M568RmrtWRq2
+2026-03-23 14:10:08.048 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop4 | name='Bagewal Road, Sabina Town' | route=R2
+2026-03-23 14:10:09.954 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.5041, 73.1584) → 'Faisalabad District'
+2026-03-23 14:10:10.482 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S5 to student vQHRPPdjWmTjASjEQvAqjzPhHdm2
+2026-03-23 14:10:11.000 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop5 | name='Faisalabad District' | route=R2
+2026-03-23 14:10:13.098 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.5101, 73.1504) → 'Faisalabad District'
+2026-03-23 14:10:14.094 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S6 to student SXxBaOHsDPhcbAy5QSfe0NZxZM83
+2026-03-23 14:10:15.133 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop6 | name='Faisalabad District' | route=R2
+2026-03-23 14:10:18.020 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.5487, 73.1501) → 'Kirari'
+2026-03-23 14:10:18.580 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S7 to student DS0YCp1l3RXIwCBzxzmEzv99Zii1
+2026-03-23 14:10:20.803 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop7 | name='Kirari' | route=R2
+2026-03-23 14:10:23.630 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.5276, 73.0552) → 'Faisalabad District'
+2026-03-23 14:10:24.203 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S8 to student NkZ3VPHBNtS3wxSmCjfBkRWPaZQ2
+2026-03-23 14:10:26.408 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop8 | name='Faisalabad District' | route=R2
+2026-03-23 14:10:28.275 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.5431, 73.1283) → 'Dialgarh'
+2026-03-23 14:10:28.820 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S9 to student VMbnLGOyDuRi41R8XPG6toeooJt1
+2026-03-23 14:10:29.374 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S10 to student e3D31VgcVrXKjMfjS13MWcxDZgi1
+2026-03-23 14:10:29.908 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop9 | name='Dialgarh' | route=R2
+2026-03-23 14:10:32.052 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4743, 73.1047) → 'Faisalabad District, Faisalabad City Tehsil'
+2026-03-23 14:10:32.599 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S11 to student n5w74mESTuV3BSMbnAo4AqNZ3oT2
+2026-03-23 14:10:33.139 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop10 | name='Faisalabad District, Faisalabad City Tehsil' | route=R2
+2026-03-23 14:10:35.932 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4467, 73.1271) → 'Kashmir Road, Faisalabad City Tehsil'
+2026-03-23 14:10:36.474 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S12 to student GydB2I2Y0Ec14olrl5Hbtm8ziZF3
+2026-03-23 14:10:37.011 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R2_stop11 | name='Kashmir Road, Faisalabad City Tehsil' | route=R2
+2026-03-23 14:10:38.566 | INFO     | optimization.store_routes:store_optimized_routes:320 - Stored route route_1 (R2): 11 stops, 81.84 km
+2026-03-23 14:10:39.633 | INFO     | optimization.tsp_solver:get_road_distance_matrix:38 - ORS matrix computed: 12x12
+2026-03-23 14:10:54.636 | INFO     | optimization.tsp_solver:solve_tsp:123 - TSP solved: 11 stops, distance 72708 m, objective 72708
+2026-03-23 14:10:54.638 | DEBUG    | optimization.tsp_solver:solve_tsp:124 - Order: ['unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown', 'unknown']
+2026-03-23 14:10:54.641 | DEBUG    | optimization.route_generator:generate_route_path:57 - Requesting ORS route with 12 waypoints
+2026-03-23 14:10:55.813 | INFO     | optimization.route_generator:generate_route_path:74 - ORS route generated successfully (bug-free)
+2026-03-23 14:10:55.814 | INFO     | optimization.route_generator:generate_route_path:75 -   Waypoints: 11 stops → University
+2026-03-23 14:10:55.814 | INFO     | optimization.route_generator:generate_route_path:76 -   Distance: 99.05 km
+2026-03-23 14:10:55.814 | INFO     | optimization.route_generator:generate_route_path:77 -   Duration: 1.92 h (115 min)
+2026-03-23 14:10:55.814 | DEBUG    | optimization.route_generator:generate_route_path:78 - Geometry sample (first 3 & last 3): [[73.051461, 31.369153], [73.051213, 31.36893], [73.050868, 31.368599]] ... [[73.03447, 31.602425], [73.034742, 31.602694], [73.034832, 31.602523]]
+2026-03-23 14:10:55.816 | INFO     | optimization.store_routes:compute_fee_per_student:32 - Fee calc: 43223 PKR/student | dist=99.1km | students=11
+2026-03-23 14:10:57.259 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3692, 73.0515) → 'Fatenabad'
+2026-03-23 14:10:57.811 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S1 to student 3CNKLBNknvMId9G9MJ1cVoQjkpw2
+2026-03-23 14:10:58.345 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop1 | name='Fatenabad' | route=R3
+2026-03-23 14:11:00.250 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4001, 73.0127) → 'Faisalabad District, Shadab Colony'
+2026-03-23 14:11:00.803 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S2 to student KbkXVOhtA3hfwjvwsS5w2IIOki93
+2026-03-23 14:11:01.348 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop2 | name='Faisalabad District, Shadab Colony' | route=R3
+2026-03-23 14:11:03.232 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3985, 73.0264) → 'Faisalabad District'
+2026-03-23 14:11:03.760 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S3 to student WRVMbOeJLLdnIPhcWnncdjhPSjb2
+2026-03-23 14:11:04.294 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop3 | name='Faisalabad District' | route=R3
+2026-03-23 14:11:06.529 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4193, 73.0416) → 'Bakar Mandi Road, Faisalabad City Tehsil'
+2026-03-23 14:11:07.092 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S4 to student SOWTJArpcRRKPC0v7cWYW0XJk6v1
+2026-03-23 14:11:07.618 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop4 | name='Bakar Mandi Road, Faisalabad City Tehsil' | route=R3
+2026-03-23 14:11:09.733 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4773, 73.0052) → 'Faisalabad bypass'
+2026-03-23 14:11:10.275 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S5 to student shSuBEXnw4TLpoUGH1D5uwg8QKr1
+2026-03-23 14:11:10.795 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop5 | name='Faisalabad bypass' | route=R3
+2026-03-23 14:11:12.958 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4601, 73.0666) → 'Faisalabad District, Faisalabad City Tehsil'
+2026-03-23 14:11:13.950 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S6 to student bvudy4BMDIZ3KxtxPyHvDJd3rjf2
+2026-03-23 14:11:14.502 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop6 | name='Faisalabad District, Faisalabad City Tehsil' | route=R3
+2026-03-23 14:11:16.284 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4061, 73.1115) → 'D Ground Road, Faisalabad City Tehsil'
+2026-03-23 14:11:16.810 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S7 to student rtsUd2Aeg0W2HTpXZhrpSlqMhdL2
+2026-03-23 14:11:17.332 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop7 | name='D Ground Road, Faisalabad City Tehsil' | route=R3
+2026-03-23 14:11:19.174 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.4052, 73.0874) → 'Samundari Faisalabad Road, Faisalabad City Tehsil'
+2026-03-23 14:11:19.688 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S8 to student x2LmEXZ95YfrQpxSQgrBTDTWbk83
+2026-03-23 14:11:20.217 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop8 | name='Samundari Faisalabad Road, Faisalabad City Tehsil' | route=R3
+2026-03-23 14:11:22.395 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3836, 73.0641) → 'Nisar Colony, Faisalabad City Tehsil'
+2026-03-23 14:11:22.914 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S9 to student GBGXh21H2VefIT4NkSWu8FQldkF3
+2026-03-23 14:11:23.443 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop9 | name='Nisar Colony, Faisalabad City Tehsil' | route=R3
+2026-03-23 14:11:25.200 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3304, 73.0696) → 'Four Seasons Housing'
+2026-03-23 14:11:25.735 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S10 to student I6aLScqZSSeAF3ug6jDkoPrt6g23
+2026-03-23 14:11:26.258 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop10 | name='Four Seasons Housing' | route=R3
+2026-03-23 14:11:28.487 | DEBUG    | optimization.store_routes:reverse_geocode_stop_name:176 - Stop name resolved: (31.3447, 73.0586) → 'Four Seasons Housing'
+2026-03-23 14:11:29.027 | DEBUG    | optimization.store_routes:store_optimized_routes:270 - Assigned seat S11 to student VItoVj8ml0ZAMdLtqGCBxaDdkWj1
+2026-03-23 14:11:29.566 | DEBUG    | optimization.store_routes:store_optimized_routes:296 - Stored stop R3_stop11 | name='Four Seasons Housing' | route=R3
+2026-03-23 14:11:30.787 | INFO     | optimization.store_routes:store_optimized_routes:320 - Stored route route_2 (R3): 11 stops, 99.05 km
+2026-03-23 14:11:30.787 | INFO     | optimization.store_routes:store_optimized_routes:326 - Back-filling route_id on 28 stops + students...
+2026-03-23 14:11:46.025 | DEBUG    | optimization.store_routes:store_optimized_routes:357 - Final batch: 58 writes
+2026-03-23 14:11:46.025 | INFO     | optimization.store_routes:store_optimized_routes:360 - Phase 3: Storing per-student fees...
+2026-03-23 14:11:46.798 | INFO     | optimization.store_routes:compute_fee_per_student:32 - Fee calc: 40410 PKR/student | dist=58.9km | students=7
+2026-03-23 14:11:47.336 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for 61fbjUraIhPuzNx8BY68aYewSG02: 40410 PKR
+2026-03-23 14:11:47.861 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for KSn42uZ4dDaMueZxSsk9yyYYMbU2: 40410 PKR
+2026-03-23 14:11:48.391 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for SF9XoWomQLQm1mkqTnpp8bDSyxG3: 40410 PKR
+2026-03-23 14:11:48.920 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for Os55fn9jigeXpNaUlGTOSD1kzUH3: 40410 PKR
+2026-03-23 14:11:49.456 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for XmlYR1ejNvTp0enFtavXMQRl9l62: 40410 PKR
+2026-03-23 14:11:49.971 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for XuCFaAxIj3RH4cDaJKu6xmWSwfi1: 40410 PKR
+2026-03-23 14:11:50.491 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for vjz604g8oKerN5zBKZ7mU7mG2M03: 40410 PKR
+2026-03-23 14:11:51.463 | INFO     | optimization.store_routes:compute_fee_per_student:32 - Fee calc: 32736 PKR/student | dist=81.8km | students=12
+2026-03-23 14:11:51.981 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for 7DxKX1nW4ZdeWHKXM2Vf5OIfGvr1: 32736 PKR
+2026-03-23 14:11:52.508 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for DS0YCp1l3RXIwCBzxzmEzv99Zii1: 32736 PKR
+2026-03-23 14:11:53.028 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for GydB2I2Y0Ec14olrl5Hbtm8ziZF3: 32736 PKR
+2026-03-23 14:11:53.544 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for NkZ3VPHBNtS3wxSmCjfBkRWPaZQ2: 32736 PKR
+2026-03-23 14:11:54.071 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for SXxBaOHsDPhcbAy5QSfe0NZxZM83: 32736 PKR
+2026-03-23 14:11:54.589 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for UpNOyWoNcXaW1O5jadyyddeniWj2: 32736 PKR
+2026-03-23 14:11:55.104 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for VMbnLGOyDuRi41R8XPG6toeooJt1: 32736 PKR
+2026-03-23 14:11:55.615 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for e3D31VgcVrXKjMfjS13MWcxDZgi1: 32736 PKR
+2026-03-23 14:11:56.132 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for n5w74mESTuV3BSMbnAo4AqNZ3oT2: 32736 PKR
+2026-03-23 14:11:56.653 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for qwxNS37KPQSeME1Rb86ZDMnXjYX2: 32736 PKR
+2026-03-23 14:11:57.175 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for unEE7hJDp7cMFEu2M568RmrtWRq2: 32736 PKR
+2026-03-23 14:11:57.688 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for vQHRPPdjWmTjASjEQvAqjzPhHdm2: 32736 PKR
+2026-03-23 14:11:58.848 | INFO     | optimization.store_routes:compute_fee_per_student:32 - Fee calc: 43222 PKR/student | dist=99.0km | students=11
+2026-03-23 14:11:59.374 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for 3CNKLBNknvMId9G9MJ1cVoQjkpw2: 43222 PKR
+2026-03-23 14:11:59.893 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for GBGXh21H2VefIT4NkSWu8FQldkF3: 43222 PKR
+2026-03-23 14:12:00.422 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for I6aLScqZSSeAF3ug6jDkoPrt6g23: 43222 PKR
+2026-03-23 14:12:00.958 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for KbkXVOhtA3hfwjvwsS5w2IIOki93: 43222 PKR
+2026-03-23 14:12:01.485 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for SOWTJArpcRRKPC0v7cWYW0XJk6v1: 43222 PKR
+2026-03-23 14:12:02.011 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for VItoVj8ml0ZAMdLtqGCBxaDdkWj1: 43222 PKR
+2026-03-23 14:12:02.540 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for WRVMbOeJLLdnIPhcWnncdjhPSjb2: 43222 PKR
+2026-03-23 14:12:03.070 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for bvudy4BMDIZ3KxtxPyHvDJd3rjf2: 43222 PKR
+2026-03-23 14:12:03.585 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for rtsUd2Aeg0W2HTpXZhrpSlqMhdL2: 43222 PKR
+2026-03-23 14:12:04.115 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for shSuBEXnw4TLpoUGH1D5uwg8QKr1: 43222 PKR
+2026-03-23 14:12:04.668 | DEBUG    | optimization.store_routes:store_optimized_routes:400 - Stored fee for x2LmEXZ95YfrQpxSQgrBTDTWbk83: 43222 PKR
+2026-03-23 14:12:04.669 | INFO     | optimization.store_routes:store_optimized_routes:402 - Phase 3 complete: 30 fee records stored
+2026-03-23 14:12:04.673 | INFO     | optimization.store_routes:store_optimized_routes:404 - Overall done: 3 routes | 28 stops | 30 fees
+2026-03-23 14:12:04.677 | INFO     | optimization.store_routes:store_optimized_routes:406 - Done: 3 routes | 28 stops stored
+2026-03-23 14:12:04.678 | INFO     | optimization.store_routes:store_optimized_routes:409 - Phase 3 complete: 30 fee records stored
+2026-03-23 14:12:04.679 | INFO     | optimization.store_routes:store_optimized_routes:412 - Final step: Updating registration_status to 'successful' for all processed students...
+2026-03-23 14:12:05.331 | INFO     | optimization.store_routes:store_optimized_routes:436 - Updated 30 students to 'successful' registration status.
+2026-03-23 14:12:05.332 | INFO     | optimization.store_routes:store_optimized_routes:439 - Overall done: 3 routes | 28 stops | 30 fees
+2026-03-23 14:12:05.332 | INFO     | api.main:run_optimization:64 - Pipeline completed successfully | 3 buses processed

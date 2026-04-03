@@ -1,0 +1,916 @@
+2026-03-18 13:38:48.201 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:00:19.891 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:00:27.641 | INFO     | __main__:create_random_student_user:47 - Created Auth user: LnqNCRyBotX3E1mbN9ywar9Dw7w1 | test.student1@aismarttransport.pk | password: kRRMl4&3MOSW (for testing only)
+2026-03-18 21:00:28.654 | DEBUG    | __main__:create_random_student_user:60 - Stored user doc for UID LnqNCRyBotX3E1mbN9ywar9Dw7w1
+2026-03-18 21:00:30.706 | INFO     | __main__:create_random_student_user:80 - Created student doc test_001 → UID LnqNCRyBotX3E1mbN9ywar9Dw7w1 at (31.353098, 73.190781)
+2026-03-18 21:00:47.823 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:00:57.251 | INFO     | __main__:create_random_student_user:48 - Created Auth user: AboV3lSZ7cQQhBI5JEuEv0GJEiD3 | test.student1@aismarttransport.pk | password: OV8vrsiyJxkO (for testing only)
+2026-03-18 21:00:58.667 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID AboV3lSZ7cQQhBI5JEuEv0GJEiD3
+2026-03-18 21:01:02.324 | INFO     | __main__:create_random_student_user:81 - Created student doc test_001 → UID AboV3lSZ7cQQhBI5JEuEv0GJEiD3 at (31.353567, 73.136078)
+2026-03-18 21:01:03.603 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 0y46jpTyxPbVwfLNo83NKSBsNUw1 | test.student2@aismarttransport.pk | password: tYFsacg4ta%I (for testing only)
+2026-03-18 21:01:04.226 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID 0y46jpTyxPbVwfLNo83NKSBsNUw1
+2026-03-18 21:01:06.521 | INFO     | __main__:create_random_student_user:81 - Created student doc test_002 → UID 0y46jpTyxPbVwfLNo83NKSBsNUw1 at (31.371407, 73.118154)
+2026-03-18 21:01:07.801 | INFO     | __main__:create_random_student_user:48 - Created Auth user: kClFwo380LeMfSN4DnnX7K3IIoB3 | test.student3@aismarttransport.pk | password: 3l2dLT5SpDqr (for testing only)
+2026-03-18 21:01:08.832 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID kClFwo380LeMfSN4DnnX7K3IIoB3
+2026-03-18 21:01:09.884 | INFO     | __main__:create_random_student_user:81 - Created student doc test_003 → UID kClFwo380LeMfSN4DnnX7K3IIoB3 at (31.412814, 73.111171)
+2026-03-18 21:01:11.332 | INFO     | __main__:create_random_student_user:48 - Created Auth user: jgUSvNtXcROyIYZviZxx2RuLkP23 | test.student4@aismarttransport.pk | password: @temN5qT7i1D (for testing only)
+2026-03-18 21:01:11.902 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID jgUSvNtXcROyIYZviZxx2RuLkP23
+2026-03-18 21:01:14.312 | INFO     | __main__:create_random_student_user:81 - Created student doc test_004 → UID jgUSvNtXcROyIYZviZxx2RuLkP23 at (31.527629, 73.039507)
+2026-03-18 21:01:16.167 | INFO     | __main__:create_random_student_user:48 - Created Auth user: nqxMp7vFeIU7G00sflOgWlAD0Bs1 | test.student5@aismarttransport.pk | password: y59SiW5EY^1o (for testing only)
+2026-03-18 21:01:16.812 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID nqxMp7vFeIU7G00sflOgWlAD0Bs1
+2026-03-18 21:01:17.496 | INFO     | __main__:create_random_student_user:81 - Created student doc test_005 → UID nqxMp7vFeIU7G00sflOgWlAD0Bs1 at (31.313195, 73.198579)
+2026-03-18 21:01:18.825 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 18pXTrMA2semrQmI24UL601yjH03 | test.student6@aismarttransport.pk | password: f$EK0K6jkvMS (for testing only)
+2026-03-18 21:01:19.635 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID 18pXTrMA2semrQmI24UL601yjH03
+2026-03-18 21:01:20.673 | INFO     | __main__:create_random_student_user:81 - Created student doc test_006 → UID 18pXTrMA2semrQmI24UL601yjH03 at (31.388375, 73.125302)
+2026-03-18 21:01:21.930 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 8U9EfGq0WbWN9QafXZv4jiH6zpr2 | test.student7@aismarttransport.pk | password: COXaFv%izs@9 (for testing only)
+2026-03-18 21:01:22.493 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID 8U9EfGq0WbWN9QafXZv4jiH6zpr2
+2026-03-18 21:01:23.670 | INFO     | __main__:create_random_student_user:81 - Created student doc test_007 → UID 8U9EfGq0WbWN9QafXZv4jiH6zpr2 at (31.518367, 73.008521)
+2026-03-18 21:01:24.873 | INFO     | __main__:create_random_student_user:48 - Created Auth user: EVxqLw0RzTVliA4sT8dPPM1l4Bk1 | test.student8@aismarttransport.pk | password: PC88pcxq48#j (for testing only)
+2026-03-18 21:01:25.430 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID EVxqLw0RzTVliA4sT8dPPM1l4Bk1
+2026-03-18 21:01:26.477 | INFO     | __main__:create_random_student_user:81 - Created student doc test_008 → UID EVxqLw0RzTVliA4sT8dPPM1l4Bk1 at (31.520707, 73.173871)
+2026-03-18 21:01:27.752 | INFO     | __main__:create_random_student_user:48 - Created Auth user: mpkPzElNyQgOj5Gjp2pL2qp9NrC2 | test.student9@aismarttransport.pk | password: xmxnhyXJkd@8 (for testing only)
+2026-03-18 21:01:28.316 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID mpkPzElNyQgOj5Gjp2pL2qp9NrC2
+2026-03-18 21:01:28.864 | INFO     | __main__:create_random_student_user:81 - Created student doc test_009 → UID mpkPzElNyQgOj5Gjp2pL2qp9NrC2 at (31.379826, 73.054694)
+2026-03-18 21:01:30.383 | INFO     | __main__:create_random_student_user:48 - Created Auth user: nUxykeoX1TQCQjaQ1922mCt94Xy1 | test.student10@aismarttransport.pk | password: 81Wuac0L*aj% (for testing only)
+2026-03-18 21:01:30.941 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID nUxykeoX1TQCQjaQ1922mCt94Xy1
+2026-03-18 21:01:31.569 | INFO     | __main__:create_random_student_user:81 - Created student doc test_010 → UID nUxykeoX1TQCQjaQ1922mCt94Xy1 at (31.448613, 73.002066)
+2026-03-18 21:01:32.817 | INFO     | __main__:create_random_student_user:48 - Created Auth user: yP3D7IKUGfg5ZdjUptplOXfXL7H3 | test.student11@aismarttransport.pk | password: x57XxgckbPPl (for testing only)
+2026-03-18 21:01:35.704 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID yP3D7IKUGfg5ZdjUptplOXfXL7H3
+2026-03-18 21:01:36.276 | INFO     | __main__:create_random_student_user:81 - Created student doc test_011 → UID yP3D7IKUGfg5ZdjUptplOXfXL7H3 at (31.530623, 73.179850)
+2026-03-18 21:01:37.507 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 25RA51Z3FIWdr6u4GPRZMp5vQtG3 | test.student12@aismarttransport.pk | password: O!@rd9UD9YDT (for testing only)
+2026-03-18 21:01:38.540 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID 25RA51Z3FIWdr6u4GPRZMp5vQtG3
+2026-03-18 21:01:39.098 | INFO     | __main__:create_random_student_user:81 - Created student doc test_012 → UID 25RA51Z3FIWdr6u4GPRZMp5vQtG3 at (31.426211, 73.066116)
+2026-03-18 21:01:40.516 | INFO     | __main__:create_random_student_user:48 - Created Auth user: s3sVQ2tcA7UW3jxtqwkx6RKyvxg2 | test.student13@aismarttransport.pk | password: tPGigi$NdG%3 (for testing only)
+2026-03-18 21:01:41.297 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID s3sVQ2tcA7UW3jxtqwkx6RKyvxg2
+2026-03-18 21:01:41.852 | INFO     | __main__:create_random_student_user:81 - Created student doc test_013 → UID s3sVQ2tcA7UW3jxtqwkx6RKyvxg2 at (31.494132, 73.127457)
+2026-03-18 21:01:43.101 | INFO     | __main__:create_random_student_user:48 - Created Auth user: zn21N2UkW4Q2eyg40wsBtITQ4v53 | test.student14@aismarttransport.pk | password: &MAm24s7E4tE (for testing only)
+2026-03-18 21:01:43.643 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID zn21N2UkW4Q2eyg40wsBtITQ4v53
+2026-03-18 21:01:44.183 | INFO     | __main__:create_random_student_user:81 - Created student doc test_014 → UID zn21N2UkW4Q2eyg40wsBtITQ4v53 at (31.342878, 73.051109)
+2026-03-18 21:01:45.433 | INFO     | __main__:create_random_student_user:48 - Created Auth user: lBCfVrXl2MTN3ybLySSGU9PoGPJ3 | test.student15@aismarttransport.pk | password: fRw7zY%DvqLh (for testing only)
+2026-03-18 21:01:46.059 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID lBCfVrXl2MTN3ybLySSGU9PoGPJ3
+2026-03-18 21:01:46.614 | INFO     | __main__:create_random_student_user:81 - Created student doc test_015 → UID lBCfVrXl2MTN3ybLySSGU9PoGPJ3 at (31.517162, 73.046157)
+2026-03-18 21:01:48.116 | INFO     | __main__:create_random_student_user:48 - Created Auth user: hPjDdrHHsfPXkodTFuZQ3u1vb712 | test.student16@aismarttransport.pk | password: up8slPfj9P&L (for testing only)
+2026-03-18 21:01:49.154 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID hPjDdrHHsfPXkodTFuZQ3u1vb712
+2026-03-18 21:01:51.019 | INFO     | __main__:create_random_student_user:81 - Created student doc test_016 → UID hPjDdrHHsfPXkodTFuZQ3u1vb712 at (31.317576, 73.180352)
+2026-03-18 21:01:52.434 | INFO     | __main__:create_random_student_user:48 - Created Auth user: l4BEq64DslgF3bK3sq8EQtG9o2E2 | test.student17@aismarttransport.pk | password: &KVGNGA1&8&T (for testing only)
+2026-03-18 21:01:53.144 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID l4BEq64DslgF3bK3sq8EQtG9o2E2
+2026-03-18 21:01:53.757 | INFO     | __main__:create_random_student_user:81 - Created student doc test_017 → UID l4BEq64DslgF3bK3sq8EQtG9o2E2 at (31.301844, 73.141568)
+2026-03-18 21:01:55.496 | INFO     | __main__:create_random_student_user:48 - Created Auth user: BKBGY8bYqOWu0bXQ7UoqdYXN9Mh1 | test.student18@aismarttransport.pk | password: Fa!zVymDBb8$ (for testing only)
+2026-03-18 21:01:56.061 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID BKBGY8bYqOWu0bXQ7UoqdYXN9Mh1
+2026-03-18 21:01:57.095 | INFO     | __main__:create_random_student_user:81 - Created student doc test_018 → UID BKBGY8bYqOWu0bXQ7UoqdYXN9Mh1 at (31.494804, 73.166843)
+2026-03-18 21:01:58.315 | INFO     | __main__:create_random_student_user:48 - Created Auth user: HIX3OyZEL5Qo4hoMnxCfAXft8182 | test.student19@aismarttransport.pk | password: KH$$L*5SLua1 (for testing only)
+2026-03-18 21:01:58.884 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID HIX3OyZEL5Qo4hoMnxCfAXft8182
+2026-03-18 21:01:59.433 | INFO     | __main__:create_random_student_user:81 - Created student doc test_019 → UID HIX3OyZEL5Qo4hoMnxCfAXft8182 at (31.415010, 73.081853)
+2026-03-18 21:02:00.725 | INFO     | __main__:create_random_student_user:48 - Created Auth user: NKspButkIqMH6H6HwK2RZ5FogSI2 | test.student20@aismarttransport.pk | password: E1k%lr2O5@DN (for testing only)
+2026-03-18 21:02:01.302 | DEBUG    | __main__:create_random_student_user:61 - Stored user doc for UID NKspButkIqMH6H6HwK2RZ5FogSI2
+2026-03-18 21:02:01.875 | INFO     | __main__:create_random_student_user:81 - Created student doc test_020 → UID NKspButkIqMH6H6HwK2RZ5FogSI2 at (31.328791, 73.005645)
+2026-03-18 21:06:50.030 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:07:01.722 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 2PaGDZNTgNXOnEGXYo1Lis8jUPh1 | supervisor1@aismarttransport.pk | pass: pTEE39jjKxWW
+2026-03-18 21:07:02.278 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc 2PaGDZNTgNXOnEGXYo1Lis8jUPh1
+2026-03-18 21:07:03.710 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: eQqKisNYhFNhV6Y5Z92EBcuKzmQ2 | supervisor2@aismarttransport.pk | pass: nPpm6D8a9VIc
+2026-03-18 21:07:04.253 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc eQqKisNYhFNhV6Y5Z92EBcuKzmQ2
+2026-03-18 21:07:05.884 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: d9HGfS9WCPes6ipw54sNiJHgtPg2 | supervisor3@aismarttransport.pk | pass: qzJIdIi402Ip
+2026-03-18 21:07:08.753 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc d9HGfS9WCPes6ipw54sNiJHgtPg2
+2026-03-18 21:07:10.667 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 24krPfvNOfcw9C7HB7AUTC0XtGy2 | supervisor4@aismarttransport.pk | pass: 46NEm%!xr3wK
+2026-03-18 21:07:11.226 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc 24krPfvNOfcw9C7HB7AUTC0XtGy2
+2026-03-18 21:07:13.214 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 4YelFQ3mFZPyq0wSm99SqWAz8dr1 | supervisor5@aismarttransport.pk | pass: qKr5tkbnglUm
+2026-03-18 21:07:13.796 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc 4YelFQ3mFZPyq0wSm99SqWAz8dr1
+2026-03-18 21:07:15.810 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: aaTN2pnNlhVj9n2p0uVTffrDf552 | supervisor6@aismarttransport.pk | pass: khVfN$B5Ofk%
+2026-03-18 21:07:16.369 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc aaTN2pnNlhVj9n2p0uVTffrDf552
+2026-03-18 21:07:17.728 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: OBm3hrXlNSPeU2ObayZhZW5Sae12 | supervisor7@aismarttransport.pk | pass: JP!lkh7wwoV9
+2026-03-18 21:07:18.689 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc OBm3hrXlNSPeU2ObayZhZW5Sae12
+2026-03-18 21:07:20.020 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 7u93SSJC1sMh5sLjOBKYXYxVE112 | supervisor8@aismarttransport.pk | pass: KkPkIMhtGW8J
+2026-03-18 21:07:20.589 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc 7u93SSJC1sMh5sLjOBKYXYxVE112
+2026-03-18 21:07:21.970 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: YPsjtIGNA2XAHLuwotOqxroAaeW2 | supervisor9@aismarttransport.pk | pass: H^$RJq%yH4c3
+2026-03-18 21:07:22.901 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc YPsjtIGNA2XAHLuwotOqxroAaeW2
+2026-03-18 21:07:24.320 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: IvxrDkCERlbK2xkXJBUsD0Gyc522 | supervisor10@aismarttransport.pk | pass: qIdCUYX8oCJJ
+2026-03-18 21:07:24.866 | DEBUG    | __main__:create_supervisor:62 - Stored supervisor user doc IvxrDkCERlbK2xkXJBUsD0Gyc522
+2026-03-18 21:07:27.183 | INFO     | __main__:create_bus:92 - Created bus B-27 (WWZ-4428) → supervisor: 4YelFQ3mFZPyq0wSm99SqWAz8dr1
+2026-03-18 21:07:28.144 | INFO     | __main__:create_bus:92 - Created bus B-66 (CBY-3056) → supervisor: eQqKisNYhFNhV6Y5Z92EBcuKzmQ2
+2026-03-18 21:07:30.219 | INFO     | __main__:create_bus:92 - Created bus B-67 (JZL-4659) → supervisor: 2PaGDZNTgNXOnEGXYo1Lis8jUPh1
+2026-03-18 21:07:31.227 | INFO     | __main__:create_bus:92 - Created bus B-49 (FXO-5111) → supervisor: 2PaGDZNTgNXOnEGXYo1Lis8jUPh1
+2026-03-18 21:07:31.972 | INFO     | __main__:create_bus:92 - Created bus B-64 (JJL-5660) → supervisor: d9HGfS9WCPes6ipw54sNiJHgtPg2
+2026-03-18 21:07:32.712 | INFO     | __main__:create_bus:92 - Created bus B-06 (XQO-9338) → supervisor: IvxrDkCERlbK2xkXJBUsD0Gyc522
+2026-03-18 21:07:33.449 | INFO     | __main__:create_bus:92 - Created bus B-72 (RKY-7882) → supervisor: d9HGfS9WCPes6ipw54sNiJHgtPg2
+2026-03-18 21:07:34.192 | INFO     | __main__:create_bus:92 - Created bus B-26 (MKS-6479) → supervisor: YPsjtIGNA2XAHLuwotOqxroAaeW2
+2026-03-18 21:07:34.940 | INFO     | __main__:create_bus:92 - Created bus B-62 (CBY-8800) → supervisor: d9HGfS9WCPes6ipw54sNiJHgtPg2
+2026-03-18 21:07:35.681 | INFO     | __main__:create_bus:92 - Created bus B-61 (HFV-0409) → supervisor: eQqKisNYhFNhV6Y5Z92EBcuKzmQ2
+2026-03-18 21:28:49.409 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:29:10.454 | INFO     | __main__:create_random_student_user:48 - Created Auth user: kJLLuFMgJZa71FH99zTuxb9tOyb2 | test.student1@cfd.nu.edu.pk | password: HWTu@bx0VQ3L (for testing)
+2026-03-18 21:29:10.990 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-001 → UID kJLLuFMgJZa71FH99zTuxb9tOyb2 at (31.303587, 73.035607)
+2026-03-18 21:29:12.176 | INFO     | __main__:create_random_student_user:48 - Created Auth user: g33hWGTN4dg3w3REhEuAOLC4o0P2 | test.student2@cfd.nu.edu.pk | password: K1FIw7aiHUOR (for testing)
+2026-03-18 21:29:12.714 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-002 → UID g33hWGTN4dg3w3REhEuAOLC4o0P2 at (31.524894, 73.099114)
+2026-03-18 21:29:13.891 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 0r4jEB0yWacuPan0i8lnfDsY6Tf1 | test.student3@cfd.nu.edu.pk | password: ZFg6l^Yj9N0o (for testing)
+2026-03-18 21:29:16.755 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-003 → UID 0r4jEB0yWacuPan0i8lnfDsY6Tf1 at (31.507881, 73.115833)
+2026-03-18 21:29:17.907 | INFO     | __main__:create_random_student_user:48 - Created Auth user: TnAWDI9R3oZaziUIJhCa0qgLnXo1 | test.student4@cfd.nu.edu.pk | password: Xdp5pqswlPyM (for testing)
+2026-03-18 21:29:18.470 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-004 → UID TnAWDI9R3oZaziUIJhCa0qgLnXo1 at (31.549098, 73.077468)
+2026-03-18 21:29:20.010 | INFO     | __main__:create_random_student_user:48 - Created Auth user: Tb2j04fUNDRIZOnHXJ5tPkQ3Xfz2 | test.student5@cfd.nu.edu.pk | password: hvP^dl1GmSJ7 (for testing)
+2026-03-18 21:29:20.759 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-005 → UID Tb2j04fUNDRIZOnHXJ5tPkQ3Xfz2 at (31.481155, 73.030430)
+2026-03-18 21:29:21.941 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 2QwfEzCFEyU5z8qHwrj9T1VTEPp1 | test.student6@cfd.nu.edu.pk | password: bUNKgBys5q%& (for testing)
+2026-03-18 21:29:22.907 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-006 → UID 2QwfEzCFEyU5z8qHwrj9T1VTEPp1 at (31.494316, 73.163514)
+2026-03-18 21:29:24.085 | INFO     | __main__:create_random_student_user:48 - Created Auth user: Mdxca03aeeTbJQgq3pPaV636izG2 | test.student7@cfd.nu.edu.pk | password: MqvoOWSvVv2B (for testing)
+2026-03-18 21:29:24.837 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-007 → UID Mdxca03aeeTbJQgq3pPaV636izG2 at (31.480852, 73.105784)
+2026-03-18 21:29:25.974 | INFO     | __main__:create_random_student_user:48 - Created Auth user: qE2S0iKPBHUoAs4synmFPZaLXVw1 | test.student8@cfd.nu.edu.pk | password: 5Ue1#uWl@ZMp (for testing)
+2026-03-18 21:29:26.951 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-008 → UID qE2S0iKPBHUoAs4synmFPZaLXVw1 at (31.377164, 73.011799)
+2026-03-18 21:29:28.133 | INFO     | __main__:create_random_student_user:48 - Created Auth user: R149BaELUsVsnW8zXO8rDiOTeDI3 | test.student9@cfd.nu.edu.pk | password: cSfNhm1hjIy2 (for testing)
+2026-03-18 21:29:28.675 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-009 → UID R149BaELUsVsnW8zXO8rDiOTeDI3 at (31.496401, 73.196173)
+2026-03-18 21:29:29.816 | INFO     | __main__:create_random_student_user:48 - Created Auth user: gh5071LcCWQ60iTAkvqOz725w7y1 | test.student10@cfd.nu.edu.pk | password: flgAEexpF5zk (for testing)
+2026-03-18 21:29:30.377 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-010 → UID gh5071LcCWQ60iTAkvqOz725w7y1 at (31.441427, 73.169116)
+2026-03-18 21:29:31.519 | INFO     | __main__:create_random_student_user:48 - Created Auth user: obz6kuQzPRf4nOgNIl5F316jQK22 | test.student11@cfd.nu.edu.pk | password: j*KHI8FRg3qx (for testing)
+2026-03-18 21:29:32.064 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-011 → UID obz6kuQzPRf4nOgNIl5F316jQK22 at (31.499069, 73.069719)
+2026-03-18 21:29:33.207 | INFO     | __main__:create_random_student_user:48 - Created Auth user: Z7xpSy6qiDVTWN11YWe6R1VbxOL2 | test.student12@cfd.nu.edu.pk | password: CDtBJ^Ly6uIQ (for testing)
+2026-03-18 21:29:33.748 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-012 → UID Z7xpSy6qiDVTWN11YWe6R1VbxOL2 at (31.421609, 73.004549)
+2026-03-18 21:29:34.868 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 2SrNxYRMERZ4ZvFTEBn5mfBpkAp1 | test.student13@cfd.nu.edu.pk | password: *czu^BjB^$4F (for testing)
+2026-03-18 21:29:35.436 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-013 → UID 2SrNxYRMERZ4ZvFTEBn5mfBpkAp1 at (31.395484, 73.177681)
+2026-03-18 21:29:37.196 | INFO     | __main__:create_random_student_user:48 - Created Auth user: l654odHMPWQDD1JlnXL5Resyso83 | test.student14@cfd.nu.edu.pk | password: VNhSxRRyTZEF (for testing)
+2026-03-18 21:29:37.735 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-014 → UID l654odHMPWQDD1JlnXL5Resyso83 at (31.311825, 73.090931)
+2026-03-18 21:29:38.903 | INFO     | __main__:create_random_student_user:48 - Created Auth user: yJBi5uziuzVmjGGegHWMAgcfwgV2 | test.student15@cfd.nu.edu.pk | password: yB6W&95qRNXC (for testing)
+2026-03-18 21:29:39.465 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-015 → UID yJBi5uziuzVmjGGegHWMAgcfwgV2 at (31.369780, 73.077996)
+2026-03-18 21:29:40.708 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 7ZXsHkhmxZd4RCfbXPmJ8aVbIF23 | test.student16@cfd.nu.edu.pk | password: dfK*!4JtWonW (for testing)
+2026-03-18 21:29:43.566 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-016 → UID 7ZXsHkhmxZd4RCfbXPmJ8aVbIF23 at (31.407298, 73.054679)
+2026-03-18 21:29:44.719 | INFO     | __main__:create_random_student_user:48 - Created Auth user: XGnJI3CUgcTFnyCnYpVMwLfEndt1 | test.student17@cfd.nu.edu.pk | password: Y8zYx@&rABTN (for testing)
+2026-03-18 21:29:45.287 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-017 → UID XGnJI3CUgcTFnyCnYpVMwLfEndt1 at (31.445629, 73.012524)
+2026-03-18 21:29:46.425 | INFO     | __main__:create_random_student_user:48 - Created Auth user: ZAY56jw2Ezb3ht5mnQIMbCN8UNZ2 | test.student18@cfd.nu.edu.pk | password: jlyRyuOi1a*B (for testing)
+2026-03-18 21:29:47.607 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-018 → UID ZAY56jw2Ezb3ht5mnQIMbCN8UNZ2 at (31.456978, 73.190671)
+2026-03-18 21:29:48.776 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 2e6KdwORm3XjhL5DVh5L1pvnnJJ3 | test.student19@cfd.nu.edu.pk | password: $ShfhAJJRsoq (for testing)
+2026-03-18 21:29:49.334 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-019 → UID 2e6KdwORm3XjhL5DVh5L1pvnnJJ3 at (31.490988, 73.048200)
+2026-03-18 21:29:50.528 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 4RlK10FLFJQiaoeizaDS4u9EuNJ2 | test.student20@cfd.nu.edu.pk | password: NaRtnGD9c^fh (for testing)
+2026-03-18 21:29:51.640 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-020 → UID 4RlK10FLFJQiaoeizaDS4u9EuNJ2 at (31.326861, 73.122787)
+2026-03-18 21:29:52.855 | INFO     | __main__:create_random_student_user:48 - Created Auth user: BvxabbIwdHgfXMW5d7xGdX1paNh2 | test.student21@cfd.nu.edu.pk | password: ZA#k4CD6i8W% (for testing)
+2026-03-18 21:29:53.863 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-021 → UID BvxabbIwdHgfXMW5d7xGdX1paNh2 at (31.511540, 73.190869)
+2026-03-18 21:29:54.983 | INFO     | __main__:create_random_student_user:48 - Created Auth user: eT6wnCUyAZcOdRcRyWWQ0pvT3Qx2 | test.student22@cfd.nu.edu.pk | password: uO7kmPOr&ktU (for testing)
+2026-03-18 21:29:55.518 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-022 → UID eT6wnCUyAZcOdRcRyWWQ0pvT3Qx2 at (31.492750, 73.033188)
+2026-03-18 21:29:56.650 | INFO     | __main__:create_random_student_user:48 - Created Auth user: lpOeuEriVlgj2z8a06LXSyGo15H3 | test.student23@cfd.nu.edu.pk | password: &XNEvhFE&@s^ (for testing)
+2026-03-18 21:29:57.182 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-023 → UID lpOeuEriVlgj2z8a06LXSyGo15H3 at (31.358169, 73.158742)
+2026-03-18 21:29:58.668 | INFO     | __main__:create_random_student_user:48 - Created Auth user: iS8nXBqm5QdggZsrSbYbBMF49bz1 | test.student24@cfd.nu.edu.pk | password: %a9iGm6rwg9d (for testing)
+2026-03-18 21:29:59.211 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-024 → UID iS8nXBqm5QdggZsrSbYbBMF49bz1 at (31.502618, 73.163784)
+2026-03-18 21:30:00.377 | INFO     | __main__:create_random_student_user:48 - Created Auth user: OYRZlHlL03UtMvC7am8dnaSMJNr2 | test.student25@cfd.nu.edu.pk | password: f*Nbjp8BuCCG (for testing)
+2026-03-18 21:30:01.075 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-025 → UID OYRZlHlL03UtMvC7am8dnaSMJNr2 at (31.388804, 73.106938)
+2026-03-18 21:30:02.221 | INFO     | __main__:create_random_student_user:48 - Created Auth user: NXKfQkzcqVPfyYMFnbndMyBoI0A3 | test.student26@cfd.nu.edu.pk | password: O33K6^Qfq^ip (for testing)
+2026-03-18 21:30:02.753 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-026 → UID NXKfQkzcqVPfyYMFnbndMyBoI0A3 at (31.491264, 73.034842)
+2026-03-18 21:30:03.934 | INFO     | __main__:create_random_student_user:48 - Created Auth user: cB06liyEKdZR887RNUoZeCFpC0d2 | test.student27@cfd.nu.edu.pk | password: ZZOh7!@9%Qsh (for testing)
+2026-03-18 21:30:04.467 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-027 → UID cB06liyEKdZR887RNUoZeCFpC0d2 at (31.365245, 73.182243)
+2026-03-18 21:30:05.613 | INFO     | __main__:create_random_student_user:48 - Created Auth user: 6LHWX3emjNTuafgzcXddGBP0HVO2 | test.student28@cfd.nu.edu.pk | password: 9oLVP3oMde!K (for testing)
+2026-03-18 21:30:06.143 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-028 → UID 6LHWX3emjNTuafgzcXddGBP0HVO2 at (31.445661, 73.070059)
+2026-03-18 21:30:07.336 | INFO     | __main__:create_random_student_user:48 - Created Auth user: XXPohNLxi8SL2O8TWE7K9XXVYLU2 | test.student29@cfd.nu.edu.pk | password: HsA$1j@QodGL (for testing)
+2026-03-18 21:30:07.871 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-029 → UID XXPohNLxi8SL2O8TWE7K9XXVYLU2 at (31.524409, 73.178371)
+2026-03-18 21:30:09.021 | INFO     | __main__:create_random_student_user:48 - Created Auth user: EORBT1Cr5gf9w2P0niSuWauNR0Y2 | test.student30@cfd.nu.edu.pk | password: YDyx*kkddoex (for testing)
+2026-03-18 21:30:09.558 | INFO     | __main__:create_random_student_user:69 - Created student doc STUDENT-030 → UID EORBT1Cr5gf9w2P0niSuWauNR0Y2 at (31.383303, 73.090464)
+2026-03-18 21:35:55.082 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:36:00.192 | WARNING  | __main__:create_random_student:81 - Email test.student1@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:00.932 | WARNING  | __main__:create_random_student:81 - Email test.student2@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:01.624 | WARNING  | __main__:create_random_student:81 - Email test.student3@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:02.338 | WARNING  | __main__:create_random_student:81 - Email test.student4@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:03.045 | WARNING  | __main__:create_random_student:81 - Email test.student5@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:03.716 | WARNING  | __main__:create_random_student:81 - Email test.student6@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:04.400 | WARNING  | __main__:create_random_student:81 - Email test.student7@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:05.034 | WARNING  | __main__:create_random_student:81 - Email test.student8@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:05.735 | WARNING  | __main__:create_random_student:81 - Email test.student9@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:06.463 | WARNING  | __main__:create_random_student:81 - Email test.student10@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:07.144 | WARNING  | __main__:create_random_student:81 - Email test.student11@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:07.829 | WARNING  | __main__:create_random_student:81 - Email test.student12@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:08.504 | WARNING  | __main__:create_random_student:81 - Email test.student13@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:09.193 | WARNING  | __main__:create_random_student:81 - Email test.student14@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:09.870 | WARNING  | __main__:create_random_student:81 - Email test.student15@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:10.555 | WARNING  | __main__:create_random_student:81 - Email test.student16@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:11.244 | WARNING  | __main__:create_random_student:81 - Email test.student17@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:11.972 | WARNING  | __main__:create_random_student:81 - Email test.student18@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:12.669 | WARNING  | __main__:create_random_student:81 - Email test.student19@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:13.389 | WARNING  | __main__:create_random_student:81 - Email test.student20@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:14.100 | WARNING  | __main__:create_random_student:81 - Email test.student21@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:14.796 | WARNING  | __main__:create_random_student:81 - Email test.student22@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:15.500 | WARNING  | __main__:create_random_student:81 - Email test.student23@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:16.209 | WARNING  | __main__:create_random_student:81 - Email test.student24@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:16.920 | WARNING  | __main__:create_random_student:81 - Email test.student25@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:17.551 | WARNING  | __main__:create_random_student:81 - Email test.student26@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:18.207 | WARNING  | __main__:create_random_student:81 - Email test.student27@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:18.905 | WARNING  | __main__:create_random_student:81 - Email test.student28@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:19.617 | WARNING  | __main__:create_random_student:81 - Email test.student29@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:36:20.341 | WARNING  | __main__:create_random_student:81 - Email test.student30@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:13.559 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:37:18.687 | WARNING  | __main__:create_random_student:81 - Email test.student1@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:19.384 | WARNING  | __main__:create_random_student:81 - Email test.student2@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:20.077 | WARNING  | __main__:create_random_student:81 - Email test.student3@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:20.777 | WARNING  | __main__:create_random_student:81 - Email test.student4@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:21.477 | WARNING  | __main__:create_random_student:81 - Email test.student5@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:22.143 | WARNING  | __main__:create_random_student:81 - Email test.student6@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:22.877 | WARNING  | __main__:create_random_student:81 - Email test.student7@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:23.530 | WARNING  | __main__:create_random_student:81 - Email test.student8@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:24.199 | WARNING  | __main__:create_random_student:81 - Email test.student9@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:24.927 | WARNING  | __main__:create_random_student:81 - Email test.student10@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:25.635 | WARNING  | __main__:create_random_student:81 - Email test.student11@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:26.344 | WARNING  | __main__:create_random_student:81 - Email test.student12@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:27.049 | WARNING  | __main__:create_random_student:81 - Email test.student13@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:27.745 | WARNING  | __main__:create_random_student:81 - Email test.student14@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:28.435 | WARNING  | __main__:create_random_student:81 - Email test.student15@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:29.131 | WARNING  | __main__:create_random_student:81 - Email test.student16@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:29.781 | WARNING  | __main__:create_random_student:81 - Email test.student17@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:30.824 | WARNING  | __main__:create_random_student:81 - Email test.student18@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:31.549 | WARNING  | __main__:create_random_student:81 - Email test.student19@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:32.217 | WARNING  | __main__:create_random_student:81 - Email test.student20@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:32.934 | WARNING  | __main__:create_random_student:81 - Email test.student21@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:33.616 | WARNING  | __main__:create_random_student:81 - Email test.student22@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:34.743 | WARNING  | __main__:create_random_student:81 - Email test.student23@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:35.439 | WARNING  | __main__:create_random_student:81 - Email test.student24@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:36.110 | WARNING  | __main__:create_random_student:81 - Email test.student25@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:36.813 | WARNING  | __main__:create_random_student:81 - Email test.student26@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:37.493 | WARNING  | __main__:create_random_student:81 - Email test.student27@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:38.174 | WARNING  | __main__:create_random_student:81 - Email test.student28@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:38.841 | WARNING  | __main__:create_random_student:81 - Email test.student29@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:37:39.574 | WARNING  | __main__:create_random_student:81 - Email test.student30@cfd.nu.edu.pk already exists — skipping
+2026-03-18 21:48:08.303 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:48:20.018 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 0r4jEB0yWacuPan0i8lnfDsY6Tf1 (test.student3@cfd.nu.edu.pk)
+2026-03-18 21:48:23.626 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 0y46jpTyxPbVwfLNo83NKSBsNUw1 (test.student2@aismarttransport.pk)
+2026-03-18 21:48:24.881 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 18pXTrMA2semrQmI24UL601yjH03 (test.student6@aismarttransport.pk)
+2026-03-18 21:48:26.909 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 24krPfvNOfcw9C7HB7AUTC0XtGy2 (supervisor4@aismarttransport.pk)
+2026-03-18 21:48:28.164 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 25RA51Z3FIWdr6u4GPRZMp5vQtG3 (test.student12@aismarttransport.pk)
+2026-03-18 21:48:30.178 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 2PaGDZNTgNXOnEGXYo1Lis8jUPh1 (supervisor1@aismarttransport.pk)
+2026-03-18 21:48:31.485 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 2QwfEzCFEyU5z8qHwrj9T1VTEPp1 (test.student6@cfd.nu.edu.pk)
+2026-03-18 21:48:32.641 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 2SrNxYRMERZ4ZvFTEBn5mfBpkAp1 (test.student13@cfd.nu.edu.pk)
+2026-03-18 21:48:33.598 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 2e6KdwORm3XjhL5DVh5L1pvnnJJ3 (test.student19@cfd.nu.edu.pk)
+2026-03-18 21:48:34.548 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 4RlK10FLFJQiaoeizaDS4u9EuNJ2 (test.student20@cfd.nu.edu.pk)
+2026-03-18 21:48:35.495 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 4YelFQ3mFZPyq0wSm99SqWAz8dr1 (supervisor5@aismarttransport.pk)
+2026-03-18 21:48:36.418 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 6LHWX3emjNTuafgzcXddGBP0HVO2 (test.student28@cfd.nu.edu.pk)
+2026-03-18 21:48:37.376 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7ZXsHkhmxZd4RCfbXPmJ8aVbIF23 (test.student16@cfd.nu.edu.pk)
+2026-03-18 21:48:38.376 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7u93SSJC1sMh5sLjOBKYXYxVE112 (supervisor8@aismarttransport.pk)
+2026-03-18 21:48:39.348 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 8U9EfGq0WbWN9QafXZv4jiH6zpr2 (test.student7@aismarttransport.pk)
+2026-03-18 21:48:40.292 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: AboV3lSZ7cQQhBI5JEuEv0GJEiD3 (test.student1@aismarttransport.pk)
+2026-03-18 21:48:41.242 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: BKBGY8bYqOWu0bXQ7UoqdYXN9Mh1 (test.student18@aismarttransport.pk)
+2026-03-18 21:48:42.184 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: BvxabbIwdHgfXMW5d7xGdX1paNh2 (test.student21@cfd.nu.edu.pk)
+2026-03-18 21:48:45.470 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: EORBT1Cr5gf9w2P0niSuWauNR0Y2 (test.student30@cfd.nu.edu.pk)
+2026-03-18 21:48:46.447 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: EVxqLw0RzTVliA4sT8dPPM1l4Bk1 (test.student8@aismarttransport.pk)
+2026-03-18 21:48:49.783 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: HIX3OyZEL5Qo4hoMnxCfAXft8182 (test.student19@aismarttransport.pk)
+2026-03-18 21:48:50.931 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: IvxrDkCERlbK2xkXJBUsD0Gyc522 (supervisor10@aismarttransport.pk)
+2026-03-18 21:48:53.050 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Kdrkq68dP1goJs7qSE8cgTC2til2 (asd@nu.edu.pk)
+2026-03-18 21:48:54.358 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Mdxca03aeeTbJQgq3pPaV636izG2 (test.student7@cfd.nu.edu.pk)
+2026-03-18 21:48:56.348 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: NKspButkIqMH6H6HwK2RZ5FogSI2 (test.student20@aismarttransport.pk)
+2026-03-18 21:48:57.627 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: NXKfQkzcqVPfyYMFnbndMyBoI0A3 (test.student26@cfd.nu.edu.pk)
+2026-03-18 21:48:59.671 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: OBm3hrXlNSPeU2ObayZhZW5Sae12 (supervisor7@aismarttransport.pk)
+2026-03-18 21:49:01.326 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: OYRZlHlL03UtMvC7am8dnaSMJNr2 (test.student25@cfd.nu.edu.pk)
+2026-03-18 21:49:02.934 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: R149BaELUsVsnW8zXO8rDiOTeDI3 (test.student9@cfd.nu.edu.pk)
+2026-03-18 21:49:04.586 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Tb2j04fUNDRIZOnHXJ5tPkQ3Xfz2 (test.student5@cfd.nu.edu.pk)
+2026-03-18 21:49:05.531 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: TnAWDI9R3oZaziUIJhCa0qgLnXo1 (test.student4@cfd.nu.edu.pk)
+2026-03-18 21:49:06.594 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: XGnJI3CUgcTFnyCnYpVMwLfEndt1 (test.student17@cfd.nu.edu.pk)
+2026-03-18 21:49:07.554 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: XXPohNLxi8SL2O8TWE7K9XXVYLU2 (test.student29@cfd.nu.edu.pk)
+2026-03-18 21:49:08.707 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: YPsjtIGNA2XAHLuwotOqxroAaeW2 (supervisor9@aismarttransport.pk)
+2026-03-18 21:49:09.963 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Yqwn9g3mavOKYbJotahDAZuppMf2 (dhdbdg@cfd.nu.edu.pk)
+2026-03-18 21:49:10.902 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Z7xpSy6qiDVTWN11YWe6R1VbxOL2 (test.student12@cfd.nu.edu.pk)
+2026-03-18 21:49:11.833 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: ZAY56jw2Ezb3ht5mnQIMbCN8UNZ2 (test.student18@cfd.nu.edu.pk)
+2026-03-18 21:49:12.763 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: aaTN2pnNlhVj9n2p0uVTffrDf552 (supervisor6@aismarttransport.pk)
+2026-03-18 21:49:13.760 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: cB06liyEKdZR887RNUoZeCFpC0d2 (test.student27@cfd.nu.edu.pk)
+2026-03-18 21:49:14.699 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: d9HGfS9WCPes6ipw54sNiJHgtPg2 (supervisor3@aismarttransport.pk)
+2026-03-18 21:49:15.660 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: eQqKisNYhFNhV6Y5Z92EBcuKzmQ2 (supervisor2@aismarttransport.pk)
+2026-03-18 21:49:16.606 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: eT6wnCUyAZcOdRcRyWWQ0pvT3Qx2 (test.student22@cfd.nu.edu.pk)
+2026-03-18 21:49:17.540 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: g33hWGTN4dg3w3REhEuAOLC4o0P2 (test.student2@cfd.nu.edu.pk)
+2026-03-18 21:49:18.483 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: gJSFC6M6cOQcluP1PmLOIMlUmlo1 (admina.d.m.i.n@nu.edu.pk)
+2026-03-18 21:49:19.424 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: gh5071LcCWQ60iTAkvqOz725w7y1 (test.student10@cfd.nu.edu.pk)
+2026-03-18 21:49:20.384 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: h3zzvjYXAnM5idW1JUkq9zREyWL2 (f230628@cfd.nu.edu.pk)
+2026-03-18 21:49:21.311 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: h531CC6hsgWSYQH9a8qpjzVmraB2 (waleedadmin@nu.edu.pk)
+2026-03-18 21:49:22.229 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: hPjDdrHHsfPXkodTFuZQ3u1vb712 (test.student16@aismarttransport.pk)
+2026-03-18 21:49:23.182 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: iS8nXBqm5QdggZsrSbYbBMF49bz1 (test.student24@cfd.nu.edu.pk)
+2026-03-18 21:49:24.125 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: jgUSvNtXcROyIYZviZxx2RuLkP23 (test.student4@aismarttransport.pk)
+2026-03-18 21:49:25.029 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: kClFwo380LeMfSN4DnnX7K3IIoB3 (test.student3@aismarttransport.pk)
+2026-03-18 21:49:26.261 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: kJLLuFMgJZa71FH99zTuxb9tOyb2 (test.student1@cfd.nu.edu.pk)
+2026-03-18 21:49:27.209 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: l4BEq64DslgF3bK3sq8EQtG9o2E2 (test.student17@aismarttransport.pk)
+2026-03-18 21:49:28.155 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: l654odHMPWQDD1JlnXL5Resyso83 (test.student14@cfd.nu.edu.pk)
+2026-03-18 21:49:29.095 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: lBCfVrXl2MTN3ybLySSGU9PoGPJ3 (test.student15@aismarttransport.pk)
+2026-03-18 21:49:30.034 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: lW1nVyNntfMK3ZKl3DG6zd5f6Cz1 (supervisor@nu.edu.pk)
+2026-03-18 21:49:30.943 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: lYsWBtx9tSYsW817JDuH1b3bHtZ2 (adminadmin@nu.edu.pk)
+2026-03-18 21:49:31.878 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: lpOeuEriVlgj2z8a06LXSyGo15H3 (test.student23@cfd.nu.edu.pk)
+2026-03-18 21:49:32.835 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: mpkPzElNyQgOj5Gjp2pL2qp9NrC2 (test.student9@aismarttransport.pk)
+2026-03-18 21:49:33.780 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: nUxykeoX1TQCQjaQ1922mCt94Xy1 (test.student10@aismarttransport.pk)
+2026-03-18 21:49:34.710 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: nqxMp7vFeIU7G00sflOgWlAD0Bs1 (test.student5@aismarttransport.pk)
+2026-03-18 21:49:35.743 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: obz6kuQzPRf4nOgNIl5F316jQK22 (test.student11@cfd.nu.edu.pk)
+2026-03-18 21:49:36.686 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: qE2S0iKPBHUoAs4synmFPZaLXVw1 (test.student8@cfd.nu.edu.pk)
+2026-03-18 21:49:37.627 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: s3sVQ2tcA7UW3jxtqwkx6RKyvxg2 (test.student13@aismarttransport.pk)
+2026-03-18 21:49:39.104 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: yJBi5uziuzVmjGGegHWMAgcfwgV2 (test.student15@cfd.nu.edu.pk)
+2026-03-18 21:49:40.058 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: yP3D7IKUGfg5ZdjUptplOXfXL7H3 (test.student11@aismarttransport.pk)
+2026-03-18 21:49:41.026 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: zn21N2UkW4Q2eyg40wsBtITQ4v53 (test.student14@aismarttransport.pk)
+2026-03-18 21:49:41.554 | ERROR    | __main__:delete_all_auth_users:71 - Error listing users: 'ListUsersPage' object has no attribute 'page_token'
+2026-03-18 21:50:05.910 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:50:11.540 | INFO     | __main__:create_random_student:45 - Created Auth user: QXHaWHZKZldNQh7Mr4djhWeFBxD3 | test.student1@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:12.620 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID QXHaWHZKZldNQh7Mr4djhWeFBxD3
+2026-03-18 21:50:14.402 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-001 at (31.390033, 73.077654)
+2026-03-18 21:50:15.576 | INFO     | __main__:create_random_student:45 - Created Auth user: wqtKJHI3O6cSKv88QHimGR6UwG32 | test.student2@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:18.437 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID wqtKJHI3O6cSKv88QHimGR6UwG32
+2026-03-18 21:50:18.993 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-002 at (31.375083, 73.134172)
+2026-03-18 21:50:20.447 | INFO     | __main__:create_random_student:45 - Created Auth user: K6Yab2FgD5ccHiQckQqtLGOhx8p1 | test.student3@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:21.313 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID K6Yab2FgD5ccHiQckQqtLGOhx8p1
+2026-03-18 21:50:23.291 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-003 at (31.390601, 73.170407)
+2026-03-18 21:50:24.394 | INFO     | __main__:create_random_student:45 - Created Auth user: imkjz0GhBsb5OCWXp8f8caBThia2 | test.student4@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:24.947 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID imkjz0GhBsb5OCWXp8f8caBThia2
+2026-03-18 21:50:27.262 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-004 at (31.411439, 73.071451)
+2026-03-18 21:50:28.413 | INFO     | __main__:create_random_student:45 - Created Auth user: NaCLF3L22AVIowaWU1kJxJs4VuF2 | test.student5@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:28.973 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID NaCLF3L22AVIowaWU1kJxJs4VuF2
+2026-03-18 21:50:29.524 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-005 at (31.306336, 73.088426)
+2026-03-18 21:50:30.650 | INFO     | __main__:create_random_student:45 - Created Auth user: nhVBFtKZrEcewixaTgZRANhqn8H3 | test.student6@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:31.193 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID nhVBFtKZrEcewixaTgZRANhqn8H3
+2026-03-18 21:50:31.735 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-006 at (31.340502, 73.058870)
+2026-03-18 21:50:32.879 | INFO     | __main__:create_random_student:45 - Created Auth user: ZvbvvtSj02aWc1UbOIIpPuPolwC2 | test.student7@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:33.439 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID ZvbvvtSj02aWc1UbOIIpPuPolwC2
+2026-03-18 21:50:35.806 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-007 at (31.405823, 73.104038)
+2026-03-18 21:50:37.231 | INFO     | __main__:create_random_student:45 - Created Auth user: utdggu2cBQUh3hNqQvBXQ9xFJ1k1 | test.student8@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:37.801 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID utdggu2cBQUh3hNqQvBXQ9xFJ1k1
+2026-03-18 21:50:40.094 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-008 at (31.326451, 73.019506)
+2026-03-18 21:50:41.197 | INFO     | __main__:create_random_student:45 - Created Auth user: y0KLa26lMdW7FobcCDmhsNuqLi93 | test.student9@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:41.751 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID y0KLa26lMdW7FobcCDmhsNuqLi93
+2026-03-18 21:50:44.054 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-009 at (31.364154, 73.034342)
+2026-03-18 21:50:45.217 | INFO     | __main__:create_random_student:45 - Created Auth user: KGi6OGVDnTdPFefQ96ZgfqyNfUv2 | test.student10@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:45.773 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID KGi6OGVDnTdPFefQ96ZgfqyNfUv2
+2026-03-18 21:50:48.072 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-010 at (31.408589, 73.033759)
+2026-03-18 21:50:49.199 | INFO     | __main__:create_random_student:45 - Created Auth user: 1psGhfpTK7N46roErXwJRhuofEK2 | test.student11@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:49.752 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID 1psGhfpTK7N46roErXwJRhuofEK2
+2026-03-18 21:50:50.290 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-011 at (31.366164, 73.086228)
+2026-03-18 21:50:51.493 | INFO     | __main__:create_random_student:45 - Created Auth user: So7bPJ3SoAN6L85cbQQqFbhlmy22 | test.student12@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:52.039 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID So7bPJ3SoAN6L85cbQQqFbhlmy22
+2026-03-18 21:50:52.576 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-012 at (31.511457, 73.185098)
+2026-03-18 21:50:53.728 | INFO     | __main__:create_random_student:45 - Created Auth user: bLqbelw6Qnf0JzkjmmPi4L731qy1 | test.student13@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:54.267 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID bLqbelw6Qnf0JzkjmmPi4L731qy1
+2026-03-18 21:50:54.798 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-013 at (31.307803, 73.099468)
+2026-03-18 21:50:55.946 | INFO     | __main__:create_random_student:45 - Created Auth user: kr04unnKJ9VTMGqESGUn6451HnU2 | test.student14@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:56.483 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID kr04unnKJ9VTMGqESGUn6451HnU2
+2026-03-18 21:50:57.023 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-014 at (31.497777, 73.188830)
+2026-03-18 21:50:58.170 | INFO     | __main__:create_random_student:45 - Created Auth user: 3NCF4DINhjQGspwwPowjYPHiaHk2 | test.student15@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:50:58.702 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID 3NCF4DINhjQGspwwPowjYPHiaHk2
+2026-03-18 21:50:59.250 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-015 at (31.339878, 73.179763)
+2026-03-18 21:51:00.402 | INFO     | __main__:create_random_student:45 - Created Auth user: C8wNHO4UgiSm1uVfgzv3ta2Ht0N2 | test.student16@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:00.934 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID C8wNHO4UgiSm1uVfgzv3ta2Ht0N2
+2026-03-18 21:51:01.481 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-016 at (31.388742, 73.176986)
+2026-03-18 21:51:02.604 | INFO     | __main__:create_random_student:45 - Created Auth user: f0vulxDR4TQgEOmXB5KgcgWs5yB3 | test.student17@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:03.146 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID f0vulxDR4TQgEOmXB5KgcgWs5yB3
+2026-03-18 21:51:03.685 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-017 at (31.303136, 73.165124)
+2026-03-18 21:51:04.805 | INFO     | __main__:create_random_student:45 - Created Auth user: xXY6lI2T4APwEYhiWeudUoi2AQV2 | test.student18@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:05.340 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID xXY6lI2T4APwEYhiWeudUoi2AQV2
+2026-03-18 21:51:05.870 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-018 at (31.413934, 73.090093)
+2026-03-18 21:51:07.331 | INFO     | __main__:create_random_student:45 - Created Auth user: yk1XZr5lhTaaUO4HG9qcCU72Pfq1 | test.student19@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:07.867 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID yk1XZr5lhTaaUO4HG9qcCU72Pfq1
+2026-03-18 21:51:08.407 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-019 at (31.434958, 73.020656)
+2026-03-18 21:51:09.920 | INFO     | __main__:create_random_student:45 - Created Auth user: stWKL7tCzcVsfTnfX9umyPMjolX2 | test.student20@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:10.458 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID stWKL7tCzcVsfTnfX9umyPMjolX2
+2026-03-18 21:51:10.998 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-020 at (31.543441, 73.006321)
+2026-03-18 21:51:12.148 | INFO     | __main__:create_random_student:45 - Created Auth user: 7mT2BQHHIYPOprni0NALOGfy4hb2 | test.student21@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:12.690 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID 7mT2BQHHIYPOprni0NALOGfy4hb2
+2026-03-18 21:51:13.228 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-021 at (31.418287, 73.020840)
+2026-03-18 21:51:14.358 | INFO     | __main__:create_random_student:45 - Created Auth user: 5ugZ4FiS7retUUY16U9x7ETlncs2 | test.student22@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:14.901 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID 5ugZ4FiS7retUUY16U9x7ETlncs2
+2026-03-18 21:51:15.442 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-022 at (31.451757, 73.064330)
+2026-03-18 21:51:16.573 | INFO     | __main__:create_random_student:45 - Created Auth user: hE6rxYBev7PDAyb6hJiBeL7IFTd2 | test.student23@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:17.111 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID hE6rxYBev7PDAyb6hJiBeL7IFTd2
+2026-03-18 21:51:17.639 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-023 at (31.486194, 73.094091)
+2026-03-18 21:51:18.779 | INFO     | __main__:create_random_student:45 - Created Auth user: 5Woim9XsMrPQ5R8xmc9SWgkie543 | test.student24@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:19.310 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID 5Woim9XsMrPQ5R8xmc9SWgkie543
+2026-03-18 21:51:19.839 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-024 at (31.332527, 73.057083)
+2026-03-18 21:51:21.010 | INFO     | __main__:create_random_student:45 - Created Auth user: sp47yXhY37RRbPxMnrmSpEqEvu13 | test.student25@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:21.548 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID sp47yXhY37RRbPxMnrmSpEqEvu13
+2026-03-18 21:51:22.094 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-025 at (31.356784, 73.150222)
+2026-03-18 21:51:23.243 | INFO     | __main__:create_random_student:45 - Created Auth user: wVBqaXORhyQFv5Q6lBtvms28flk1 | test.student26@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:23.799 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID wVBqaXORhyQFv5Q6lBtvms28flk1
+2026-03-18 21:51:24.337 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-026 at (31.528030, 73.099739)
+2026-03-18 21:51:25.533 | INFO     | __main__:create_random_student:45 - Created Auth user: SxIiByjyPbT6eHBqMXzgiqg33P02 | test.student27@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:26.079 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID SxIiByjyPbT6eHBqMXzgiqg33P02
+2026-03-18 21:51:26.619 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-027 at (31.529757, 73.008266)
+2026-03-18 21:51:27.796 | INFO     | __main__:create_random_student:45 - Created Auth user: SBerIBN7kEXwxvpdxI211U37gBk2 | test.student28@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:28.432 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID SBerIBN7kEXwxvpdxI211U37gBk2
+2026-03-18 21:51:28.982 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-028 at (31.373867, 73.064307)
+2026-03-18 21:51:30.132 | INFO     | __main__:create_random_student:45 - Created Auth user: VUzu7fQeznhvgTJpzERSIWtCs7H3 | test.student29@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:30.667 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID VUzu7fQeznhvgTJpzERSIWtCs7H3
+2026-03-18 21:51:31.223 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-029 at (31.394281, 73.021533)
+2026-03-18 21:51:32.749 | INFO     | __main__:create_random_student:45 - Created Auth user: 7uesmRbnJKVOja8miqPkeN8tn3M2 | test.student30@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:51:33.284 | DEBUG    | __main__:create_random_student:57 - Stored user doc for UID 7uesmRbnJKVOja8miqPkeN8tn3M2
+2026-03-18 21:51:33.819 | INFO     | __main__:create_random_student:78 - Created student doc STUDENT-030 at (31.449225, 73.194361)
+2026-03-18 21:51:39.021 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:51:45.006 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: MvqOhqwEGURaPo9cyLBvAkQNm272 | supervisor1@nu.edu.pk | pass: waleed
+2026-03-18 21:51:46.069 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc MvqOhqwEGURaPo9cyLBvAkQNm272
+2026-03-18 21:51:47.584 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: Yrwgaonh3SgBvo2o64xZ4GCsvFv1 | supervisor2@nu.edu.pk | pass: waleed
+2026-03-18 21:51:48.117 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc Yrwgaonh3SgBvo2o64xZ4GCsvFv1
+2026-03-18 21:51:49.405 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 7VQfjqoUlneZlOmw6XwvWdEBM533 | supervisor3@nu.edu.pk | pass: waleed
+2026-03-18 21:51:50.438 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 7VQfjqoUlneZlOmw6XwvWdEBM533
+2026-03-18 21:51:51.664 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: iVzW1NNVVoWZd3n4rGFyrKKWtv92 | supervisor4@nu.edu.pk | pass: waleed
+2026-03-18 21:51:52.237 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc iVzW1NNVVoWZd3n4rGFyrKKWtv92
+2026-03-18 21:51:53.461 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: JHt9MvCDHMSiFZOuC0NmuTdiC352 | supervisor5@nu.edu.pk | pass: waleed
+2026-03-18 21:51:54.508 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc JHt9MvCDHMSiFZOuC0NmuTdiC352
+2026-03-18 21:51:55.745 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: MutvrRAKTuUQMp7VKRlaoSFzzXD3 | supervisor6@nu.edu.pk | pass: waleed
+2026-03-18 21:51:56.334 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc MutvrRAKTuUQMp7VKRlaoSFzzXD3
+2026-03-18 21:51:57.561 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: n4bn27qGCFbCBXMgzWl6ADjmndZ2 | supervisor7@nu.edu.pk | pass: waleed
+2026-03-18 21:51:58.594 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc n4bn27qGCFbCBXMgzWl6ADjmndZ2
+2026-03-18 21:51:59.860 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: s2L9pLTlx6MDI9OO8rR2WShHdrS2 | supervisor8@nu.edu.pk | pass: waleed
+2026-03-18 21:52:02.708 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc s2L9pLTlx6MDI9OO8rR2WShHdrS2
+2026-03-18 21:52:03.931 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: rGJt6d9NWAMWylv4fBqfu5DXdgg2 | supervisor9@nu.edu.pk | pass: waleed
+2026-03-18 21:52:04.472 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc rGJt6d9NWAMWylv4fBqfu5DXdgg2
+2026-03-18 21:52:06.015 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 90OWikTFHlVRBj6rVJrqPraN6Pt2 | supervisor10@nu.edu.pk | pass: waleed
+2026-03-18 21:52:06.554 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 90OWikTFHlVRBj6rVJrqPraN6Pt2
+2026-03-18 21:52:08.899 | INFO     | __main__:create_bus:94 - Created bus B-35 (NOY-1137) → supervisor: 90OWikTFHlVRBj6rVJrqPraN6Pt2
+2026-03-18 21:52:09.824 | INFO     | __main__:create_bus:94 - Created bus B-63 (ULX-9301) → supervisor: 90OWikTFHlVRBj6rVJrqPraN6Pt2
+2026-03-18 21:52:10.569 | INFO     | __main__:create_bus:94 - Created bus B-48 (CAO-7628) → supervisor: MvqOhqwEGURaPo9cyLBvAkQNm272
+2026-03-18 21:52:11.304 | INFO     | __main__:create_bus:94 - Created bus B-84 (OZM-8695) → supervisor: Yrwgaonh3SgBvo2o64xZ4GCsvFv1
+2026-03-18 21:52:12.040 | INFO     | __main__:create_bus:94 - Created bus B-50 (SWS-3814) → supervisor: rGJt6d9NWAMWylv4fBqfu5DXdgg2
+2026-03-18 21:52:12.775 | INFO     | __main__:create_bus:94 - Created bus B-84 (EZY-9600) → supervisor: rGJt6d9NWAMWylv4fBqfu5DXdgg2
+2026-03-18 21:52:13.505 | INFO     | __main__:create_bus:94 - Created bus B-26 (JMZ-0793) → supervisor: iVzW1NNVVoWZd3n4rGFyrKKWtv92
+2026-03-18 21:52:14.243 | INFO     | __main__:create_bus:94 - Created bus B-49 (NVF-9968) → supervisor: 7VQfjqoUlneZlOmw6XwvWdEBM533
+2026-03-18 21:52:14.974 | INFO     | __main__:create_bus:94 - Created bus B-97 (RLS-6784) → supervisor: n4bn27qGCFbCBXMgzWl6ADjmndZ2
+2026-03-18 21:52:15.713 | INFO     | __main__:create_bus:94 - Created bus B-69 (ZNI-1484) → supervisor: n4bn27qGCFbCBXMgzWl6ADjmndZ2
+2026-03-18 21:56:11.298 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:56:18.333 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 1psGhfpTK7N46roErXwJRhuofEK2 (test.student11@cfd.nu.edu.pk)
+2026-03-18 21:56:21.883 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 3NCF4DINhjQGspwwPowjYPHiaHk2 (test.student15@cfd.nu.edu.pk)
+2026-03-18 21:56:22.828 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 5Woim9XsMrPQ5R8xmc9SWgkie543 (test.student24@cfd.nu.edu.pk)
+2026-03-18 21:56:25.128 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 5ugZ4FiS7retUUY16U9x7ETlncs2 (test.student22@cfd.nu.edu.pk)
+2026-03-18 21:56:26.086 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7VQfjqoUlneZlOmw6XwvWdEBM533 (supervisor3@nu.edu.pk)
+2026-03-18 21:56:28.373 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7mT2BQHHIYPOprni0NALOGfy4hb2 (test.student21@cfd.nu.edu.pk)
+2026-03-18 21:56:29.373 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7uesmRbnJKVOja8miqPkeN8tn3M2 (test.student30@cfd.nu.edu.pk)
+2026-03-18 21:56:30.320 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 90OWikTFHlVRBj6rVJrqPraN6Pt2 (supervisor10@nu.edu.pk)
+2026-03-18 21:56:31.252 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: C8wNHO4UgiSm1uVfgzv3ta2Ht0N2 (test.student16@cfd.nu.edu.pk)
+2026-03-18 21:56:32.181 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: JHt9MvCDHMSiFZOuC0NmuTdiC352 (supervisor5@nu.edu.pk)
+2026-03-18 21:56:33.118 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: K6Yab2FgD5ccHiQckQqtLGOhx8p1 (test.student3@cfd.nu.edu.pk)
+2026-03-18 21:56:34.071 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: KGi6OGVDnTdPFefQ96ZgfqyNfUv2 (test.student10@cfd.nu.edu.pk)
+2026-03-18 21:56:35.015 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: MutvrRAKTuUQMp7VKRlaoSFzzXD3 (supervisor6@nu.edu.pk)
+2026-03-18 21:56:36.272 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: MvqOhqwEGURaPo9cyLBvAkQNm272 (supervisor1@nu.edu.pk)
+2026-03-18 21:56:37.186 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: NaCLF3L22AVIowaWU1kJxJs4VuF2 (test.student5@cfd.nu.edu.pk)
+2026-03-18 21:56:38.134 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: QXHaWHZKZldNQh7Mr4djhWeFBxD3 (test.student1@cfd.nu.edu.pk)
+2026-03-18 21:56:41.377 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: SBerIBN7kEXwxvpdxI211U37gBk2 (test.student28@cfd.nu.edu.pk)
+2026-03-18 21:56:42.304 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: So7bPJ3SoAN6L85cbQQqFbhlmy22 (test.student12@cfd.nu.edu.pk)
+2026-03-18 21:56:44.669 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: SxIiByjyPbT6eHBqMXzgiqg33P02 (test.student27@cfd.nu.edu.pk)
+2026-03-18 21:56:45.608 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: VUzu7fQeznhvgTJpzERSIWtCs7H3 (test.student29@cfd.nu.edu.pk)
+2026-03-18 21:56:47.900 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Yrwgaonh3SgBvo2o64xZ4GCsvFv1 (supervisor2@nu.edu.pk)
+2026-03-18 21:56:48.867 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: ZvbvvtSj02aWc1UbOIIpPuPolwC2 (test.student7@cfd.nu.edu.pk)
+2026-03-18 21:56:51.160 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: bLqbelw6Qnf0JzkjmmPi4L731qy1 (test.student13@cfd.nu.edu.pk)
+2026-03-18 21:56:52.367 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: f0vulxDR4TQgEOmXB5KgcgWs5yB3 (test.student17@cfd.nu.edu.pk)
+2026-03-18 21:56:54.451 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: hE6rxYBev7PDAyb6hJiBeL7IFTd2 (test.student23@cfd.nu.edu.pk)
+2026-03-18 21:56:55.657 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: iVzW1NNVVoWZd3n4rGFyrKKWtv92 (supervisor4@nu.edu.pk)
+2026-03-18 21:56:57.680 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: imkjz0GhBsb5OCWXp8f8caBThia2 (test.student4@cfd.nu.edu.pk)
+2026-03-18 21:56:58.875 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: kr04unnKJ9VTMGqESGUn6451HnU2 (test.student14@cfd.nu.edu.pk)
+2026-03-18 21:56:59.815 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: n4bn27qGCFbCBXMgzWl6ADjmndZ2 (supervisor7@nu.edu.pk)
+2026-03-18 21:57:00.752 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: nhVBFtKZrEcewixaTgZRANhqn8H3 (test.student6@cfd.nu.edu.pk)
+2026-03-18 21:57:01.678 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: rGJt6d9NWAMWylv4fBqfu5DXdgg2 (supervisor9@nu.edu.pk)
+2026-03-18 21:57:02.617 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: s2L9pLTlx6MDI9OO8rR2WShHdrS2 (supervisor8@nu.edu.pk)
+2026-03-18 21:57:03.534 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: sp47yXhY37RRbPxMnrmSpEqEvu13 (test.student25@cfd.nu.edu.pk)
+2026-03-18 21:57:04.467 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: stWKL7tCzcVsfTnfX9umyPMjolX2 (test.student20@cfd.nu.edu.pk)
+2026-03-18 21:57:05.406 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: utdggu2cBQUh3hNqQvBXQ9xFJ1k1 (test.student8@cfd.nu.edu.pk)
+2026-03-18 21:57:06.350 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: wVBqaXORhyQFv5Q6lBtvms28flk1 (test.student26@cfd.nu.edu.pk)
+2026-03-18 21:57:07.317 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: wqtKJHI3O6cSKv88QHimGR6UwG32 (test.student2@cfd.nu.edu.pk)
+2026-03-18 21:57:08.251 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: xXY6lI2T4APwEYhiWeudUoi2AQV2 (test.student18@cfd.nu.edu.pk)
+2026-03-18 21:57:09.182 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: y0KLa26lMdW7FobcCDmhsNuqLi93 (test.student9@cfd.nu.edu.pk)
+2026-03-18 21:57:10.145 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: yk1XZr5lhTaaUO4HG9qcCU72Pfq1 (test.student19@cfd.nu.edu.pk)
+2026-03-18 21:57:10.662 | ERROR    | __main__:delete_all_auth_users:71 - Error listing users: 'ListUsersPage' object has no attribute 'page_token'
+2026-03-18 21:58:55.049 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 21:59:02.940 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-001 | test.student1@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:03.507 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 0r1FhCItYxeI2aC7YvWHamn5gUs1
+2026-03-18 21:59:05.812 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-001 at (31.393554, 73.040773)
+2026-03-18 21:59:06.972 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-002 | test.student2@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:07.525 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 9NyGSptYxJSwJZ4rE8m4LqAf2So2
+2026-03-18 21:59:09.873 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-002 at (31.392041, 73.139025)
+2026-03-18 21:59:10.985 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-003 | test.student3@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:11.533 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID vJjA768sUpgeowaJMe4jtiSWPIL2
+2026-03-18 21:59:13.850 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-003 at (31.316444, 73.197612)
+2026-03-18 21:59:14.955 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-004 | test.student4@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:15.506 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID beNH7kxRnAYeYQTlchftYURe2Mu1
+2026-03-18 21:59:16.526 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-004 at (31.379827, 73.137780)
+2026-03-18 21:59:17.695 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-005 | test.student5@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:18.242 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID gbkz6cHSvsTOFzFIYlAKd7gLNnl1
+2026-03-18 21:59:18.772 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-005 at (31.454500, 73.051572)
+2026-03-18 21:59:20.230 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-006 | test.student6@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:20.782 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID NpD8275WH7czMA0NKO0TKXD8cUf2
+2026-03-18 21:59:21.317 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-006 at (31.414400, 73.072564)
+2026-03-18 21:59:22.424 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-007 | test.student7@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:22.972 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID oSYpwNoKaEMzdwRqR0X7jH6lHcd2
+2026-03-18 21:59:25.273 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-007 at (31.548026, 73.149884)
+2026-03-18 21:59:26.425 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-008 | test.student8@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:26.976 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID n07WWWeeNLY0PKNxTeQJBtbz4322
+2026-03-18 21:59:29.280 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-008 at (31.349484, 73.032600)
+2026-03-18 21:59:31.431 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-009 | test.student9@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:31.980 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID EPkzLNL8SDSCw3PYySjBEr2ZsMr2
+2026-03-18 21:59:34.284 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-009 at (31.470225, 73.150358)
+2026-03-18 21:59:35.362 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-010 | test.student10@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:35.909 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID UcF7u6iRkJT2jYACGucfCnJz4Wg2
+2026-03-18 21:59:38.213 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-010 at (31.400271, 73.158866)
+2026-03-18 21:59:39.393 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-011 | test.student11@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:39.941 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID xfysCgsn2zXTXQ5lpFl00sWuuYD3
+2026-03-18 21:59:40.954 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-011 at (31.502040, 73.012673)
+2026-03-18 21:59:42.492 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-012 | test.student12@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:43.031 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 4mA8dcbrtMf7nquDw73LrJcLpvi1
+2026-03-18 21:59:43.573 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-012 at (31.300565, 73.067907)
+2026-03-18 21:59:44.735 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-013 | test.student13@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:45.274 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 7HRbZXsk5Nda4eIwk8Mq37vOCMg1
+2026-03-18 21:59:45.812 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-013 at (31.463033, 73.140453)
+2026-03-18 21:59:47.001 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-014 | test.student14@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:47.542 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID uJmfBgYILCYCgk2RTEngLN5WSdl2
+2026-03-18 21:59:48.087 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-014 at (31.536311, 73.195208)
+2026-03-18 21:59:49.203 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-015 | test.student15@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:49.743 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID o0HtqZexvWgBmS32HolnGaacnft2
+2026-03-18 21:59:50.280 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-015 at (31.441605, 73.194838)
+2026-03-18 21:59:51.392 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-016 | test.student16@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:51.928 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID wGNiGhjcTEVhAfiHRxFsplmC68Q2
+2026-03-18 21:59:52.472 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-016 at (31.315459, 73.066046)
+2026-03-18 21:59:53.614 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-017 | test.student17@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:54.152 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 4TeFuw3PYmRVNUFSwCjUfSZSTXJ3
+2026-03-18 21:59:54.693 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-017 at (31.474892, 73.029320)
+2026-03-18 21:59:56.283 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-018 | test.student18@cfd.nu.edu.pk | password: waleed
+2026-03-18 21:59:56.815 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID vq0dEWdXLQME1oqt7N26lkFpU683
+2026-03-18 21:59:57.358 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-018 at (31.417715, 73.103185)
+2026-03-18 21:59:59.515 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-019 | test.student19@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:00.049 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID YfJ3d6aQy8dSxB4z5dL69w1dWA63
+2026-03-18 22:00:00.577 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-019 at (31.310349, 73.198843)
+2026-03-18 22:00:01.746 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-020 | test.student20@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:02.276 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID ab25vYgCasdzhRoe0HMXlkS7xty2
+2026-03-18 22:00:02.814 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-020 at (31.454325, 73.068337)
+2026-03-18 22:00:03.942 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-021 | test.student21@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:04.481 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID mxdJbHoOOcS96z0nWfkkUy2kQQ52
+2026-03-18 22:00:05.020 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-021 at (31.492540, 73.081742)
+2026-03-18 22:00:06.439 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-022 | test.student22@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:06.973 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 0WFW1GepEgUbGpPy1cmK1LeFGSm1
+2026-03-18 22:00:07.511 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-022 at (31.367563, 73.110870)
+2026-03-18 22:00:08.655 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-023 | test.student23@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:09.205 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID DYIXmUmsX2adzD7JqVER3GLvtet2
+2026-03-18 22:00:09.739 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-023 at (31.348346, 73.163467)
+2026-03-18 22:00:11.310 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-024 | test.student24@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:11.850 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 5nnT2RIjPrTYWllqA31fkF6yHVv1
+2026-03-18 22:00:12.390 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-024 at (31.323413, 73.139233)
+2026-03-18 22:00:13.527 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-025 | test.student25@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:14.066 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 30HcUs3mTgTtkG4BBkZCllQBEE53
+2026-03-18 22:00:14.902 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-025 at (31.486888, 73.122052)
+2026-03-18 22:00:16.344 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-026 | test.student26@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:16.877 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID eYFoF8RmYfbYwhPT77pYOpm6c1Y2
+2026-03-18 22:00:17.412 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-026 at (31.399584, 73.094652)
+2026-03-18 22:00:18.603 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-027 | test.student27@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:19.142 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID bqxQXzdC2tRYSj4rTcDkhfJoj6F3
+2026-03-18 22:00:19.681 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-027 at (31.315815, 73.058060)
+2026-03-18 22:00:20.778 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-028 | test.student28@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:21.319 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID jYc892yE1PNkDSA0CTh2PghBPFm1
+2026-03-18 22:00:21.856 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-028 at (31.530653, 73.026451)
+2026-03-18 22:00:23.757 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-029 | test.student29@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:24.287 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID z8h0vONEbQNVLkH7sUBTAtZZ0MR2
+2026-03-18 22:00:24.830 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-029 at (31.364656, 73.191366)
+2026-03-18 22:00:25.994 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-030 | test.student30@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:00:26.527 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID vdzf05JiOAMWi3OPrbRasIa0y172
+2026-03-18 22:00:27.059 | INFO     | __main__:create_random_student:82 - Created student doc STUDENT-030 at (31.462831, 73.153526)
+2026-03-18 22:00:33.416 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 22:00:54.081 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: p4eHMMIBAOgeXkfosbBTbvTXy9q1 | supervisor1@nu.edu.pk | pass: waleed
+2026-03-18 22:00:54.671 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc p4eHMMIBAOgeXkfosbBTbvTXy9q1
+2026-03-18 22:00:55.933 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: skMxyG0IVoSyrUWf6h790IbgMji2 | supervisor2@nu.edu.pk | pass: waleed
+2026-03-18 22:00:56.474 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc skMxyG0IVoSyrUWf6h790IbgMji2
+2026-03-18 22:00:57.741 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: dzif20ROK2PLJFTQyMNjPKbOYOA2 | supervisor3@nu.edu.pk | pass: waleed
+2026-03-18 22:00:58.265 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc dzif20ROK2PLJFTQyMNjPKbOYOA2
+2026-03-18 22:00:59.684 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: g5M1P8DnQLcYOYlR9ze7D1RAnyh2 | supervisor4@nu.edu.pk | pass: waleed
+2026-03-18 22:01:00.222 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc g5M1P8DnQLcYOYlR9ze7D1RAnyh2
+2026-03-18 22:01:01.446 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: tW46UpFClNSIvDkdA0jLJ3384d02 | supervisor5@nu.edu.pk | pass: waleed
+2026-03-18 22:01:03.323 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc tW46UpFClNSIvDkdA0jLJ3384d02
+2026-03-18 22:01:04.925 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: f3NpZjB0BJZiWbAosRcOSXs6osk2 | supervisor6@nu.edu.pk | pass: waleed
+2026-03-18 22:01:05.949 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc f3NpZjB0BJZiWbAosRcOSXs6osk2
+2026-03-18 22:01:07.578 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: inub763IGrS1ySLtuwpEw5Sq7f83 | supervisor7@nu.edu.pk | pass: waleed
+2026-03-18 22:01:08.185 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc inub763IGrS1ySLtuwpEw5Sq7f83
+2026-03-18 22:01:09.509 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 84k1sSdX8QcU5C5D5C8VVSo0U2n1 | supervisor8@nu.edu.pk | pass: waleed
+2026-03-18 22:01:10.046 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 84k1sSdX8QcU5C5D5C8VVSo0U2n1
+2026-03-18 22:01:11.606 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 3jjipajXLIUPPPavD0J2Yr3dwU92 | supervisor9@nu.edu.pk | pass: waleed
+2026-03-18 22:01:12.398 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 3jjipajXLIUPPPavD0J2Yr3dwU92
+2026-03-18 22:01:14.032 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: lvLuL81yNHT2KP0EvJweCM4TQrr2 | supervisor10@nu.edu.pk | pass: waleed
+2026-03-18 22:01:14.586 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc lvLuL81yNHT2KP0EvJweCM4TQrr2
+2026-03-18 22:01:15.556 | INFO     | __main__:create_bus:94 - Created bus B-60 (FZT-3328) → supervisor: f3NpZjB0BJZiWbAosRcOSXs6osk2
+2026-03-18 22:01:16.289 | INFO     | __main__:create_bus:94 - Created bus B-42 (JSX-2310) → supervisor: 3jjipajXLIUPPPavD0J2Yr3dwU92
+2026-03-18 22:01:17.252 | INFO     | __main__:create_bus:94 - Created bus B-84 (VAS-9910) → supervisor: tW46UpFClNSIvDkdA0jLJ3384d02
+2026-03-18 22:01:17.983 | INFO     | __main__:create_bus:94 - Created bus B-40 (QHZ-5105) → supervisor: tW46UpFClNSIvDkdA0jLJ3384d02
+2026-03-18 22:01:18.849 | INFO     | __main__:create_bus:94 - Created bus B-11 (TFI-3849) → supervisor: f3NpZjB0BJZiWbAosRcOSXs6osk2
+2026-03-18 22:01:19.812 | INFO     | __main__:create_bus:94 - Created bus B-70 (WOU-1475) → supervisor: skMxyG0IVoSyrUWf6h790IbgMji2
+2026-03-18 22:01:20.836 | INFO     | __main__:create_bus:94 - Created bus B-03 (OFZ-3284) → supervisor: g5M1P8DnQLcYOYlR9ze7D1RAnyh2
+2026-03-18 22:01:21.623 | INFO     | __main__:create_bus:94 - Created bus B-93 (MVD-1777) → supervisor: tW46UpFClNSIvDkdA0jLJ3384d02
+2026-03-18 22:01:22.475 | INFO     | __main__:create_bus:94 - Created bus B-55 (PUA-4084) → supervisor: dzif20ROK2PLJFTQyMNjPKbOYOA2
+2026-03-18 22:01:23.457 | INFO     | __main__:create_bus:94 - Created bus B-14 (QTZ-7091) → supervisor: skMxyG0IVoSyrUWf6h790IbgMji2
+2026-03-18 22:29:52.687 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 22:30:02.878 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 0WFW1GepEgUbGpPy1cmK1LeFGSm1 (test.student22@cfd.nu.edu.pk)
+2026-03-18 22:30:06.966 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 0r1FhCItYxeI2aC7YvWHamn5gUs1 (test.student1@cfd.nu.edu.pk)
+2026-03-18 22:30:08.194 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 30HcUs3mTgTtkG4BBkZCllQBEE53 (test.student25@cfd.nu.edu.pk)
+2026-03-18 22:30:10.457 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 3jjipajXLIUPPPavD0J2Yr3dwU92 (supervisor9@nu.edu.pk)
+2026-03-18 22:30:11.984 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 4TeFuw3PYmRVNUFSwCjUfSZSTXJ3 (test.student17@cfd.nu.edu.pk)
+2026-03-18 22:30:14.047 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 4mA8dcbrtMf7nquDw73LrJcLpvi1 (test.student12@cfd.nu.edu.pk)
+2026-03-18 22:30:15.772 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 5nnT2RIjPrTYWllqA31fkF6yHVv1 (test.student24@cfd.nu.edu.pk)
+2026-03-18 22:30:17.317 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7HRbZXsk5Nda4eIwk8Mq37vOCMg1 (test.student13@cfd.nu.edu.pk)
+2026-03-18 22:30:18.640 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 84k1sSdX8QcU5C5D5C8VVSo0U2n1 (supervisor8@nu.edu.pk)
+2026-03-18 22:30:20.791 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 9NyGSptYxJSwJZ4rE8m4LqAf2So2 (test.student2@cfd.nu.edu.pk)
+2026-03-18 22:30:24.284 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: DYIXmUmsX2adzD7JqVER3GLvtet2 (test.student23@cfd.nu.edu.pk)
+2026-03-18 22:30:25.501 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: EPkzLNL8SDSCw3PYySjBEr2ZsMr2 (test.student9@cfd.nu.edu.pk)
+2026-03-18 22:30:27.753 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: NpD8275WH7czMA0NKO0TKXD8cUf2 (test.student6@cfd.nu.edu.pk)
+2026-03-18 22:30:29.309 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: UcF7u6iRkJT2jYACGucfCnJz4Wg2 (test.student10@cfd.nu.edu.pk)
+2026-03-18 22:30:31.455 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: YfJ3d6aQy8dSxB4z5dL69w1dWA63 (test.student19@cfd.nu.edu.pk)
+2026-03-18 22:30:33.086 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: ab25vYgCasdzhRoe0HMXlkS7xty2 (test.student20@cfd.nu.edu.pk)
+2026-03-18 22:30:35.045 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: beNH7kxRnAYeYQTlchftYURe2Mu1 (test.student4@cfd.nu.edu.pk)
+2026-03-18 22:30:36.774 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: bqxQXzdC2tRYSj4rTcDkhfJoj6F3 (test.student27@cfd.nu.edu.pk)
+2026-03-18 22:30:38.624 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: dzif20ROK2PLJFTQyMNjPKbOYOA2 (supervisor3@nu.edu.pk)
+2026-03-18 22:30:40.369 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: eYFoF8RmYfbYwhPT77pYOpm6c1Y2 (test.student26@cfd.nu.edu.pk)
+2026-03-18 22:30:42.307 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: f3NpZjB0BJZiWbAosRcOSXs6osk2 (supervisor6@nu.edu.pk)
+2026-03-18 22:30:44.148 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: g5M1P8DnQLcYOYlR9ze7D1RAnyh2 (supervisor4@nu.edu.pk)
+2026-03-18 22:30:46.301 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: gbkz6cHSvsTOFzFIYlAKd7gLNnl1 (test.student5@cfd.nu.edu.pk)
+2026-03-18 22:30:47.674 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: inub763IGrS1ySLtuwpEw5Sq7f83 (supervisor7@nu.edu.pk)
+2026-03-18 22:30:48.864 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: jYc892yE1PNkDSA0CTh2PghBPFm1 (test.student28@cfd.nu.edu.pk)
+2026-03-18 22:30:50.090 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: lvLuL81yNHT2KP0EvJweCM4TQrr2 (supervisor10@nu.edu.pk)
+2026-03-18 22:30:51.523 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: mxdJbHoOOcS96z0nWfkkUy2kQQ52 (test.student21@cfd.nu.edu.pk)
+2026-03-18 22:30:52.850 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: n07WWWeeNLY0PKNxTeQJBtbz4322 (test.student8@cfd.nu.edu.pk)
+2026-03-18 22:30:54.386 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: o0HtqZexvWgBmS32HolnGaacnft2 (test.student15@cfd.nu.edu.pk)
+2026-03-18 22:30:55.522 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: oSYpwNoKaEMzdwRqR0X7jH6lHcd2 (test.student7@cfd.nu.edu.pk)
+2026-03-18 22:30:56.747 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: p4eHMMIBAOgeXkfosbBTbvTXy9q1 (supervisor1@nu.edu.pk)
+2026-03-18 22:30:57.977 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: skMxyG0IVoSyrUWf6h790IbgMji2 (supervisor2@nu.edu.pk)
+2026-03-18 22:30:59.518 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: tW46UpFClNSIvDkdA0jLJ3384d02 (supervisor5@nu.edu.pk)
+2026-03-18 22:31:00.840 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: uJmfBgYILCYCgk2RTEngLN5WSdl2 (test.student14@cfd.nu.edu.pk)
+2026-03-18 22:31:02.064 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: vJjA768sUpgeowaJMe4jtiSWPIL2 (test.student3@cfd.nu.edu.pk)
+2026-03-18 22:31:03.307 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: vdzf05JiOAMWi3OPrbRasIa0y172 (test.student30@cfd.nu.edu.pk)
+2026-03-18 22:31:04.630 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: vq0dEWdXLQME1oqt7N26lkFpU683 (test.student18@cfd.nu.edu.pk)
+2026-03-18 22:31:05.866 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: wGNiGhjcTEVhAfiHRxFsplmC68Q2 (test.student16@cfd.nu.edu.pk)
+2026-03-18 22:31:07.085 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: xfysCgsn2zXTXQ5lpFl00sWuuYD3 (test.student11@cfd.nu.edu.pk)
+2026-03-18 22:31:08.218 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: z8h0vONEbQNVLkH7sUBTAtZZ0MR2 (test.student29@cfd.nu.edu.pk)
+2026-03-18 22:31:08.838 | ERROR    | __main__:delete_all_auth_users:71 - Error listing users: 'ListUsersPage' object has no attribute 'page_token'
+2026-03-18 22:32:15.326 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 22:32:23.159 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-001 | test.student1@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:23.877 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID G5GVYF9GZcWw0POhGguKMln8Fsz2
+2026-03-18 22:32:26.128 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-001 at (31.497720, 73.149029)
+2026-03-18 22:32:27.467 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-002 | test.student2@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:30.539 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID wOMexseI9NOamnoW8JfrgLlUc863
+2026-03-18 22:32:31.248 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-002 at (31.358320, 73.025274)
+2026-03-18 22:32:32.688 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-003 | test.student3@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:33.604 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID xqgyt5Hr5idJubZR6DEX73xqbI82
+2026-03-18 22:32:35.652 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-003 at (31.490341, 73.102697)
+2026-03-18 22:32:37.401 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-004 | test.student4@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:38.110 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID d5i9nsU33Xf831e1u28PzlMHy3z2
+2026-03-18 22:32:40.363 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-004 at (31.459950, 73.050502)
+2026-03-18 22:32:41.695 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-005 | test.student5@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:42.410 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 7Yw0qMiyRwgy1twV6gtg98m222U2
+2026-03-18 22:32:44.664 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-005 at (31.424734, 73.034264)
+2026-03-18 22:32:45.893 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-006 | test.student6@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:46.609 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID CVLz1bPPyXdm52mcP0e9f0NLims1
+2026-03-18 22:32:48.862 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-006 at (31.364870, 73.077618)
+2026-03-18 22:32:50.091 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-007 | test.student7@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:50.807 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID WvBmehEK2rcClso43iGqgP73uW02
+2026-03-18 22:32:53.061 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-007 at (31.387150, 73.033172)
+2026-03-18 22:32:54.392 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-008 | test.student8@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:55.108 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID deHpExQf3dQfweo5O44jLusvIH63
+2026-03-18 22:32:55.825 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-008 at (31.462758, 73.195466)
+2026-03-18 22:32:57.059 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-009 | test.student9@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:32:57.772 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 7GMQrkVvRcPOd14LxQFaEDNZuT53
+2026-03-18 22:32:58.486 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-009 at (31.437253, 73.166759)
+2026-03-18 22:32:59.728 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-010 | test.student10@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:00.534 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID TsHTaJE8fgOW70Cw2XzZdjGxrGZ2
+2026-03-18 22:33:01.252 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-010 at (31.359562, 73.138999)
+2026-03-18 22:33:02.482 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-011 | test.student11@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:03.197 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 1uONFWP5d4glyeMwZt73viN3gio2
+2026-03-18 22:33:03.914 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-011 at (31.304135, 73.165324)
+2026-03-18 22:33:05.156 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-012 | test.student12@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:05.961 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 4new3EJSCtSHR6VC1R2gor5ZX273
+2026-03-18 22:33:06.678 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-012 at (31.411972, 73.001905)
+2026-03-18 22:33:07.907 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-013 | test.student13@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:08.624 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID Vw0AzlUD8JaDIqgAD8QxAIXF9jx1
+2026-03-18 22:33:09.238 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-013 at (31.480701, 73.190757)
+2026-03-18 22:33:10.569 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-014 | test.student14@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:11.389 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID C6bn4jgFF9Pq7gZfukKlGmgebkg2
+2026-03-18 22:33:12.106 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-014 at (31.499182, 73.032522)
+2026-03-18 22:33:13.438 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-015 | test.student15@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:14.154 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID gonrszxVD9bdrmxw7r7GbThFOfM2
+2026-03-18 22:33:14.871 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-015 at (31.432897, 73.109797)
+2026-03-18 22:33:16.101 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-016 | test.student16@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:16.818 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID fnt2nkLj2wdAfcldvKdQEhSGAB92
+2026-03-18 22:33:17.430 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-016 at (31.328941, 73.113768)
+2026-03-18 22:33:18.762 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-017 | test.student17@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:19.479 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID sLRtjMIcUCMoGiNpfAj2u5wp7wy2
+2026-03-18 22:33:20.196 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-017 at (31.518705, 73.162629)
+2026-03-18 22:33:21.527 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-018 | test.student18@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:22.162 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID SpDa9687NDTR97lvHR38R4VUFIk1
+2026-03-18 22:33:22.960 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-018 at (31.344940, 73.141039)
+2026-03-18 22:33:24.196 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-019 | test.student19@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:24.907 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID H8jllYHMdBUZa1gUb3hsrEAYD2U2
+2026-03-18 22:33:25.624 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-019 at (31.389070, 73.122990)
+2026-03-18 22:33:26.954 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-020 | test.student20@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:27.671 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID vyWpeRYtMXdG67U8jW3ZHXS0Xlh1
+2026-03-18 22:33:28.389 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-020 at (31.385876, 73.179438)
+2026-03-18 22:33:29.718 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-021 | test.student21@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:30.332 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 3fa5TzzebpUNao8iLGDfKyTd3ty1
+2026-03-18 22:33:31.050 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-021 at (31.513072, 73.142010)
+2026-03-18 22:33:32.383 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-022 | test.student22@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:33.098 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID tVvOnIlG71To6PpnjnH9Voddm4B2
+2026-03-18 22:33:33.713 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-022 at (31.387534, 73.058989)
+2026-03-18 22:33:34.958 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-023 | test.student23@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:35.567 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID H3AmOLm7AHYZqeG5Hu17R0GtT9S2
+2026-03-18 22:33:36.375 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-023 at (31.474920, 73.079402)
+2026-03-18 22:33:37.606 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-024 | test.student24@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:38.218 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID HW8i7qwQaxMg5fW8dN9s8vSHrnW2
+2026-03-18 22:33:39.037 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-024 at (31.346643, 73.088323)
+2026-03-18 22:33:40.271 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-025 | test.student25@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:40.983 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID u6a6xs19WYMBOpqswkEtWHroHZr1
+2026-03-18 22:33:41.701 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-025 at (31.433806, 73.179651)
+2026-03-18 22:33:43.032 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-026 | test.student26@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:43.748 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID 6ertmCobg2egDtWaK1gaUOImzu92
+2026-03-18 22:33:44.464 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-026 at (31.383000, 73.129244)
+2026-03-18 22:33:45.694 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-027 | test.student27@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:46.411 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID sG9kkOlS6YfTWuhNIH14QQiEeIf2
+2026-03-18 22:33:47.025 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-027 at (31.362323, 73.180039)
+2026-03-18 22:33:48.262 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-028 | test.student28@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:48.970 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID vVnTDK1T7Hc2gO6OXiwSzk7xAcK2
+2026-03-18 22:33:49.688 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-028 at (31.360861, 73.006150)
+2026-03-18 22:33:51.028 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-029 | test.student29@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:51.737 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID Bi6kYqCsY7g5cJV9Q7vndd7IMpg2
+2026-03-18 22:33:52.452 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-029 at (31.498163, 73.058855)
+2026-03-18 22:33:53.688 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-030 | test.student30@cfd.nu.edu.pk | password: waleed
+2026-03-18 22:33:54.398 | DEBUG    | __main__:create_random_student:61 - Stored user doc for UID r24VdRNJwpds9U96RbvAAZHYvDm2
+2026-03-18 22:33:55.115 | INFO     | __main__:create_random_student:81 - Created student doc STUDENT-030 at (31.487030, 73.046592)
+2026-03-18 22:34:14.422 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 22:34:24.929 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: rdCPl5XuPyg2BHvNPUCQV3vkJlA2 | supervisor1@nu.edu.pk | pass: waleed
+2026-03-18 22:34:26.562 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc rdCPl5XuPyg2BHvNPUCQV3vkJlA2
+2026-03-18 22:34:28.191 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 6oKvSlNPkSd9MamaOvGQ7gxG4Dt1 | supervisor2@nu.edu.pk | pass: waleed
+2026-03-18 22:34:28.910 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 6oKvSlNPkSd9MamaOvGQ7gxG4Dt1
+2026-03-18 22:34:30.378 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: BqRVoqesIndVnVYDakGarDNFDhE3 | supervisor3@nu.edu.pk | pass: waleed
+2026-03-18 22:34:31.271 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc BqRVoqesIndVnVYDakGarDNFDhE3
+2026-03-18 22:34:33.728 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: NFLViBlpEwMnloRUwcMLf44Kr1z1 | supervisor4@nu.edu.pk | pass: waleed
+2026-03-18 22:34:34.548 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc NFLViBlpEwMnloRUwcMLf44Kr1z1
+2026-03-18 22:34:36.186 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 6SdZqIDOu6bsvb0t2zWp6WvraN72 | supervisor5@nu.edu.pk | pass: waleed
+2026-03-18 22:34:36.801 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 6SdZqIDOu6bsvb0t2zWp6WvraN72
+2026-03-18 22:34:38.437 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: NrGTrDqNneT8bsiKCHaQRjI43kT2 | supervisor6@nu.edu.pk | pass: waleed
+2026-03-18 22:34:39.057 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc NrGTrDqNneT8bsiKCHaQRjI43kT2
+2026-03-18 22:34:40.692 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: Wiq7CO3pYJMh0dBap3aljGnVqMM2 | supervisor7@nu.edu.pk | pass: waleed
+2026-03-18 22:34:41.511 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc Wiq7CO3pYJMh0dBap3aljGnVqMM2
+2026-03-18 22:34:43.321 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: wYNrjrYnNKRzDeOcwXSIndyfjXM2 | supervisor8@nu.edu.pk | pass: waleed
+2026-03-18 22:34:44.071 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc wYNrjrYnNKRzDeOcwXSIndyfjXM2
+2026-03-18 22:34:45.913 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: lQnK3J5cFngQ69oT0bCqtzGGZ002 | supervisor9@nu.edu.pk | pass: waleed
+2026-03-18 22:34:46.735 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc lQnK3J5cFngQ69oT0bCqtzGGZ002
+2026-03-18 22:34:48.774 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: YEDOJ0BV1vgDmYpO6P18iV3u7dz2 | supervisor10@nu.edu.pk | pass: waleed
+2026-03-18 22:34:49.371 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc YEDOJ0BV1vgDmYpO6P18iV3u7dz2
+2026-03-18 22:34:51.853 | INFO     | __main__:create_bus:94 - Created bus B-35 (LRM-6565) → supervisor: NrGTrDqNneT8bsiKCHaQRjI43kT2
+2026-03-18 22:34:52.774 | INFO     | __main__:create_bus:94 - Created bus B-32 (UZU-9561) → supervisor: YEDOJ0BV1vgDmYpO6P18iV3u7dz2
+2026-03-18 22:34:55.335 | INFO     | __main__:create_bus:94 - Created bus B-62 (NFT-5647) → supervisor: NFLViBlpEwMnloRUwcMLf44Kr1z1
+2026-03-18 22:34:56.359 | INFO     | __main__:create_bus:94 - Created bus B-68 (RHC-5680) → supervisor: YEDOJ0BV1vgDmYpO6P18iV3u7dz2
+2026-03-18 22:34:58.715 | INFO     | __main__:create_bus:94 - Created bus B-30 (AMJ-5567) → supervisor: NFLViBlpEwMnloRUwcMLf44Kr1z1
+2026-03-18 22:34:59.548 | INFO     | __main__:create_bus:94 - Created bus B-47 (FBI-0915) → supervisor: wYNrjrYnNKRzDeOcwXSIndyfjXM2
+2026-03-18 22:35:02.080 | INFO     | __main__:create_bus:94 - Created bus B-84 (RFV-2956) → supervisor: YEDOJ0BV1vgDmYpO6P18iV3u7dz2
+2026-03-18 22:35:03.112 | INFO     | __main__:create_bus:94 - Created bus B-01 (SAE-6011) → supervisor: Wiq7CO3pYJMh0dBap3aljGnVqMM2
+2026-03-18 22:35:04.039 | INFO     | __main__:create_bus:94 - Created bus B-79 (OVM-9845) → supervisor: BqRVoqesIndVnVYDakGarDNFDhE3
+2026-03-18 22:35:04.961 | INFO     | __main__:create_bus:94 - Created bus B-03 (VPV-0287) → supervisor: 6oKvSlNPkSd9MamaOvGQ7gxG4Dt1
+2026-03-18 22:56:40.121 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 22:57:37.302 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 1uONFWP5d4glyeMwZt73viN3gio2 (test.student11@cfd.nu.edu.pk)
+2026-03-18 22:57:43.104 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 3fa5TzzebpUNao8iLGDfKyTd3ty1 (test.student21@cfd.nu.edu.pk)
+2026-03-18 22:57:46.708 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 4new3EJSCtSHR6VC1R2gor5ZX273 (test.student12@cfd.nu.edu.pk)
+2026-03-18 22:57:48.020 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 6SdZqIDOu6bsvb0t2zWp6WvraN72 (supervisor5@nu.edu.pk)
+2026-03-18 22:57:50.627 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 6ertmCobg2egDtWaK1gaUOImzu92 (test.student26@cfd.nu.edu.pk)
+2026-03-18 22:57:52.118 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 6oKvSlNPkSd9MamaOvGQ7gxG4Dt1 (supervisor2@nu.edu.pk)
+2026-03-18 22:57:54.220 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7GMQrkVvRcPOd14LxQFaEDNZuT53 (test.student9@cfd.nu.edu.pk)
+2026-03-18 22:57:55.425 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 7Yw0qMiyRwgy1twV6gtg98m222U2 (test.student5@cfd.nu.edu.pk)
+2026-03-18 22:57:57.070 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Bi6kYqCsY7g5cJV9Q7vndd7IMpg2 (test.student29@cfd.nu.edu.pk)
+2026-03-18 22:57:58.381 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: BqRVoqesIndVnVYDakGarDNFDhE3 (supervisor3@nu.edu.pk)
+2026-03-18 22:57:59.489 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: C6bn4jgFF9Pq7gZfukKlGmgebkg2 (test.student14@cfd.nu.edu.pk)
+2026-03-18 22:58:00.568 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: CVLz1bPPyXdm52mcP0e9f0NLims1 (test.student6@cfd.nu.edu.pk)
+2026-03-18 22:58:02.132 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: G5GVYF9GZcWw0POhGguKMln8Fsz2 (test.student1@cfd.nu.edu.pk)
+2026-03-18 22:58:03.996 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: H3AmOLm7AHYZqeG5Hu17R0GtT9S2 (test.student23@cfd.nu.edu.pk)
+2026-03-18 22:58:05.349 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: H8jllYHMdBUZa1gUb3hsrEAYD2U2 (test.student19@cfd.nu.edu.pk)
+2026-03-18 22:58:06.960 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: HW8i7qwQaxMg5fW8dN9s8vSHrnW2 (test.student24@cfd.nu.edu.pk)
+2026-03-18 22:58:08.506 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: NFLViBlpEwMnloRUwcMLf44Kr1z1 (supervisor4@nu.edu.pk)
+2026-03-18 22:58:10.345 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: NrGTrDqNneT8bsiKCHaQRjI43kT2 (supervisor6@nu.edu.pk)
+2026-03-18 22:58:11.777 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: SDDqPpVjadZZU6ZIDS6tsIIws3t2 (rrr@cfd.nu.edu.pk)
+2026-03-18 22:58:13.741 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: SpDa9687NDTR97lvHR38R4VUFIk1 (test.student18@cfd.nu.edu.pk)
+2026-03-18 22:58:14.778 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: TsHTaJE8fgOW70Cw2XzZdjGxrGZ2 (test.student10@cfd.nu.edu.pk)
+2026-03-18 22:58:15.771 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Vw0AzlUD8JaDIqgAD8QxAIXF9jx1 (test.student13@cfd.nu.edu.pk)
+2026-03-18 22:58:16.777 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: Wiq7CO3pYJMh0dBap3aljGnVqMM2 (supervisor7@nu.edu.pk)
+2026-03-18 22:58:17.749 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: WvBmehEK2rcClso43iGqgP73uW02 (test.student7@cfd.nu.edu.pk)
+2026-03-18 22:58:18.837 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: YEDOJ0BV1vgDmYpO6P18iV3u7dz2 (supervisor10@nu.edu.pk)
+2026-03-18 22:58:20.274 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: d5i9nsU33Xf831e1u28PzlMHy3z2 (test.student4@cfd.nu.edu.pk)
+2026-03-18 22:58:21.274 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: deHpExQf3dQfweo5O44jLusvIH63 (test.student8@cfd.nu.edu.pk)
+2026-03-18 22:58:22.248 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: fnt2nkLj2wdAfcldvKdQEhSGAB92 (test.student16@cfd.nu.edu.pk)
+2026-03-18 22:58:24.047 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: gonrszxVD9bdrmxw7r7GbThFOfM2 (test.student15@cfd.nu.edu.pk)
+2026-03-18 22:58:25.783 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: lQnK3J5cFngQ69oT0bCqtzGGZ002 (supervisor9@nu.edu.pk)
+2026-03-18 22:58:27.243 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: r24VdRNJwpds9U96RbvAAZHYvDm2 (test.student30@cfd.nu.edu.pk)
+2026-03-18 22:58:28.473 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: rdCPl5XuPyg2BHvNPUCQV3vkJlA2 (supervisor1@nu.edu.pk)
+2026-03-18 22:58:29.523 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: sG9kkOlS6YfTWuhNIH14QQiEeIf2 (test.student27@cfd.nu.edu.pk)
+2026-03-18 22:58:30.508 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: sLRtjMIcUCMoGiNpfAj2u5wp7wy2 (test.student17@cfd.nu.edu.pk)
+2026-03-18 22:58:32.114 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: tVvOnIlG71To6PpnjnH9Voddm4B2 (test.student22@cfd.nu.edu.pk)
+2026-03-18 22:58:33.590 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: u6a6xs19WYMBOpqswkEtWHroHZr1 (test.student25@cfd.nu.edu.pk)
+2026-03-18 22:58:35.229 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: vVnTDK1T7Hc2gO6OXiwSzk7xAcK2 (test.student28@cfd.nu.edu.pk)
+2026-03-18 22:58:36.462 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: vyWpeRYtMXdG67U8jW3ZHXS0Xlh1 (test.student20@cfd.nu.edu.pk)
+2026-03-18 22:58:38.008 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: wOMexseI9NOamnoW8JfrgLlUc863 (test.student2@cfd.nu.edu.pk)
+2026-03-18 22:58:39.100 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: wYNrjrYnNKRzDeOcwXSIndyfjXM2 (supervisor8@nu.edu.pk)
+2026-03-18 22:58:40.134 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: xqgyt5Hr5idJubZR6DEX73xqbI82 (test.student3@cfd.nu.edu.pk)
+2026-03-18 22:58:40.746 | ERROR    | __main__:delete_all_auth_users:71 - Error listing users: 'ListUsersPage' object has no attribute 'page_token'
+2026-03-18 22:59:03.750 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 22:59:10.689 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: OWf4QCAgZRMUdUBwag2YcWR3u8l1 | supervisor1@nu.edu.pk | pass: waleed
+2026-03-18 22:59:12.292 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc OWf4QCAgZRMUdUBwag2YcWR3u8l1
+2026-03-18 22:59:14.039 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 4FEVjg4oaadMpePKvO62ORUaitO2 | supervisor2@nu.edu.pk | pass: waleed
+2026-03-18 22:59:14.829 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 4FEVjg4oaadMpePKvO62ORUaitO2
+2026-03-18 22:59:16.597 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: XwPG3j0RwQPDcxRKrxVLzi4INd83 | supervisor3@nu.edu.pk | pass: waleed
+2026-03-18 22:59:17.316 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc XwPG3j0RwQPDcxRKrxVLzi4INd83
+2026-03-18 22:59:18.955 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: hGybUA2aoSN1lY90GkLq4j3HQnA3 | supervisor4@nu.edu.pk | pass: waleed
+2026-03-18 22:59:20.079 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc hGybUA2aoSN1lY90GkLq4j3HQnA3
+2026-03-18 22:59:21.720 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: zvuxg6SUibdK7NEEXcGKTrtLyjR2 | supervisor5@nu.edu.pk | pass: waleed
+2026-03-18 22:59:22.641 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc zvuxg6SUibdK7NEEXcGKTrtLyjR2
+2026-03-18 22:59:24.279 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: xf2vl4SKa2QpDjEdkyh3rf7vZxm1 | supervisor6@nu.edu.pk | pass: waleed
+2026-03-18 22:59:25.202 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc xf2vl4SKa2QpDjEdkyh3rf7vZxm1
+2026-03-18 22:59:26.849 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: v5mcoxLmL7b6WDIxnzlv1SV5qGM2 | supervisor7@nu.edu.pk | pass: waleed
+2026-03-18 22:59:27.864 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc v5mcoxLmL7b6WDIxnzlv1SV5qGM2
+2026-03-18 22:59:29.254 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: 0ctQT9FTS7eiAfCpsKuukCuJIuS2 | supervisor8@nu.edu.pk | pass: waleed
+2026-03-18 22:59:30.321 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc 0ctQT9FTS7eiAfCpsKuukCuJIuS2
+2026-03-18 22:59:31.755 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: fk9NGulyZSNEmHR10yBY1AvV4RP2 | supervisor9@nu.edu.pk | pass: waleed
+2026-03-18 22:59:32.879 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc fk9NGulyZSNEmHR10yBY1AvV4RP2
+2026-03-18 22:59:34.885 | INFO     | __main__:create_supervisor:49 - Created supervisor auth → UID: L9H5nCNEs6NC5JIlv7mmwftRi3I2 | supervisor10@nu.edu.pk | pass: waleed
+2026-03-18 22:59:35.803 | DEBUG    | __main__:create_supervisor:64 - Stored supervisor user doc L9H5nCNEs6NC5JIlv7mmwftRi3I2
+2026-03-18 22:59:37.175 | INFO     | __main__:create_bus:94 - Created bus B-82 (UPN-7838) → supervisor: hGybUA2aoSN1lY90GkLq4j3HQnA3
+2026-03-18 22:59:38.506 | INFO     | __main__:create_bus:94 - Created bus B-60 (QIK-9340) → supervisor: 0ctQT9FTS7eiAfCpsKuukCuJIuS2
+2026-03-18 22:59:39.536 | INFO     | __main__:create_bus:94 - Created bus B-11 (SEJ-9484) → supervisor: fk9NGulyZSNEmHR10yBY1AvV4RP2
+2026-03-18 22:59:40.767 | INFO     | __main__:create_bus:94 - Created bus B-74 (ZKG-8958) → supervisor: 4FEVjg4oaadMpePKvO62ORUaitO2
+2026-03-18 22:59:42.048 | INFO     | __main__:create_bus:94 - Created bus B-20 (DJB-5025) → supervisor: XwPG3j0RwQPDcxRKrxVLzi4INd83
+2026-03-18 22:59:43.066 | INFO     | __main__:create_bus:94 - Created bus B-41 (ZTC-4640) → supervisor: zvuxg6SUibdK7NEEXcGKTrtLyjR2
+2026-03-18 22:59:44.150 | INFO     | __main__:create_bus:94 - Created bus B-23 (KRL-4431) → supervisor: v5mcoxLmL7b6WDIxnzlv1SV5qGM2
+2026-03-18 22:59:45.068 | INFO     | __main__:create_bus:94 - Created bus B-34 (OKY-1896) → supervisor: L9H5nCNEs6NC5JIlv7mmwftRi3I2
+2026-03-18 22:59:46.027 | INFO     | __main__:create_bus:94 - Created bus B-10 (GZM-8951) → supervisor: fk9NGulyZSNEmHR10yBY1AvV4RP2
+2026-03-18 22:59:46.961 | INFO     | __main__:create_bus:94 - Created bus B-71 (WFV-1240) → supervisor: 0ctQT9FTS7eiAfCpsKuukCuJIuS2
+2026-03-18 23:02:14.527 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 23:04:08.237 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 0ctQT9FTS7eiAfCpsKuukCuJIuS2 (supervisor8@nu.edu.pk)
+2026-03-18 23:04:14.178 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: 4FEVjg4oaadMpePKvO62ORUaitO2 (supervisor2@nu.edu.pk)
+2026-03-18 23:04:15.671 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: L9H5nCNEs6NC5JIlv7mmwftRi3I2 (supervisor10@nu.edu.pk)
+2026-03-18 23:04:17.557 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: OWf4QCAgZRMUdUBwag2YcWR3u8l1 (supervisor1@nu.edu.pk)
+2026-03-18 23:04:19.456 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: XwPG3j0RwQPDcxRKrxVLzi4INd83 (supervisor3@nu.edu.pk)
+2026-03-18 23:04:21.441 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: fk9NGulyZSNEmHR10yBY1AvV4RP2 (supervisor9@nu.edu.pk)
+2026-03-18 23:04:23.246 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: hGybUA2aoSN1lY90GkLq4j3HQnA3 (supervisor4@nu.edu.pk)
+2026-03-18 23:04:24.713 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: v5mcoxLmL7b6WDIxnzlv1SV5qGM2 (supervisor7@nu.edu.pk)
+2026-03-18 23:04:26.011 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: xf2vl4SKa2QpDjEdkyh3rf7vZxm1 (supervisor6@nu.edu.pk)
+2026-03-18 23:04:28.920 | INFO     | __main__:delete_all_auth_users:52 - Deleted auth user: zvuxg6SUibdK7NEEXcGKTrtLyjR2 (supervisor5@nu.edu.pk)
+2026-03-18 23:04:32.077 | ERROR    | __main__:delete_all_auth_users:71 - Error listing users: 'ListUsersPage' object has no attribute 'page_token'
+2026-03-18 23:04:49.018 | INFO     | database.firebase:<module>:12 - Firebase Admin SDK initialized successfully
+2026-03-18 23:04:57.793 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-001 | test.student1@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:04:58.925 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID flLKJP9Stgg4wyDi95L9UupUgJ23
+2026-03-18 23:05:03.950 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-001 at (31.311732, 73.065301)
+2026-03-18 23:05:05.781 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-002 | test.student2@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:06.708 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID SfHpZVtLYdRZ1NtmoDDx0hyVw8m2
+2026-03-18 23:05:09.009 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-002 at (31.388694, 73.085799)
+2026-03-18 23:05:10.506 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-003 | test.student3@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:11.516 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID rJeKt0w91FPEM37XiFA3yIe2ITE2
+2026-03-18 23:05:13.664 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-003 at (31.518073, 73.038841)
+2026-03-18 23:05:15.922 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-004 | test.student4@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:16.656 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID p5NnwdPOinbPu0S4OIGxF4JlLO53
+2026-03-18 23:05:18.901 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-004 at (31.485508, 73.033698)
+2026-03-18 23:05:20.135 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-005 | test.student5@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:21.048 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 9HUcvTKQdnZKL3Yep58BJpN9Hc82
+2026-03-18 23:05:23.523 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-005 at (31.333824, 73.034485)
+2026-03-18 23:05:25.134 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-006 | test.student6@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:25.962 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 6R4TbhWcC1U5UKlE1VbpY6W4Ek33
+2026-03-18 23:05:26.780 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-006 at (31.424092, 73.076660)
+2026-03-18 23:05:28.297 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-007 | test.student7@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:29.024 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID adjqWkFoQeRI58xIqlQIwRhDFJw2
+2026-03-18 23:05:29.722 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-007 at (31.536319, 73.116463)
+2026-03-18 23:05:31.378 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-008 | test.student8@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:32.312 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID uF7Yp0T6JOcRJLYCe4Lfq5E391D2
+2026-03-18 23:05:32.903 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-008 at (31.443441, 73.050005)
+2026-03-18 23:05:34.173 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-009 | test.student9@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:34.970 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 05PKvHIgYoY3aF4nNwZYmT9dyzf2
+2026-03-18 23:05:35.985 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-009 at (31.371815, 73.114672)
+2026-03-18 23:05:37.736 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-010 | test.student10@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:38.511 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID Y9S2MSBbqPOLgKv31mNRiVjow213
+2026-03-18 23:05:39.332 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-010 at (31.405113, 73.062458)
+2026-03-18 23:05:40.801 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-011 | test.student11@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:41.826 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID R4k7aHAlHIOLFpIlczreAZpjPK72
+2026-03-18 23:05:42.959 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-011 at (31.303111, 73.009773)
+2026-03-18 23:05:44.290 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-012 | test.student12@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:45.212 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID R2qeN9plPvOp1jRyL9dK03MADmo2
+2026-03-18 23:05:46.023 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-012 at (31.345003, 73.038996)
+2026-03-18 23:05:47.565 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-013 | test.student13@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:48.691 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 6PHJItFJ2efEws1ABYUIuF9A3cw2
+2026-03-18 23:05:49.443 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-013 at (31.393617, 73.146920)
+2026-03-18 23:05:51.048 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-014 | test.student14@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:51.868 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID F8j2AKCAO9eNIXdI2dtBvphlZ0U2
+2026-03-18 23:05:52.994 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-014 at (31.410270, 73.175872)
+2026-03-18 23:05:54.381 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-015 | test.student15@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:55.349 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 0vEH2i8DU0N8V3p51GxOfAJz1W13
+2026-03-18 23:05:56.162 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-015 at (31.512176, 73.161215)
+2026-03-18 23:05:58.011 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-016 | test.student16@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:05:58.931 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID B4fMeBwWJ0RDso3OZFpgq5Lew622
+2026-03-18 23:06:00.141 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-016 at (31.526233, 73.196490)
+2026-03-18 23:06:02.824 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-017 | test.student17@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:03.642 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID zrs9NvsOF4hVNUwx5GOm7DaBADp1
+2026-03-18 23:06:04.558 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-017 at (31.452515, 73.008848)
+2026-03-18 23:06:06.078 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-018 | test.student18@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:07.332 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID Zfa6SOv4nMV9GRctRlOKlfSBJJr2
+2026-03-18 23:06:08.350 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-018 at (31.541696, 73.071645)
+2026-03-18 23:06:10.162 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-019 | test.student19@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:11.123 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID XILVbXhoy6gLjw5li9wic2s03nS2
+2026-03-18 23:06:11.978 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-019 at (31.477248, 73.090349)
+2026-03-18 23:06:14.088 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-020 | test.student20@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:14.857 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 4DTszIS86BTLQQ8mXLjifCpn2bw2
+2026-03-18 23:06:15.526 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-020 at (31.413126, 73.002952)
+2026-03-18 23:06:16.892 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-021 | test.student21@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:17.692 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID Axl2oGsAQhdcnc9LcjaKqaxhCok2
+2026-03-18 23:06:18.456 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-021 at (31.446699, 73.168309)
+2026-03-18 23:06:19.687 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-022 | test.student22@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:20.280 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID uQTJnDUOvPXaKHHdKP2RhKGScTQ2
+2026-03-18 23:06:20.955 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-022 at (31.410648, 73.047446)
+2026-03-18 23:06:22.278 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-023 | test.student23@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:23.204 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID Bie38IL6vpdWTbU2W9VvDxgxZ6f2
+2026-03-18 23:06:23.982 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-023 at (31.387646, 73.108789)
+2026-03-18 23:06:26.060 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-024 | test.student24@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:27.134 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 9Rj9IBVsYRfvYXrlp7n4ose5Rqy1
+2026-03-18 23:06:28.234 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-024 at (31.499784, 73.046987)
+2026-03-18 23:06:29.738 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-025 | test.student25@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:30.503 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 87sZL9IFo3e4pGoZ7kc9U40aWUs2
+2026-03-18 23:06:31.404 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-025 at (31.487753, 73.180584)
+2026-03-18 23:06:32.936 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-026 | test.student26@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:36.106 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID SWTeDB3T1iVr1XsvB8OeXi9C48b2
+2026-03-18 23:06:36.923 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-026 at (31.514068, 73.117482)
+2026-03-18 23:06:38.264 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-027 | test.student27@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:39.091 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID BfyFtMsuSxNNUFLITpWmtRDyiu12
+2026-03-18 23:06:41.634 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-027 at (31.406913, 73.022705)
+2026-03-18 23:06:43.375 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-028 | test.student28@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:43.987 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID 3w7VzD5KjmSQSaXH2fvrUM6Ffoq1
+2026-03-18 23:06:46.547 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-028 at (31.523415, 73.010667)
+2026-03-18 23:06:47.882 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-029 | test.student29@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:49.007 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID wAwaV7XPSbcSpC5fBCoI7Xzm8262
+2026-03-18 23:06:49.930 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-029 at (31.390816, 73.088762)
+2026-03-18 23:06:51.566 | INFO     | __main__:create_random_student:49 - Created Auth user: STUDENT-030 | test.student30@cfd.nu.edu.pk | password: waleed
+2026-03-18 23:06:52.487 | DEBUG    | __main__:create_random_student:60 - Stored user doc for UID rYLvtsewNFd5hVFo7rymcH3cK8f1
+2026-03-18 23:06:53.222 | INFO     | __main__:create_random_student:80 - Created student doc STUDENT-030 at (31.536930, 73.060326)
